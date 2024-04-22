@@ -399,21 +399,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Linux for Adnroid 的发行版</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E5%8F%91%E8%A1%8C%E7%89%88/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Android</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>Android</tag>
-        <tag>Termux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linux for Android 的桌面环境配置</title>
     <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<h2 id="本文参考以下文章"><a href="#本文参考以下文章" class="headerlink" title="本文参考以下文章"></a>本文参考以下文章</h2><br>
@@ -795,7 +780,27 @@ Android的桌面环境安装相对简单.<br>
   <entry>
     <title>Linux C语言编译环境配置</title>
     <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20C%E8%AF%AD%E8%A8%80%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<h2 id="本文参考以下文章-Linux-配置教程分为两部分。-一部分为终端环境的配置，这部分主要环绕着Linux的终端环境来说，另一部分是Linux桌面环境的编译教程-二者其实大差不差吧-如果你想在Android当中码代码，请转到-↓-Linux-for-Android-的终端环境配置-目录-Linux-C语言终端编译环境配置教程-Clang编译-gcc编译-测试-Linux-C语言桌面编译环境配置教程-Linux-C语言终端编译环境配置教程-clang编译TermuxTermux如果不安装完整系统是无法安装gcc和g-的-如果你要使用这些编译环境-那么有两种办法-Termux安装完整LinuxAid-LearningUbuntu-gcc编译Ubuntu-测试随后检查一下版本-如果你是clang就输入-clang-–version如果你是gcc就输入-gcc-–version然后出现类似于下面这个图片里的内容-就说明你已经安装成功了-随后让我们在终端里尝试一下-能不能成功-先输入-touch-文件名然后vim-文件名-如果没有vim-那就用下面这个命令安装一下进入到vim的界面后-输入-i-进行编辑-编辑完成后-按-esc-然后输入-wq-然后回车-就可以退出vim的界面了-随后是编译-如果你是clang-就输入-clang-文件名-o-可执行文件名如果你是gcc-就输入-gcc-文件名-o-可执行文件名随后输入-可执行文件名随后-你就可以看到输出了-Linux-C语言桌面编译环境配置教程-随后是桌面环境-桌面环境并不是必要的-如果觉得麻烦可以不做这一步-在-Android-上-如果你用的是termux-在安装完整版的linux之后请跟着这个教程-Linux-for-Android的桌面环境配置如果你用的是Aid-Learning-那么请看这个教程-AidLux文档在-Windows或者Linux上-桌面环境通常是自带的-如果没有自带-请查看官方文档"><a href="#本文参考以下文章-Linux-配置教程分为两部分。-一部分为终端环境的配置，这部分主要环绕着Linux的终端环境来说，另一部分是Linux桌面环境的编译教程-二者其实大差不差吧-如果你想在Android当中码代码，请转到-↓-Linux-for-Android-的终端环境配置-目录-Linux-C语言终端编译环境配置教程-Clang编译-gcc编译-测试-Linux-C语言桌面编译环境配置教程-Linux-C语言终端编译环境配置教程-clang编译TermuxTermux如果不安装完整系统是无法安装gcc和g-的-如果你要使用这些编译环境-那么有两种办法-Termux安装完整LinuxAid-LearningUbuntu-gcc编译Ubuntu-测试随后检查一下版本-如果你是clang就输入-clang-–version如果你是gcc就输入-gcc-–version然后出现类似于下面这个图片里的内容-就说明你已经安装成功了-随后让我们在终端里尝试一下-能不能成功-先输入-touch-文件名然后vim-文件名-如果没有vim-那就用下面这个命令安装一下进入到vim的界面后-输入-i-进行编辑-编辑完成后-按-esc-然后输入-wq-然后回车-就可以退出vim的界面了-随后是编译-如果你是clang-就输入-clang-文件名-o-可执行文件名如果你是gcc-就输入-gcc-文件名-o-可执行文件名随后输入-可执行文件名随后-你就可以看到输出了-Linux-C语言桌面编译环境配置教程-随后是桌面环境-桌面环境并不是必要的-如果觉得麻烦可以不做这一步-在-Android-上-如果你用的是termux-在安装完整版的linux之后请跟着这个教程-Linux-for-Android的桌面环境配置如果你用的是Aid-Learning-那么请看这个教程-AidLux文档在-Windows或者Linux上-桌面环境通常是自带的-如果没有自带-请查看官方文档" class="headerlink" title="本文参考以下文章- Linux&gt; 配置教程分为两部分。&gt; 一部分为终端环境的配置，这部分主要环绕着Linux的终端环境来说，另一部分是Linux桌面环境的编译教程.二者其实大差不差吧.如果你想在Android当中码代码，请转到 ↓ Linux for Android 的终端环境配置# 目录&gt; - Linux C语言终端编译环境配置教程&gt;&gt; - Clang编译&gt;&gt; - gcc编译&gt;&gt; - 测试&gt; - Linux C语言桌面编译环境配置教程# Linux C语言终端编译环境配置教程## clang编译TermuxTermux如果不安装完整系统是无法安装gcc和g++的,如果你要使用这些编译环境,那么有两种办法.Termux安装完整LinuxAid LearningUbuntu## gcc编译Ubuntu## 测试随后检查一下版本.如果你是clang就输入 clang –version如果你是gcc就输入 gcc –version然后出现类似于下面这个图片里的内容,就说明你已经安装成功了.随后让我们在终端里尝试一下,能不能成功.先输入 touch 文件名然后vim 文件名 ,如果没有vim,那就用下面这个命令安装一下进入到vim的界面后,输入 i 进行编辑.编辑完成后,按 esc ,然后输入 :wq,然后回车,就可以退出vim的界面了.随后是编译,如果你是clang,就输入 clang 文件名 -o 可执行文件名如果你是gcc,就输入 gcc 文件名 -o 可执行文件名随后输入.&#x2F;可执行文件名随后,你就可以看到输出了.# Linux C语言桌面编译环境配置教程&gt; 随后是桌面环境,桌面环境并不是必要的,如果觉得麻烦可以不做这一步.在 Android 上,如果你用的是termux,在安装完整版的linux之后请跟着这个教程 Linux for Android的桌面环境配置如果你用的是Aid Learning,那么请看这个教程 AidLux文档在 Windows或者Linux上,桌面环境通常是自带的,如果没有自带,请查看官方文档."></a>本文参考以下文章<br>- <a href="">Linux</a><br><br><br>&gt; 配置教程分为两部分。<br><br>&gt; 一部分为终端环境的配置，这部分主要环绕着Linux的终端环境来说，另一部分是Linux桌面环境的编译教程.二者其实大差不差吧.<br><br>如果你想在Android当中码代码，请转到 ↓ <br><br><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux for Android 的终端环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br># 目录<br>&gt; - <a href="#linux-c%E8%AF%AD%E8%A8%80%E7%BB%88%E7%AB%AF%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B">Linux C语言终端编译环境配置教程</a><br>&gt;&gt; - <a href="#clang%E7%BC%96%E8%AF%91">Clang编译</a><br>&gt;&gt; - <a href="#gcc%E7%BC%96%E8%AF%91">gcc编译</a><br>&gt;&gt; - <a href="#%E6%B5%8B%E8%AF%95">测试</a><br>&gt; - <a href="#linux-c%E8%AF%AD%E8%A8%80%E6%A1%8C%E9%9D%A2%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B">Linux C语言桌面编译环境配置教程</a><br># Linux C语言终端编译环境配置教程<br>## clang编译<br>Termux<br><br>Termux如果不安装完整系统是无法安装gcc和g++的,如果你要使用这些编译环境,那么有两种办法.<br><br><a href="">Termux安装完整Linux</a><br><br><a class="link"   href="https://zhuanlan.zhihu.com/p/92161002" >Aid Learning <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">pkg install clang</span><br></pre></td></tr></table></figure></div><br>Ubuntu<br><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install clang</span><br></pre></td></tr></table></figure></div><br>## gcc编译<br>Ubuntu<br><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install gcc</span><br></pre></td></tr></table></figure></div><br>## 测试<br>随后检查一下版本.<br><br>如果你是clang就输入 <strong>clang –version</strong><br><br>如果你是gcc就输入 <strong>gcc –version</strong><br><br>然后出现类似于下面这个图片里的内容,就说明你已经安装成功了.<br><br><img  
+    <content><![CDATA[<p>本文参考以下文章</p>
+<ul>
+<li><a href="">Linux</a><br></li>
+</ul>
+<blockquote>
+<p>配置教程分为两部分。<br><br>一部分为终端环境的配置，这部分主要环绕着Linux的终端环境来说，另一部分是Linux桌面环境的编译教程.二者其实大差不差吧.<br><br>如果你想在Android当中码代码，请转到 ↓ <br><br><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux for Android 的终端环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></p>
+</blockquote>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
+<ul>
+<li><a href="#linux-c%E8%AF%AD%E8%A8%80%E7%BB%88%E7%AB%AF%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B">Linux C语言终端编译环境配置教程</a><blockquote>
+<ul>
+<li><a href="#clang%E7%BC%96%E8%AF%91">Clang编译</a></li>
+<li><a href="#gcc%E7%BC%96%E8%AF%91">gcc编译</a></li>
+<li><a href="#%E6%B5%8B%E8%AF%95">测试</a></li>
+</ul>
+</blockquote>
+</li>
+<li><a href="#linux-c%E8%AF%AD%E8%A8%80%E6%A1%8C%E9%9D%A2%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B">Linux C语言桌面编译环境配置教程</a></li>
+</ul>
+</blockquote>
+<h1 id="Linux-C语言终端编译环境配置教程"><a href="#Linux-C语言终端编译环境配置教程" class="headerlink" title="Linux C语言终端编译环境配置教程"></a>Linux C语言终端编译环境配置教程</h1><h2 id="clang编译"><a href="#clang编译" class="headerlink" title="clang编译"></a>clang编译</h2><h2 id="TermuxTermux如果不安装完整系统是无法安装gcc和g-的-如果你要使用这些编译环境-那么有两种办法-Termux安装完整LinuxAid-LearningUbuntu-gcc编译Ubuntu-测试随后检查一下版本-如果你是clang就输入-clang-–version如果你是gcc就输入-gcc-–version然后出现类似于下面这个图片里的内容-就说明你已经安装成功了-随后让我们在终端里尝试一下-能不能成功-先输入-touch-文件名然后vim-文件名-如果没有vim-那就用下面这个命令安装一下进入到vim的界面后-输入-i-进行编辑-编辑完成后-按-esc-然后输入-wq-然后回车-就可以退出vim的界面了-随后是编译-如果你是clang-就输入-clang-文件名-o-可执行文件名如果你是gcc-就输入-gcc-文件名-o-可执行文件名随后输入-可执行文件名随后-你就可以看到输出了-Linux-C语言桌面编译环境配置教程-随后是桌面环境-桌面环境并不是必要的-如果觉得麻烦可以不做这一步-在-Android-上-如果你用的是termux-在安装完整版的linux之后请跟着这个教程-Linux-for-Android的桌面环境配置如果你用的是Aid-Learning-那么请看这个教程-AidLux文档在-Windows或者Linux上-桌面环境通常是自带的-如果没有自带-请查看官方文档"><a href="#TermuxTermux如果不安装完整系统是无法安装gcc和g-的-如果你要使用这些编译环境-那么有两种办法-Termux安装完整LinuxAid-LearningUbuntu-gcc编译Ubuntu-测试随后检查一下版本-如果你是clang就输入-clang-–version如果你是gcc就输入-gcc-–version然后出现类似于下面这个图片里的内容-就说明你已经安装成功了-随后让我们在终端里尝试一下-能不能成功-先输入-touch-文件名然后vim-文件名-如果没有vim-那就用下面这个命令安装一下进入到vim的界面后-输入-i-进行编辑-编辑完成后-按-esc-然后输入-wq-然后回车-就可以退出vim的界面了-随后是编译-如果你是clang-就输入-clang-文件名-o-可执行文件名如果你是gcc-就输入-gcc-文件名-o-可执行文件名随后输入-可执行文件名随后-你就可以看到输出了-Linux-C语言桌面编译环境配置教程-随后是桌面环境-桌面环境并不是必要的-如果觉得麻烦可以不做这一步-在-Android-上-如果你用的是termux-在安装完整版的linux之后请跟着这个教程-Linux-for-Android的桌面环境配置如果你用的是Aid-Learning-那么请看这个教程-AidLux文档在-Windows或者Linux上-桌面环境通常是自带的-如果没有自带-请查看官方文档" class="headerlink" title="TermuxTermux如果不安装完整系统是无法安装gcc和g++的,如果你要使用这些编译环境,那么有两种办法.Termux安装完整LinuxAid LearningUbuntu## gcc编译Ubuntu## 测试随后检查一下版本.如果你是clang就输入 clang –version如果你是gcc就输入 gcc –version然后出现类似于下面这个图片里的内容,就说明你已经安装成功了.随后让我们在终端里尝试一下,能不能成功.先输入 touch 文件名然后vim 文件名 ,如果没有vim,那就用下面这个命令安装一下进入到vim的界面后,输入 i 进行编辑.编辑完成后,按 esc ,然后输入 :wq,然后回车,就可以退出vim的界面了.随后是编译,如果你是clang,就输入 clang 文件名 -o 可执行文件名如果你是gcc,就输入 gcc 文件名 -o 可执行文件名随后输入.&#x2F;可执行文件名随后,你就可以看到输出了.# Linux C语言桌面编译环境配置教程&gt; 随后是桌面环境,桌面环境并不是必要的,如果觉得麻烦可以不做这一步.在 Android 上,如果你用的是termux,在安装完整版的linux之后请跟着这个教程 Linux for Android的桌面环境配置如果你用的是Aid Learning,那么请看这个教程 AidLux文档在 Windows或者Linux上,桌面环境通常是自带的,如果没有自带,请查看官方文档."></a>Termux<br><br>Termux如果不安装完整系统是无法安装gcc和g++的,如果你要使用这些编译环境,那么有两种办法.<br><br><a href="">Termux安装完整Linux</a><br><br><a class="link"   href="https://zhuanlan.zhihu.com/p/92161002" >Aid Learning <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">pkg install clang</span><br></pre></td></tr></table></figure></div><br>Ubuntu<br><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install clang</span><br></pre></td></tr></table></figure></div><br>## gcc编译<br>Ubuntu<br><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install gcc</span><br></pre></td></tr></table></figure></div><br>## 测试<br>随后检查一下版本.<br><br>如果你是clang就输入 <strong>clang –version</strong><br><br>如果你是gcc就输入 <strong>gcc –version</strong><br><br>然后出现类似于下面这个图片里的内容,就说明你已经安装成功了.<br><br><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://ooo.0x0.ooo/2024/04/09/OmyKeb.png"
@@ -945,9 +950,9 @@ Android的桌面环境安装相对简单.<br>
     <content><![CDATA[<p>本文参考以下文章:</p>
 <ul>
 <li><a class="link"   href="https://www.liaoxuefeng.com/wiki/1022910821149312" >廖雪峰JavaScript全栈教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.runoob.com/js/js-tutorial.html" >菜鸟教程JavaScript教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.runoob.com/js/js-tutorial.html" >菜鸟教程JavaScript教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
 </ul>
-<h2 id="要看JavaScript历史的请转至廖雪峰的教程-或菜鸟教程-本文仅是一个对于各位大佬的学习笔记-JavaScrpit可以在任何网页内运行-但JavaScrpit可能不能单独运行-因为我没看见能单独运行-目录-第一个JavaScript代码"><a href="#要看JavaScript历史的请转至廖雪峰的教程-或菜鸟教程-本文仅是一个对于各位大佬的学习笔记-JavaScrpit可以在任何网页内运行-但JavaScrpit可能不能单独运行-因为我没看见能单独运行-目录-第一个JavaScript代码" class="headerlink" title="要看JavaScript历史的请转至廖雪峰的教程.或菜鸟教程,本文仅是一个对于各位大佬的学习笔记.JavaScrpit可以在任何网页内运行.但JavaScrpit可能不能单独运行,因为我没看见能单独运行.# 目录- 第一个JavaScript代码"></a>要看JavaScript历史的请转至廖雪峰的教程.或菜鸟教程,本文仅是一个对于各位大佬的学习笔记.<br><br>JavaScrpit可以在任何网页内运行.但JavaScrpit可能不能单独运行,因为我没看见能单独运行.<br># 目录<br>- <a href="#%E7%AC%AC%E4%B8%80%E4%B8%AAjavascrpit%E4%BB%A3%E7%A0%81">第一个JavaScript代码</a></h2><h2 id="第一个JavaScript代码"><a href="#第一个JavaScript代码" class="headerlink" title="第一个JavaScript代码"></a>第一个JavaScript代码</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">alert(&#x27;Hello&#x27;);</span><br></pre></td></tr></table></figure></div>
+<h2 id="要看JavaScript历史的请转至廖雪峰的教程-或菜鸟教程-本文仅是一个对于各位大佬的学习笔记-JavaScrpit可以在任何网页内运行-但JavaScrpit可能不能单独运行-因为我没看见能单独运行-目录-第一个JavaScript代码"><a href="#要看JavaScript历史的请转至廖雪峰的教程-或菜鸟教程-本文仅是一个对于各位大佬的学习笔记-JavaScrpit可以在任何网页内运行-但JavaScrpit可能不能单独运行-因为我没看见能单独运行-目录-第一个JavaScript代码" class="headerlink" title="要看JavaScript历史的请转至廖雪峰的教程.或菜鸟教程,本文仅是一个对于各位大佬的学习笔记.JavaScrpit可以在任何网页内运行.但JavaScrpit可能不能单独运行,因为我没看见能单独运行.# 目录- 第一个JavaScript代码"></a>要看JavaScript历史的请转至廖雪峰的教程.或菜鸟教程,本文仅是一个对于各位大佬的学习笔记.<br><br>JavaScrpit可以在任何网页内运行.但JavaScrpit可能不能单独运行,因为我没看见能单独运行.<br><br># 目录<br>- <a href="#%E7%AC%AC%E4%B8%80%E4%B8%AAjavascrpit%E4%BB%A3%E7%A0%81">第一个JavaScript代码</a></h2><h2 id="第一个JavaScript代码"><a href="#第一个JavaScript代码" class="headerlink" title="第一个JavaScript代码"></a>第一个JavaScript代码</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">alert(&#x27;Hello&#x27;);</span><br></pre></td></tr></table></figure></div>
 <p>上面这段代码的作用是在浏览器弹出一个提示,提示的内容是Hello,让我想起了C语言当中的printf(“Hello”);一样都是用来输出些什么的.<br></p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">var a = 2 - 1 + 3 / 2;</span><br><span class="line">console.log(a);</span><br></pre></td></tr></table></figure></div>
 <p>上面这段代码的作用是创建一个变量a,经过计算后,通过console.log(‘a’);来输出,var就像是C语言当中的int,用来定义一个变量,a就是变量名,console.log的作用就像是prnitf(“%d”,a);一样.<br><br>加上单引号,例如<br></p>
@@ -1007,10 +1012,10 @@ Android的桌面环境安装相对简单.<br>
       </tags>
   </entry>
   <entry>
-    <title>C语言入门第一课</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E8%AF%AD%E8%A8%80/%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/C%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E7%AC%AC%E4%B8%80%E8%AF%BE/</url>
-    <content><![CDATA[<p>本文参考以下文章:</p>
-<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1>]]></content>
+    <title>C语言入门</title>
+    <url>/2024/04/21/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E8%AF%AD%E8%A8%80/%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/C%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h2 id="本文参考以下文章"><a href="#本文参考以下文章" class="headerlink" title="本文参考以下文章"></a>本文参考以下文章</h2><h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p>- </p>
+<h2 id="第一个C语言代码"><a href="#第一个C语言代码" class="headerlink" title="第一个C语言代码"></a>第一个C语言代码</h2>]]></content>
       <categories>
         <category>编程</category>
         <category>语言</category>
@@ -1022,8 +1027,20 @@ Android的桌面环境安装相对简单.<br>
       </tags>
   </entry>
   <entry>
-    <title>C语言入门第二课</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E8%AF%AD%E8%A8%80/%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/C%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E7%AC%AC%E4%BA%8C%E8%AF%BE/</url>
-    <content><![CDATA[]]></content>
+    <title>HTML入门</title>
+    <url>/2024/04/22/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E8%AF%AD%E8%A8%80/%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80/HTML/HTML%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h2 id="本文参考以下文章"><a href="#本文参考以下文章" class="headerlink" title="本文参考以下文章:"></a>本文参考以下文章:</h2><h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p>- </p>
+<h2 id="第一个HTML代码"><a href="#第一个HTML代码" class="headerlink" title="第一个HTML代码"></a>第一个HTML代码</h2><pre><code>
+</code></pre>
+]]></content>
+      <categories>
+        <category>编程</category>
+        <category>语言</category>
+        <category>HTML</category>
+      </categories>
+      <tags>
+        <tag>基础教程</tag>
+        <tag>HTML</tag>
+      </tags>
   </entry>
 </search>
