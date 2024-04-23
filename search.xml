@@ -16,6 +16,14 @@
       </categories>
   </entry>
   <entry>
+    <title>刷机是什么</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E5%88%B7%E6%9C%BA/%E5%88%B7%E6%9C%BA%E6%98%AF%E4%BB%80%E4%B9%88/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>刷机</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>书籍推荐</title>
     <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E6%96%87%E5%AD%A6/%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[]]></content>
@@ -29,14 +37,6 @@
     <content><![CDATA[]]></content>
       <tags>
         <tag>网络</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>刷机是什么</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E5%88%B7%E6%9C%BA/%E5%88%B7%E6%9C%BA%E6%98%AF%E4%BB%80%E4%B9%88/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>刷机</tag>
       </tags>
   </entry>
   <entry>
@@ -78,18 +78,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Linux</title>
-    <url>/2024/03/18/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>计算机</category>
-        <category>操作系统</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>DOS</title>
     <url>/2024/03/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/DOS/</url>
     <content><![CDATA[]]></content>
@@ -99,6 +87,18 @@
       </categories>
       <tags>
         <tag>Unix</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux</title>
+    <url>/2024/03/18/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>计算机</category>
+        <category>操作系统</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -131,6 +131,36 @@
     <content><![CDATA[<h1 id="局域网联机"><a href="#局域网联机" class="headerlink" title="局域网联机"></a>局域网联机</h1><h2 id="远程局域网联机"><a href="#远程局域网联机" class="headerlink" title="远程局域网联机"></a>远程局域网联机</h2><h1 id="服务器联机hhh"><a href="#服务器联机hhh" class="headerlink" title="服务器联机hhh"></a>服务器联机hhh</h1>]]></content>
       <tags>
         <tag>联机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git基础教程</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E5%91%BD%E4%BB%A4/Git/Git%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>本文参考以下文章:</p>
+<ul>
+<li><a class="link"   href="https://oschina.gitee.io/learn-git-branching/" >Git命令学习 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p>Git基础命令</p>
+<ul>
+<li><h2 id="提交"><a href="#提交" class="headerlink" title="提交"></a>提交</h2></li>
+</ul>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git commit</span><br></pre></td></tr></table></figure></div>
+<ul>
+<li><h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2></li>
+</ul>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git branch</span><br></pre></td></tr></table></figure></div>
+<ul>
+<li><h2 id=""><a href="#" class="headerlink" title=""></a></h2></li>
+</ul>
+]]></content>
+      <categories>
+        <category>编程</category>
+        <category>命令</category>
+        <category>Git</category>
+      </categories>
+      <tags>
+        <tag>基础教程</tag>
+        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
@@ -202,107 +232,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Git基础教程</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E5%91%BD%E4%BB%A4/Git/Git%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<p>本文参考以下文章:</p>
-<ul>
-<li><a class="link"   href="https://oschina.gitee.io/learn-git-branching/" >Git命令学习 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p>Git基础命令</p>
-<ul>
-<li><h2 id="提交"><a href="#提交" class="headerlink" title="提交"></a>提交</h2></li>
-</ul>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git commit</span><br></pre></td></tr></table></figure></div>
-<ul>
-<li><h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2></li>
-</ul>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git branch</span><br></pre></td></tr></table></figure></div>
-<ul>
-<li><h2 id=""><a href="#" class="headerlink" title=""></a></h2></li>
-</ul>
-]]></content>
-      <categories>
-        <category>编程</category>
-        <category>命令</category>
-        <category>Git</category>
-      </categories>
-      <tags>
-        <tag>基础教程</tag>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Android</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/Android/</url>
-    <content><![CDATA[<h1 id="Adnroid的起源"><a href="#Adnroid的起源" class="headerlink" title="Adnroid的起源"></a>Adnroid的起源</h1>]]></content>
-      <categories>
-        <category>计算机</category>
-        <category>操作系统</category>
-        <category>Linux发行版</category>
-      </categories>
-      <tags>
-        <tag>Android</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ArchLinux</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/ArchLinux/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>计算机</category>
-        <category>操作系统</category>
-        <category>Linux发行版</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>ArchLinux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>DOS</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/DOS/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>Unix</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Debian</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/Debian/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>计算机</category>
-        <category>操作系统</category>
-        <category>Linux发行版</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>Debian</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>KaliLinux</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/KaliLinux/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>计算机</category>
-        <category>操作系统</category>
-        <category>Linux发行版</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>KaliLinux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/Linux/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Git for Android</title>
     <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Git%20for%20Andoird/</url>
     <content><![CDATA[<p>本文参考以下文章:</p>
@@ -347,9 +276,9 @@
                 ><br>从ssh-rra AAAAB3NzaC1开始到结尾,全都要复制.复制出来的内容是这样的:<br><br>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC5Lh7rLEncm2966k6Flbsf&#x2F;PZva0vK+zUJmiEY&#x2F;GlGwy8JXeynpJER7ZZ30E0Yp3EKtG5YjHaefVr9QtgY7v0yW+&#x2F;vP18mjQMUje66Vo9&#x2F;onEcDU5nhzKxbORcH025bpKfeDK4gz7lP6okuqLsH4utmzbswoAXyKqX+kIaZfPMzvEbj&#x2F;NNEz8WwuR6iIydiwX+qix7FEuntBmU19g5Cbsa542h3xpnJu3BMGMGSwZqsCo50Budkx1H+in4HIWvdFwqsSzGjBejFNm3LvYeZ9rRNyNvXNm7WJWG0kpacI9R9OE752lbz96rvIHqsQvyS9+VqNaQ+n3hQp82vSahnbkf2jZ2AdE1f5ujqdt4TJKTRyUiQ0c1mhTnWLGe2kIVFdSRFodiL78V8O3XYs7&#x2F;BN8T5qbmYASDsed5IB4it8Q0Azn1Ua65dgL1aT3e4kRccxG0hvP+T5KC0mQpoQjerWXbOui+yQRuLCafi3Et0z2lrAz&#x2F;sn9YU1GZyD9NhJivxNk&#x3D; u0_a243@localhost<br><br><br>然后还是打开Gitee,进入设置,点击SSH公钥,将刚才复制的内容粘贴,就好了<br><br>然后是克隆仓库到本地,或者是在本地新建一个仓库.<br></p>
 <h2 id="克隆"><a href="#克隆" class="headerlink" title="克隆"></a>克隆</h2><p>如果你想克隆一个仓库,那么就去你的gitee,或者github或者别的,上面会有提示.比如说我的<br><br>先在Termux输入下面这一串</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &#x27;关轶&#x27; </span><br><span class="line">git config --global user.email &#x27;13339651+guan_yi@user.noreply.gitee.com&#x27;</span><br></pre></td></tr></table></figure></div>
-<p>其中<strong>关轶</strong>是你的用户名,而<strong><a class="link"   href="mailto:&#49;&#51;&#x33;&#51;&#x39;&#54;&#53;&#x31;&#43;&#103;&#117;&#97;&#110;&#x5f;&#121;&#105;&#64;&#x75;&#x73;&#101;&#x72;&#x2e;&#110;&#111;&#x72;&#101;&#112;&#108;&#121;&#x2e;&#103;&#x69;&#x74;&#101;&#x65;&#x2e;&#x63;&#111;&#x6d;" >&#49;&#51;&#x33;&#51;&#x39;&#54;&#53;&#x31;&#43;&#103;&#117;&#97;&#110;&#x5f;&#121;&#105;&#64;&#x75;&#x73;&#101;&#x72;&#x2e;&#110;&#111;&#x72;&#101;&#112;&#108;&#121;&#x2e;&#103;&#x69;&#x74;&#101;&#x65;&#x2e;&#x63;&#111;&#x6d; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong>则是你的邮箱.<br><br>然后克隆至本地,cd到你想要克隆的位置,然后输入下面这一串</p>
+<p>其中<strong>关轶</strong>是你的用户名,而<strong><a class="link"   href="mailto:&#x31;&#51;&#51;&#51;&#57;&#54;&#x35;&#49;&#x2b;&#103;&#117;&#x61;&#x6e;&#95;&#x79;&#x69;&#x40;&#117;&#x73;&#x65;&#114;&#x2e;&#110;&#111;&#x72;&#x65;&#x70;&#108;&#x79;&#46;&#x67;&#x69;&#x74;&#x65;&#101;&#46;&#x63;&#111;&#x6d;" >&#x31;&#51;&#51;&#51;&#57;&#54;&#x35;&#49;&#x2b;&#103;&#117;&#x61;&#x6e;&#95;&#x79;&#x69;&#x40;&#117;&#x73;&#x65;&#114;&#x2e;&#110;&#111;&#x72;&#x65;&#x70;&#108;&#x79;&#46;&#x67;&#x69;&#x74;&#x65;&#101;&#46;&#x63;&#111;&#x6d; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong>则是你的邮箱.<br><br>然后克隆至本地,cd到你想要克隆的位置,然后输入下面这一串</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone git@gitee.com:Guan_Yi/NineHeaven.git</span><br></pre></td></tr></table></figure></div>
-<p>clone 后面的<strong><a class="link"   href="mailto:&#103;&#x69;&#116;&#x40;&#x67;&#x69;&#x74;&#x65;&#x65;&#x2e;&#99;&#111;&#x6d;" >&#103;&#x69;&#116;&#x40;&#x67;&#x69;&#x74;&#x65;&#x65;&#x2e;&#99;&#111;&#x6d; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>:Guan_Yi&#x2F;NineHeaven.git</strong>是你的仓库地址.最后克隆成功后会是这样的:<br><img  
+<p>clone 后面的<strong><a class="link"   href="mailto:&#103;&#105;&#x74;&#x40;&#103;&#105;&#116;&#x65;&#x65;&#x2e;&#x63;&#111;&#109;" >&#103;&#105;&#x74;&#x40;&#103;&#105;&#116;&#x65;&#x65;&#x2e;&#x63;&#111;&#109; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>:Guan_Yi&#x2F;NineHeaven.git</strong>是你的仓库地址.最后克隆成功后会是这样的:<br><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://ooo.0x0.ooo/2024/04/13/Omsz56.jpg"
@@ -367,41 +296,8 @@
       </categories>
       <tags>
         <tag>Git</tag>
-        <tag>Android</tag>
         <tag>Termux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Ubuntu</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/Ubuntu/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>计算机</category>
-        <category>操作系统</category>
-        <category>Linux发行版</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>Ubuntu</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>meego</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/meego/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>计算机</category>
-        <category>操作系统</category>
-        <category>Linux发行版</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Windows</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/Windows/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>Linux</tag>
-        <tag>AWindows</tag>
+        <tag>Android</tag>
       </tags>
   </entry>
   <entry>
@@ -422,22 +318,8 @@ Android的桌面环境安装相对简单.<br>
       </categories>
       <tags>
         <tag>Linux</tag>
-        <tag>Android</tag>
         <tag>Termux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows的命令提示符编译环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/Windows%E7%9A%84%E5%91%BD%E4%BB%A4%E6%8F%90%E7%A4%BA%E7%AC%A6%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>编译环境</tag>
+        <tag>Android</tag>
       </tags>
   </entry>
   <entry>
@@ -659,31 +541,8 @@ Android的桌面环境安装相对简单.<br>
       </categories>
       <tags>
         <tag>Linux</tag>
-        <tag>Android</tag>
         <tag>Termux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux C++编译环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20C++%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install g++</span><br></pre></td></tr></table></figure></div>
-<p>随后让我们在终端里尝试一下,能不能成功.<br><br>先输入 <strong>touch 文件名</strong><br>然后vim你的文件名</p>
-<p>如果你是g++就输入 <strong>g++ –version</strong><br></p>
-<p>然后出现类似于下面这个图片里的内容,就说明你已经安装成功了.<br><br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyKeb.png"
-                      alt="c language version"
-                ></p>
-]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>编译环境</tag>
+        <tag>Android</tag>
       </tags>
   </entry>
   <entry>
@@ -784,6 +643,43 @@ Android的桌面环境安装相对简单.<br>
       </tags>
   </entry>
   <entry>
+    <title>Windows的命令提示符编译环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/Windows%E7%9A%84%E5%91%BD%E4%BB%A4%E6%8F%90%E7%A4%BA%E7%AC%A6%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>编译环境</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux C++编译环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20C++%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install g++</span><br></pre></td></tr></table></figure></div>
+<p>随后让我们在终端里尝试一下,能不能成功.<br><br>先输入 <strong>touch 文件名</strong><br>然后vim你的文件名</p>
+<p>如果你是g++就输入 <strong>g++ –version</strong><br></p>
+<p>然后出现类似于下面这个图片里的内容,就说明你已经安装成功了.<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyKeb.png"
+                      alt="c language version"
+                ></p>
+]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>编译环境</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux C语言编译环境配置</title>
     <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20C%E8%AF%AD%E8%A8%80%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<p>本文参考以下文章</p>
@@ -875,6 +771,20 @@ Android的桌面环境安装相对简单.<br>
       </tags>
   </entry>
   <entry>
+    <title>Linux Python编译环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20Python%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>编译环境</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux 基础配置</title>
     <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<p><a class="link"   href="https://www.baidu.com/"  title="This is a Google">Baidu <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br><img  
@@ -895,8 +805,8 @@ Android的桌面环境安装相对简单.<br>
       </tags>
   </entry>
   <entry>
-    <title>Linux Python编译环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20Python%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <title>Linux 服务器环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>编程</category>
@@ -905,7 +815,7 @@ Android的桌面环境安装相对简单.<br>
       </categories>
       <tags>
         <tag>Linux</tag>
-        <tag>编译环境</tag>
+        <tag>服务器</tag>
       </tags>
   </entry>
   <entry>
@@ -923,20 +833,6 @@ Android的桌面环境安装相对简单.<br>
       </tags>
   </entry>
   <entry>
-    <title>Linux 服务器环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>服务器</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linux的终端环境配置</title>
     <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%E7%9A%84%E7%BB%88%E7%AB%AF%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/</url>
     <content><![CDATA[]]></content>
@@ -948,6 +844,127 @@ Android的桌面环境安装相对简单.<br>
       <tags>
         <tag>Linux</tag>
         <tag>编译环境</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Android</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/Android/</url>
+    <content><![CDATA[<h1 id="Adnroid的起源"><a href="#Adnroid的起源" class="headerlink" title="Adnroid的起源"></a>Adnroid的起源</h1>]]></content>
+      <categories>
+        <category>计算机</category>
+        <category>操作系统</category>
+        <category>Linux发行版</category>
+      </categories>
+      <tags>
+        <tag>Android</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>DOS</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/DOS/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>Unix</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ArchLinux</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/ArchLinux/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>计算机</category>
+        <category>操作系统</category>
+        <category>Linux发行版</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>ArchLinux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>KaliLinux</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/KaliLinux/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>计算机</category>
+        <category>操作系统</category>
+        <category>Linux发行版</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>KaliLinux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/Linux/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ubuntu</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/Ubuntu/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>计算机</category>
+        <category>操作系统</category>
+        <category>Linux发行版</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/Windows/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>Linux</tag>
+        <tag>AWindows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>meego</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/meego/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>计算机</category>
+        <category>操作系统</category>
+        <category>Linux发行版</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Debian</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/Debian/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>计算机</category>
+        <category>操作系统</category>
+        <category>Linux发行版</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Debian</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HTML入门</title>
+    <url>/2024/04/22/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E8%AF%AD%E8%A8%80/%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80/HTML/HTML%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h2 id="本文参考以下文章"><a href="#本文参考以下文章" class="headerlink" title="本文参考以下文章:"></a>本文参考以下文章:</h2><h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p>- </p>
+<h2 id="第一个HTML代码"><a href="#第一个HTML代码" class="headerlink" title="第一个HTML代码"></a>第一个HTML代码</h2><pre><code>
+</code></pre>
+]]></content>
+      <categories>
+        <category>编程</category>
+        <category>语言</category>
+        <category>HTML</category>
+      </categories>
+      <tags>
+        <tag>基础教程</tag>
+        <tag>HTML</tag>
       </tags>
   </entry>
   <entry>
@@ -1035,23 +1052,6 @@ Android的桌面环境安装相对简单.<br>
       <tags>
         <tag>基础教程</tag>
         <tag>C语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HTML入门</title>
-    <url>/2024/04/22/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E8%AF%AD%E8%A8%80/%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80/HTML/HTML%E5%85%A5%E9%97%A8/</url>
-    <content><![CDATA[<h2 id="本文参考以下文章"><a href="#本文参考以下文章" class="headerlink" title="本文参考以下文章:"></a>本文参考以下文章:</h2><h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p>- </p>
-<h2 id="第一个HTML代码"><a href="#第一个HTML代码" class="headerlink" title="第一个HTML代码"></a>第一个HTML代码</h2><pre><code>
-</code></pre>
-]]></content>
-      <categories>
-        <category>编程</category>
-        <category>语言</category>
-        <category>HTML</category>
-      </categories>
-      <tags>
-        <tag>基础教程</tag>
-        <tag>HTML</tag>
       </tags>
   </entry>
 </search>
