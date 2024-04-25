@@ -1058,4 +1058,17 @@ Android的桌面环境安装相对简单.<br>
         <tag>C语言</tag>
       </tags>
   </entry>
+  <entry>
+    <title></title>
+    <url>/2024/04/25/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/%E5%9C%A8Windows%E4%B8%8A%E5%88%B6%E4%BD%9CLinux%20to%20go/</url>
+    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>在某些时候使用Windows时，总是觉得Windows不够开放，不够自由的时候，该怎么办呢？<br>当然是装一个Linux，装Linux的途径有很多，可以通过虚拟机使用，也可以装到U盘里，随身携带使用。<br>接下来即是装到U盘的教程。</p>
+<hr>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="这里使用的是Deepin作为示例"><a href="#这里使用的是Deepin作为示例" class="headerlink" title="这里使用的是Deepin作为示例"></a>这里使用的是Deepin作为示例</h3><h3 id="1-一台搭载了Windows的电脑"><a href="#1-一台搭载了Windows的电脑" class="headerlink" title="1. 一台搭载了Windows的电脑"></a>1. 一台搭载了Windows的电脑</h3><p>2023年，除苹果外绝大部份电脑搭载的都是Windows系统，如果不清楚，则可以去设置里找到关于设备里查看。</p>
+<h3 id="2-一个不低于8G的U盘"><a href="#2-一个不低于8G的U盘" class="headerlink" title="2. 一个不低于8G的U盘"></a>2. 一个不低于8G的U盘</h3><p>这个U盘没有速度要求，一般来说只是一个启动盘。</p>
+<h3 id="3-一个Linux镜像"><a href="#3-一个Linux镜像" class="headerlink" title="3. 一个Linux镜像"></a>3. 一个Linux镜像</h3><p>如果没有Linux镜像，去这里<br>[[生活-构思&#x2F;应对季&#x2F;生活&#x2F;兴趣爱好&#x2F;计算机&#x2F;Linux&#x2F;安装Linux&#x2F;Linux镜像|Linux镜像]]<br>社区人比较多的应该是Ubuntu和Debian，也可以使用国产的深度操作系统，也就是Deepin，Deepin是基于Debian的，所以理论Debian论坛也可以使用。</p>
+<h3 id="4-一个3-0以上的U盘-虚拟机"><a href="#4-一个3-0以上的U盘-虚拟机" class="headerlink" title="4. 一个3.0以上的U盘&#x2F;虚拟机"></a>4. 一个3.0以上的U盘&#x2F;虚拟机</h3><h4 id="U盘"><a href="#U盘" class="headerlink" title="U盘"></a>U盘</h4><p>一般3.0的U盘都是蓝口的，就像这样<br>![[Obsidian附件&#x2F;IMG_2023-06-30-23-47-08-121.jpg]]<br>当然如果不确定的话，可以用软件来测试<br>CrystalDiskMark<br><a class="link"   href="https://crystalmark.info/en/software/crystaldiskmark/" >https://crystalmark.info/en/software/crystaldiskmark/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>具体速度要求大概是这样<br>![[Obsidian附件&#x2F;6_96ANA4WNNUCH5UE.png]]<br>读取达到100，写入达到50。<br>说不定读取100，写入30也可以。<br>SD卡加转接器也可以。</p>
+<h4 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a>虚拟机</h4><p>使用Virtualbox<br><a class="link"   href="https://www.virtualbox.org/" >https://www.virtualbox.org/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<hr>
+<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><h3 id="U盘启动盘"><a href="#U盘启动盘" class="headerlink" title="U盘启动盘"></a>U盘启动盘</h3>]]></content>
+  </entry>
 </search>
