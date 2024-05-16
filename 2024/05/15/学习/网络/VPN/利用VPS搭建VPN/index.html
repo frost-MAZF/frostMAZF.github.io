@@ -13,21 +13,47 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="http://example.com/2024/04/19/学习/计算机/操作系统/linux发行版列表/dos/"/>
+    <link rel="canonical" href="http://example.com/2024/05/15/学习/网络/vpn/利用vps搭建vpn/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta property="og:type" content="article">
-<meta property="og:title" content="DOS">
-<meta property="og:url" content="http://example.com/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/DOS/index.html">
+        <meta name="description" content="目录  准备工作 搭建Shadowsocks  shadowsocksR脚本安装  秋水逸冰(teddysun)脚本 逗比根据地脚本 JeannieStudio脚本    shadowsocks-rust安装  snap安装 Docker安装       搭建V2ray 搭建IKEv2 搭建L2TP&#x2F;IPsec在开始之前,必须先理解一件事,翻墙对于整个祖国建立起的防火墙来说,我认为是一种">
+<meta property="og:type" content="article">
+<meta property="og:title" content="利用VPS搭建VPN">
+<meta property="og:url" content="http://example.com/2024/05/15/%E5%AD%A6%E4%B9%A0/%E7%BD%91%E7%BB%9C/VPN/%E5%88%A9%E7%94%A8VPS%E6%90%AD%E5%BB%BAVPN/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="目录  准备工作 搭建Shadowsocks  shadowsocksR脚本安装  秋水逸冰(teddysun)脚本 逗比根据地脚本 JeannieStudio脚本    shadowsocks-rust安装  snap安装 Docker安装       搭建V2ray 搭建IKEv2 搭建L2TP&#x2F;IPsec在开始之前,必须先理解一件事,翻墙对于整个祖国建立起的防火墙来说,我认为是一种">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-04-19T14:00:35.346Z">
-<meta property="article:modified_time" content="2024-04-19T14:00:35.346Z">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ1ugq.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ752F.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ7TW6.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ7UgP.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ7WVb.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ7kol.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ7iiK.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ7n4a.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ7egC.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ7rVL.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ7Kqi.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJeBdb.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJeUOl.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJeWNg.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJebEB.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJekus.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJezFK.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJeFRa.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJe1vC.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJe7dL.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJerNX.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ7J6U.png">
+<meta property="article:published_time" content="2024-05-15T11:11:26.417Z">
+<meta property="article:modified_time" content="2024-05-16T11:08:07.154Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="Unix">
+<meta property="article:tag" content="VPS">
+<meta property="article:tag" content="VPN">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://ooo.0x0.ooo/2024/05/15/OJ1ugq.png">
     
     
         <!-- Google tag (gtag.js) -->
@@ -49,7 +75,7 @@
     
     <title>
         
-            DOS -
+            利用VPS搭建VPN -
         
         NineHeaven
     </title>
@@ -605,15 +631,15 @@
 
         <div class="statistics flex justify-around my-2.5">
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">28</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">22</div>
         <div class="label text-third-text-color text-sm">标签</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">18</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">16</div>
         <div class="label text-third-text-color text-sm">分类</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">38</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">27</div>
         <div class="label text-third-text-color text-sm">文章</div>
     </a>
 </div>
@@ -639,7 +665,7 @@
         <div class="article-title relative w-full">
             
                 <div class="w-full flex items-center pt-6 justify-start">
-                    <h1 class="article-title-regular text-second-text-color text-4xl md:text-6xl font-bold px-2 sm:px-6 md:px-8 py-3">DOS</h1>
+                    <h1 class="article-title-regular text-second-text-color text-4xl md:text-6xl font-bold px-2 sm:px-6 md:px-8 py-3">利用VPS搭建VPN</h1>
                 </div>
             
             </div>
@@ -653,22 +679,22 @@
                     <div class="author flex items-center">
                         <span class="name text-default-text-color text-lg font-semibold">关轶</span>
                         
-                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Lv4</span>
+                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Lv3</span>
                         
                     </div>
                     <div class="meta-info">
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="desktop">2024-04-19 07:35</span>
-        <span class="mobile">2024-04-19 07:35</span>
+        <span class="desktop">2024-05-15 04:11:26</span>
+        <span class="mobile">2024-05-15 04:11:26</span>
         <span class="hover-info">创建</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-04-19 07:35</span>
-            <span class="mobile">2024-04-19 07:35</span>
+            <span class="desktop">2024-05-16 04:08:07</span>
+            <span class="mobile">2024-05-16 04:08:07</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -680,7 +706,11 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/Unix/">Unix</a>&nbsp;
+                        <a href="/tags/VPS/">VPS</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/VPN/">VPN</a>&nbsp;
                     </li>
                 
             </ul>
@@ -689,9 +719,13 @@
 
     
     
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>1.9k 字</span>
+        </span>
+    
     
         <span class="article-min2read article-meta-item">
-            <i class="fa-regular fa-clock"></i>&nbsp;<span>1 分钟</span>
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>7 分钟</span>
         </span>
     
     
@@ -710,25 +744,214 @@
 
 
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-            
+            <h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
+<ul>
+<li><a href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C">准备工作</a></li>
+<li><a href="#%E6%90%AD%E5%BB%BAshadowsocks">搭建Shadowsocks</a><blockquote>
+<ul>
+<li><a href="#shadowsocksr%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85">shadowsocksR脚本安装</a><blockquote>
+<ul>
+<li><a href="#%E7%A7%8B%E6%B0%B4%E9%80%B8%E5%86%B0teddysun%E8%84%9A%E6%9C%AC">秋水逸冰(teddysun)脚本</a></li>
+<li><a href="#%E9%80%97%E6%AF%94%E6%A0%B9%E6%8D%AE%E5%9C%B0%E8%84%9A%E6%9C%AC">逗比根据地脚本</a></li>
+<li><a href="#jeanniestudio%E8%84%9A%E6%9C%AC">JeannieStudio脚本</a></li>
+</ul>
+</blockquote>
+</li>
+<li><a href="#shadowsocks-rust%E5%AE%89%E8%A3%85">shadowsocks-rust安装</a><blockquote>
+<ul>
+<li><a href="#snap%E5%AE%89%E8%A3%85">snap安装</a></li>
+<li><a href="#docker%E5%AE%89%E8%A3%85">Docker安装</a></li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><a href="#%E6%90%AD%E5%BB%BAv2ray">搭建V2ray</a></li>
+<li><a href="#%E6%90%AD%E5%BB%BAikev2">搭建IKEv2</a></li>
+<li><a href="#%E6%90%AD%E5%BB%BAl2tpipsec">搭建L2TP&#x2F;IPsec</a><br>在开始之前,必须先理解一件事,翻墙对于整个祖国建立起的防火墙来说,我认为是一种门槛,不管你使用的是免费的VPN,或者是付费的机场,更甚至是自己购买VPS搭建VPN,都是门槛,而不是漏洞,使用免费或者部分稍许便宜的VPN的就知道,节点通常会有很多,并且单个节点并不能一直使用,这就是被封了.当然,不管你是理解为漏洞还是门槛,你锁使用的VPN都有概率被封禁.<br><br>在这其中呢,自行搭建VPN是封可能性最小的,所以接下来就让我们开始搭建VPN吧.<br></li>
+</ul>
+</blockquote>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>之前使用vultr的服务器搭建过一个,时长超过三个月也依旧没有被封端口,自我感觉还行.<br><br>先注册vultr,怎么注册我就不教了,这是邀请码<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.vultr.com/?ref=9614311</span><br></pre></td></tr></table></figure></div>
+<p>通过邀请码注册可以获得一百美元,前提是你得充十美元才可以用这一百美元.<br><br>然后点击左边的<strong>Dashboard</strong>,再点击<strong>Compute</strong>,最后点击<strong>Deploy Server</strong><br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/15/OJ1ugq.png"
+                      alt="vultr"
+                ><br><br>随后你就会进入下面这个界面<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/15/OJ752F.png"
+                      alt="vultr"
+                ><br><br>我们选择<strong>Cloud Compute - Shared CPU</strong>,然后在下面选择你的地区,我这里选择芝加哥,选择完成以后往下滑,需要选择系统,我们选择centos7 x64<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/15/OJ7TW6.png"
+                      alt="vultr"
+                ><br><br>然后我们需要选择套餐,这里最便宜的只要五美元一个月.<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/15/OJ7UgP.png"
+                      alt="vlutr"
+                ><br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/15/OJ7WVb.png"
+                      alt="vlutr"
+                ><br><br>然后我们输入服务器名称,再点击<strong>Deploy Now</strong>,然后你就拥有属于你自己的服务器了,它会自动给你跳转到管理服务器的页面,由于是刚买服务器,需要等待一到两分钟让它安装系统,如果太久没安装好,就刷新一下界面.<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/15/OJ7kol.png"
+                      alt="vlutr"
+                ><br><br>然后我们点击进入服务器的管理界面,随后复制你的IP地址和root密码<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/15/OJ7iiK.png"
+                      alt="vultr"
+                ><br><br>随后我们需要使用SSH连接,可以用Xshell或者FinalShell,这里就直接拿FinalShell演示了.<br><br>先点击这个文件夹一样的按钮<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/15/OJ7n4a.png"
+                      alt="vultr"
+                ><br><br>然后创建SSH连接<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/15/OJ7egC.png"
+                      alt="vultr"
+                ><br><br>然后会退出这样的一个界面,端口默认,用户名填root,IP填你服务器的IP,密码填服务器密码,其余的默认就可以了.<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/15/OJ7rVL.png"
+                      alt="vultr"
+                ><br><br>连接成功后是这样的<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/15/OJ7Kqi.png"
+                      alt="vultr"
+                ><br><br>到这一步,准备工作就算结束了,接下来就是正式进入搭建教程了.<br></p>
+<h1 id="搭建Shadowsocks"><a href="#搭建Shadowsocks" class="headerlink" title="搭建Shadowsocks"></a>搭建Shadowsocks</h1><p>Shadowsocks的历史我就不多说了,想要了解的自己Google<br></p>
+<h2 id="shadowsocksR脚本安装"><a href="#shadowsocksR脚本安装" class="headerlink" title="shadowsocksR脚本安装"></a>shadowsocksR脚本安装</h2><p>输入下面的命令来安装wget,如果你安装了wget就跳过下面的命令<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install wget</span><br></pre></td></tr></table></figure></div>
+<p>安装curl依赖包<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install curl -y</span><br></pre></td></tr></table></figure></div>
+<h3 id="秋水逸冰-teddysun-脚本"><a href="#秋水逸冰-teddysun-脚本" class="headerlink" title="秋水逸冰(teddysun)脚本"></a>秋水逸冰(teddysun)脚本</h3><p><a class="link"   target="_blank" rel="noopener" href="https://github.com/teddysun" >秋水逸冰Github <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br><a class="link"   target="_blank" rel="noopener" href="https://teddysun.com/486.html" >Shadowsocks 一键安装脚本 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br>使用ssh连接至服务器后,输入下面的命令<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh</span><br><span class="line">chmod +x shadowsocks-all.sh</span><br><span class="line">./shadowsocks-all.sh 2&gt;&amp;1 | tee shadowsocks-all.log</span><br></pre></td></tr></table></figure></div>
+<p>然后这里我们选择ssr,输入2并回车<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJeBdb.png"
+                      alt="ssr"
+                ><br><br>然后我们输入密码,然后输入端口,端口我这里就选择8388.<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJeUOl.png"
+                      alt="ssr"
+                ><br><br>加密模式这里就选择14了.<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJeWNg.png"
+                      alt="ssr"
+                ><br><br>然后数据传输协议就选3<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJebEB.png"
+                      alt="ssr"
+                ><br><br>混淆方式就选1<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJekus.png"
+                      alt="ssr"
+                ><br><br>好了之后随便按一个键就会输出这样的内容<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJezFK.png"
+                      alt="ssr"
+                ><br><br>安装好以后就会输出类似这样的内容<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJeFRa.png"
+                      alt="ssr"
+                ><br>那么到这里,你就安装成功了,此外你还可以开启kcptun或者bbr加速.至于客户端连接,只需要使用shadowsocks按照你所选的配置进行连接就可以了<br><br>如果你想卸载,可以输入下面的命令,或者你干脆把服务器重装.</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./shadowsocks-all.sh uninstall</span><br></pre></td></tr></table></figure></div>
+<p>此外还有脚本的命令<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">启动脚本后面的参数含义，从左至右依次为：启动，停止，重启，查看状态。</span><br><span class="line"></span><br><span class="line">Shadowsocks-Python 版：</span><br><span class="line">/etc/init.d/shadowsocks-python start | stop | restart | status</span><br><span class="line"></span><br><span class="line">ShadowsocksR 版：</span><br><span class="line">/etc/init.d/shadowsocks-r start | stop | restart | status</span><br><span class="line"></span><br><span class="line">Shadowsocks-Go 版：</span><br><span class="line">/etc/init.d/shadowsocks-go start | stop | restart | status</span><br><span class="line"></span><br><span class="line">Shadowsocks-libev 版：</span><br><span class="line">/etc/init.d/shadowsocks-libev start | stop | restart | status</span><br></pre></td></tr></table></figure></div>
+<p>如果你想查看运行状态呢,就输入<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/init.d/shadowsocks-r status</span><br></pre></td></tr></table></figure></div>
+<h3 id="逗比根据地脚本"><a href="#逗比根据地脚本" class="headerlink" title="逗比根据地脚本"></a>逗比根据地脚本</h3><p><a class="link"   target="_blank" rel="noopener" href="https://github.com/ToyoDAdoubi" >逗比根据地Github <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>相比于秋水逸冰的脚本来说,逗比的脚本要简单许多.</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh &amp;&amp; chmod +x ssr.sh &amp;&amp; bash ssr.sh</span><br></pre></td></tr></table></figure></div>
+<p>先输入1来进行安装ssr<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJe1vC.png"
+                      alt="ssr"
+                ><br><br>先输入端口和密码,然后加密方式选16<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJe7dL.png"
+                      alt="ssr"
+                ><br><br>选择混淆协议<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJerNX.png"
+                      alt="ssr"
+                ><br><br>然后一直默认就可以了<br><br>最后输入这样的内容就是安装成功了,客户端的配置就使用shadowsocks按照你的配置进行选择就可以连接了.<br><br>此外这个脚本还支持快速安装bbr加速,并且逗比还有许多其他的有关代理的脚本,可以看看<br><br><a class="link"   target="_blank" rel="noopener" href="https://github.com/ToyoDAdoubi/doubi?tab=readme-ov-file#%E4%BB%A3%E7%90%86%E7%9B%B8%E5%85%B3" >逗比的其他脚本 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="JeannieStudio脚本"><a href="#JeannieStudio脚本" class="headerlink" title="JeannieStudio脚本"></a>JeannieStudio脚本</h3><h2 id="shadowsocks-rust安装"><a href="#shadowsocks-rust安装" class="headerlink" title="shadowsocks-rust安装"></a>shadowsocks-rust安装</h2><p>目前官方最新版是rust版,截至博文更新,最新版本是在四天前<br></p>
+<h3 id="snap安装"><a href="#snap安装" class="headerlink" title="snap安装"></a>snap安装</h3><p>如果你还没有安装snap,就输入下面的命令,如果你安装了,就跳过.<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install epel-release</span><br><span class="line">sudo yum install snapd</span><br><span class="line">sudo systemctl enable --now snapd.socket</span><br><span class="line">sudo ln -s /var/lib/snapd/snap /snap</span><br><span class="line">sudo snap install snap-store</span><br></pre></td></tr></table></figure></div>
+<p>然后输入下面的命令来安装shadowsocks-rust<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">snap install shadowsocks-rust</span><br></pre></td></tr></table></figure></div>
+<p>使用下面的命令来查看你是否已经安装了<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">snap services shadowsocks-rust</span><br></pre></td></tr></table></figure></div>
+<p>使用下面的命令来启用并启动shadowsocks<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">snap start --enable shadowsocks-rust.sslocal-daemon</span><br></pre></td></tr></table></figure></div>
+<p>使用下面的命令来查看你是否已经成功启动了shadswsocks<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl status snap.shadowsocks-rust.sslocal-daemon.service</span><br></pre></td></tr></table></figure></div>
+<p>编辑&#x2F;var&#x2F;snap&#x2F;shadowsocks-rust&#x2F;common&#x2F;etc&#x2F;shadowsocks-rust&#x2F;config.json,写入下面的配置</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">   &quot;server&quot;:&quot;::&quot;,  #可同时监听IP4和IPv6</span><br><span class="line">   &quot;server_port&quot;:your port, </span><br><span class="line">   &quot;timeout&quot;:300,</span><br><span class="line">   &quot;method&quot;:&quot;aes-128-gcm&quot;,  #测试下128模式速度最好</span><br><span class="line">   &quot;password&quot;:&quot;your password&quot;, </span><br><span class="line">   &quot;fast_open&quot;:false,</span><br><span class="line">   &quot;nameserver&quot;:&quot;8.8.8.8&quot;,</span><br><span class="line">   &quot;mode&quot;:&quot;tcp_only&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<p>使用下面的命令来重启shadowsocks来应用你的配置<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart snap.shadowsocks-rust.sslocal-daemon.service</span><br></pre></td></tr></table></figure></div>
+<p>使用下面的命令来启动.</p>
+<h3 id="Docker安装"><a href="#Docker安装" class="headerlink" title="Docker安装"></a>Docker安装</h3><p>首先我们需要安装Docker,输入下面这串命令<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install -y yum-utils</span><br><span class="line">sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo</span><br></pre></td></tr></table></figure></div>
+<p>然后输入下面这串命令<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin</span><br></pre></td></tr></table></figure></div>
+<p>中途需要确定,输入y并回车就可以继续了.<br><br>使用下面这个命令来检查你是否安装成功<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker version</span><br></pre></td></tr></table></figure></div>
+<p>弹出类似于这样的内容,就说明你已经安装成功了<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/15/OJ7J6U.png"
+                      alt="docker"
+                ><br><br>接着使用下面这个命令来启动docker<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl start docker</span><br></pre></td></tr></table></figure></div>
+<p>输入下面的命令来安装shadowsocks-rust<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull ghcr.io/shadowsocks/sslocal-rust:latest</span><br></pre></td></tr></table></figure></div>
+<p>使用下面这个命令列出本机所有的镜像<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker image ls</span><br></pre></td></tr></table></figure></div>
+<p>输入下面的命令运行并将配置文件挂载到容器当中,创建外部端口映射以供容器连接.<br>下面的1080是可以更改的,可以选择一个自己喜欢的端口.<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">docker run ghcr.io/shadowsocks/sslocal-rust \</span><br><span class="line">  --restart always \</span><br><span class="line">  -p 1080:1080/tcp \</span><br><span class="line">  -v /path/to/config.json:/etc/shadowsocks-rust/config.json \</span><br><span class="line">  -dit ghcr.io/shadowsocks/sslocal-rust:latest</span><br></pre></td></tr></table></figure></div>
+
+<p>{<br>    “server”: “216.128.146.239”,<br>    “server_port”: 8388,<br>    “password”: “rwQc8qPXVsRpGx3uW+Y3Lj4Y42yF9Bs0xg1pmx8&#x2F;+bo&#x3D;”,<br>    “method”: “aes-256-gcm”,<br>    “local_address”: “216.128.146.239”,<br>    “local_port”: 1080<br>}</p>
+<h1 id="搭建V2ray"><a href="#搭建V2ray" class="headerlink" title="搭建V2ray"></a>搭建V2ray</h1><h1 id="搭建L2TP-IPsec"><a href="#搭建L2TP-IPsec" class="headerlink" title="搭建L2TP&#x2F;IPsec"></a>搭建L2TP&#x2F;IPsec</h1><h1 id="搭建IKEv2"><a href="#搭建IKEv2" class="headerlink" title="搭建IKEv2"></a>搭建IKEv2</h1>
         </div>
 
         
             <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
                 <div class="article-copyright-info-container">
     <ul>
-        <li><strong>标题:</strong> DOS</li>
+        <li><strong>标题:</strong> 利用VPS搭建VPN</li>
         <li><strong>作者:</strong> 关轶</li>
         <li><strong>创建于
-                :</strong> 2024-04-19 07:00:35</li>
+                :</strong> 2024-05-15 04:11:26</li>
         
             <li>
                 <strong>更新于
-                    :</strong> 2024-04-19 07:00:35
+                    :</strong> 2024-05-16 04:08:07
             </li>
         
         <li>
-            <strong>链接:</strong> https://blog.guanyi.lol/2024/04/19/学习/计算机/操作系统/Linux发行版列表/DOS/
+            <strong>链接:</strong> https://blog.guanyi.lol/2024/05/15/学习/网络/VPN/利用VPS搭建VPN/
         </li>
         <li>
             <strong>
@@ -750,7 +973,11 @@
             <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
                 
                     <li class="tag-item mx-0.5">
-                        <a href="/tags/Unix/">#Unix</a>&nbsp;
+                        <a href="/tags/VPS/">#VPS</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/VPN/">#VPN</a>&nbsp;
                     </li>
                 
             </ul>
@@ -764,13 +991,13 @@
                     <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
                         <a class="prev"
                         rel="prev"
-                        href="/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/Android/"
+                        href="/2024/05/16/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/"
                         >
                             <span class="left arrow-icon flex justify-center items-center">
                                 <i class="fa-solid fa-chevron-left"></i>
                             </span>
                             <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">Android</span>
+                                <span class="post-nav-title-item"></span>
                                 <span class="post-nav-item">上一篇</span>
                             </span>
                         </a>
@@ -780,10 +1007,10 @@
                     <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
                         <a class="next"
                         rel="next"
-                        href="/2024/04/19/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8/Debian/"
+                        href="/2024/04/25/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/%E5%9C%A8Windows%E4%B8%8A%E5%88%B6%E4%BD%9CLinux%20to%20go/"
                         >
                             <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">Debian</span>
+                                <span class="post-nav-title-item">在Windows上制作Linux to go</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
                             <span class="right arrow-icon flex justify-center items-center">
@@ -858,8 +1085,8 @@
             <div class="post-toc-wrap">
     <div class="post-toc">
         <div class="toc-title">此页目录</div>
-        <div class="page-title">DOS</div>
-        
+        <div class="page-title">利用VPS搭建VPN</div>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95"><span class="nav-text">目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BAShadowsocks"><span class="nav-text">搭建Shadowsocks</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#shadowsocksR%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85"><span class="nav-text">shadowsocksR脚本安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A7%8B%E6%B0%B4%E9%80%B8%E5%86%B0-teddysun-%E8%84%9A%E6%9C%AC"><span class="nav-text">秋水逸冰(teddysun)脚本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%97%E6%AF%94%E6%A0%B9%E6%8D%AE%E5%9C%B0%E8%84%9A%E6%9C%AC"><span class="nav-text">逗比根据地脚本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JeannieStudio%E8%84%9A%E6%9C%AC"><span class="nav-text">JeannieStudio脚本</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#shadowsocks-rust%E5%AE%89%E8%A3%85"><span class="nav-text">shadowsocks-rust安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#snap%E5%AE%89%E8%A3%85"><span class="nav-text">snap安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker%E5%AE%89%E8%A3%85"><span class="nav-text">Docker安装</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BAV2ray"><span class="nav-text">搭建V2ray</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BAL2TP-IPsec"><span class="nav-text">搭建L2TP&#x2F;IPsec</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BAIKEv2"><span class="nav-text">搭建IKEv2</span></a></li></ol>
 
     </div>
 </div>
@@ -894,7 +1121,7 @@
                 
                 <p class="post-count space-x-0.5">
                     <span>
-                        共 38 篇文章
+                        共 27 篇文章
                     </span>
                     
                         <span>
