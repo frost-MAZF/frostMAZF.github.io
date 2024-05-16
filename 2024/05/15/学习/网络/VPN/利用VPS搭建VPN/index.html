@@ -18,12 +18,12 @@
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="目录  准备工作 搭建Shadowsocks  shadowsocksR脚本安装  秋水逸冰(teddysun)脚本 逗比根据地脚本 JeannieStudio脚本    shadowsocks-rust安装  snap安装 Docker安装       搭建V2ray 搭建IKEv2 搭建L2TP&#x2F;IPsec在开始之前,必须先理解一件事,翻墙对于整个祖国建立起的防火墙来说,我认为是一种">
+        <meta name="description" content="目录  准备工作  购买并连接服务器    搭建Shadowsocks  shadowsocksR脚本安装  秋水逸冰(teddysun)脚本 逗比根据地脚本 JeannieStudio脚本    shadowsocks-rust安装  snap安装 Docker安装       搭建V2ray 搭建IKEv2 搭建L2TP&#x2F;IPsec   在开始之前,必须先理解一件事,翻墙对于整个祖国">
 <meta property="og:type" content="article">
 <meta property="og:title" content="利用VPS搭建VPN">
 <meta property="og:url" content="http://example.com/2024/05/15/%E5%AD%A6%E4%B9%A0/%E7%BD%91%E7%BB%9C/VPN/%E5%88%A9%E7%94%A8VPS%E6%90%AD%E5%BB%BAVPN/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="目录  准备工作 搭建Shadowsocks  shadowsocksR脚本安装  秋水逸冰(teddysun)脚本 逗比根据地脚本 JeannieStudio脚本    shadowsocks-rust安装  snap安装 Docker安装       搭建V2ray 搭建IKEv2 搭建L2TP&#x2F;IPsec在开始之前,必须先理解一件事,翻墙对于整个祖国建立起的防火墙来说,我认为是一种">
+<meta property="og:description" content="目录  准备工作  购买并连接服务器    搭建Shadowsocks  shadowsocksR脚本安装  秋水逸冰(teddysun)脚本 逗比根据地脚本 JeannieStudio脚本    shadowsocks-rust安装  snap安装 Docker安装       搭建V2ray 搭建IKEv2 搭建L2TP&#x2F;IPsec   在开始之前,必须先理解一件事,翻墙对于整个祖国">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ1ugq.png">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ752F.png">
@@ -36,6 +36,16 @@
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ7egC.png">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ7rVL.png">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ7Kqi.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJrc6j.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJr0Dx.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJrSnt.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJrskp.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJrVpU.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJrYYY.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJrl5v.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJr9Kq.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJr81M.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJru81.png">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJeBdb.png">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJeUOl.png">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJeWNg.png">
@@ -47,8 +57,14 @@
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJe7dL.png">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJerNX.png">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ7J6U.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJAaKP.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJAo0b.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJAqwl.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJAB1g.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJATHB.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/16/OJAU8s.png">
 <meta property="article:published_time" content="2024-05-15T11:11:26.417Z">
-<meta property="article:modified_time" content="2024-05-16T11:08:07.154Z">
+<meta property="article:modified_time" content="2024-05-16T15:21:04.701Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="VPS">
 <meta property="article:tag" content="VPN">
@@ -693,8 +709,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-05-16 04:08:07</span>
-            <span class="mobile">2024-05-16 04:08:07</span>
+            <span class="desktop">2024-05-16 08:21:04</span>
+            <span class="mobile">2024-05-16 08:21:04</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -720,12 +736,12 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>1.9k 字</span>
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>2.6k 字</span>
         </span>
     
     
         <span class="article-min2read article-meta-item">
-            <i class="fa-regular fa-clock"></i>&nbsp;<span>7 分钟</span>
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>10 分钟</span>
         </span>
     
     
@@ -746,7 +762,12 @@
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
             <h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
 <ul>
-<li><a href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C">准备工作</a></li>
+<li><a href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C">准备工作</a><blockquote>
+<ul>
+<li><a href="#%E8%B4%AD%E4%B9%B0%E5%B9%B6%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8">购买并连接服务器</a></li>
+</ul>
+</blockquote>
+</li>
 <li><a href="#%E6%90%AD%E5%BB%BAshadowsocks">搭建Shadowsocks</a><blockquote>
 <ul>
 <li><a href="#shadowsocksr%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85">shadowsocksR脚本安装</a><blockquote>
@@ -769,10 +790,11 @@
 </li>
 <li><a href="#%E6%90%AD%E5%BB%BAv2ray">搭建V2ray</a></li>
 <li><a href="#%E6%90%AD%E5%BB%BAikev2">搭建IKEv2</a></li>
-<li><a href="#%E6%90%AD%E5%BB%BAl2tpipsec">搭建L2TP&#x2F;IPsec</a><br>在开始之前,必须先理解一件事,翻墙对于整个祖国建立起的防火墙来说,我认为是一种门槛,不管你使用的是免费的VPN,或者是付费的机场,更甚至是自己购买VPS搭建VPN,都是门槛,而不是漏洞,使用免费或者部分稍许便宜的VPN的就知道,节点通常会有很多,并且单个节点并不能一直使用,这就是被封了.当然,不管你是理解为漏洞还是门槛,你锁使用的VPN都有概率被封禁.<br><br>在这其中呢,自行搭建VPN是封可能性最小的,所以接下来就让我们开始搭建VPN吧.<br></li>
+<li><a href="#%E6%90%AD%E5%BB%BAl2tpipsec">搭建L2TP&#x2F;IPsec</a></li>
 </ul>
 </blockquote>
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>之前使用vultr的服务器搭建过一个,时长超过三个月也依旧没有被封端口,自我感觉还行.<br><br>先注册vultr,怎么注册我就不教了,这是邀请码<br></p>
+<p>在开始之前,必须先理解一件事,翻墙对于整个祖国建立起的防火墙来说,我认为是一种门槛,不管你使用的是免费的VPN,或者是付费的机场,更甚至是自己购买VPS搭建VPN,都是门槛,而不是漏洞,使用免费或者部分稍许便宜的VPN的就知道,节点通常会有很多,并且单个节点并不能一直使用,这就是被封了.当然,不管你是理解为漏洞还是门槛,你锁使用的VPN都有概率被封禁.<br><br>在这其中呢,自行搭建VPN是封可能性最小的,所以接下来就让我们开始搭建VPN吧.<br></p>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><h2 id="购买并连接服务器"><a href="#购买并连接服务器" class="headerlink" title="购买并连接服务器"></a>购买并连接服务器</h2><p>之前使用vultr的服务器搭建过一个,时长超过三个月也依旧没有被封端口,自我感觉还行.<br><br>先注册vultr,怎么注册我就不教了,这是邀请码<br></p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.vultr.com/?ref=9614311</span><br></pre></td></tr></table></figure></div>
 <p>通过邀请码注册可以获得一百美元,前提是你得充十美元才可以用这一百美元.<br><br>然后点击左边的<strong>Dashboard</strong>,再点击<strong>Compute</strong>,最后点击<strong>Deploy Server</strong><br><br><img  
                      lazyload
@@ -829,7 +851,58 @@
                      src="/images/loading.svg"
                      data-src="https://ooo.0x0.ooo/2024/05/15/OJ7Kqi.png"
                       alt="vultr"
-                ><br><br>到这一步,准备工作就算结束了,接下来就是正式进入搭建教程了.<br></p>
+                ><br><br>到这一步,准备工作就算结束了,接下来就是正式进入搭建教程了,你也可以选择购买域名来达到更好的抗封锁,当然也可以自行搭建网站等等<br><br><a href="#%E7%9B%AE%E5%BD%95">目录</a><br><br></p>
+<h2 id="购买域名并配置CloudFlare"><a href="#购买域名并配置CloudFlare" class="headerlink" title="购买域名并配置CloudFlare"></a>购买域名并配置CloudFlare</h2><p><strong>购买域名这一步是可选的,并不是必选的</strong><br>域名的购买可以选择<a class="link"   target="_blank" rel="noopener" href="https://www.namesilo.com/" >namesilo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>怎么注册我就不教了<br><br>然后选择一个最便宜的,我这里就选择.MOM了<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJrc6j.png"
+                      alt="namesilo"
+                ><br><br>然后搜索你想要的域名,我这里就搜索guanyi了<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJr0Dx.png"
+                      alt="namesilo"
+                ><br><br>可以看到这个域名要十多块钱,点击add加入购物车,<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJrSnt.png"
+                      alt="namesilo"
+                ><br><br>然后点击checkout来结账<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJrskp.png"
+                      alt="namesilo"
+                ><br><br>然后在结账界面再次点击checkout<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJrVpU.png"
+                      alt="namesilo"
+                ><br><br>然后再付款界面多左边点击Show More选择china,就有国内的支付方式了,点击支付宝的图标就会跳转到结转界面,付款之后域名就归你了.<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJrYYY.png"
+                      alt="namesilo"
+                ><br><br>随后我们点击上面的My Account<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJrl5v.png"
+                      alt="namesilo"
+                ><br><br>然后点击Active Domains下的Manage<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJr9Kq.png"
+                      alt="namesilo"
+                ><br><br>然后点击从左往右数,最后一个图标<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJr81M.png"
+                      alt="namesilo"
+                ><br><br>到这一步,我们先新建一个标签页去CloudFlare官网注册一个自己的账号,如果已经注册了就在主页点击网站,并点击右侧的添加站点<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJru81.png"
+                      alt="cloudflare"
+                ><br>然后输入你的域名,计划选择免费DNS,然后跟着提示走就可以了,我这里没有多出来的域名了,所以无法演示了,等后续再补上吧.<br>大致就是给你一个DNS解析域什么的,然后添加到你的域名上面,就是刚刚我们最后没去CloudFlare的那个页面添加,然后需要等待几十分钟到几个小时不等,一般不超过24小时,你的DNS就会变成CloudFlare了<br><br>之后CloudFlare就可以直接管理你的域名了.</p>
 <h1 id="搭建Shadowsocks"><a href="#搭建Shadowsocks" class="headerlink" title="搭建Shadowsocks"></a>搭建Shadowsocks</h1><p>Shadowsocks的历史我就不多说了,想要了解的自己Google<br></p>
 <h2 id="shadowsocksR脚本安装"><a href="#shadowsocksR脚本安装" class="headerlink" title="shadowsocksR脚本安装"></a>shadowsocksR脚本安装</h2><p>输入下面的命令来安装wget,如果你安装了wget就跳过下面的命令<br></p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install wget</span><br></pre></td></tr></table></figure></div>
@@ -897,7 +970,7 @@
                       alt="ssr"
                 ><br><br>然后一直默认就可以了<br><br>最后输入这样的内容就是安装成功了,客户端的配置就使用shadowsocks按照你的配置进行选择就可以连接了.<br><br>此外这个脚本还支持快速安装bbr加速,并且逗比还有许多其他的有关代理的脚本,可以看看<br><br><a class="link"   target="_blank" rel="noopener" href="https://github.com/ToyoDAdoubi/doubi?tab=readme-ov-file#%E4%BB%A3%E7%90%86%E7%9B%B8%E5%85%B3" >逗比的其他脚本 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <h3 id="JeannieStudio脚本"><a href="#JeannieStudio脚本" class="headerlink" title="JeannieStudio脚本"></a>JeannieStudio脚本</h3><h2 id="shadowsocks-rust安装"><a href="#shadowsocks-rust安装" class="headerlink" title="shadowsocks-rust安装"></a>shadowsocks-rust安装</h2><p>目前官方最新版是rust版,截至博文更新,最新版本是在四天前<br></p>
-<h3 id="snap安装"><a href="#snap安装" class="headerlink" title="snap安装"></a>snap安装</h3><p>如果你还没有安装snap,就输入下面的命令,如果你安装了,就跳过.<br></p>
+<h3 id="snap安装"><a href="#snap安装" class="headerlink" title="snap安装"></a>snap安装</h3><p><strong>没更新完</strong><br>如果你还没有安装snap,就输入下面的命令,如果你安装了,就跳过.<br></p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install epel-release</span><br><span class="line">sudo yum install snapd</span><br><span class="line">sudo systemctl enable --now snapd.socket</span><br><span class="line">sudo ln -s /var/lib/snapd/snap /snap</span><br><span class="line">sudo snap install snap-store</span><br></pre></td></tr></table></figure></div>
 <p>然后输入下面的命令来安装shadowsocks-rust<br></p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">snap install shadowsocks-rust</span><br></pre></td></tr></table></figure></div>
@@ -912,7 +985,7 @@
 <p>使用下面的命令来重启shadowsocks来应用你的配置<br></p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart snap.shadowsocks-rust.sslocal-daemon.service</span><br></pre></td></tr></table></figure></div>
 <p>使用下面的命令来启动.</p>
-<h3 id="Docker安装"><a href="#Docker安装" class="headerlink" title="Docker安装"></a>Docker安装</h3><p>首先我们需要安装Docker,输入下面这串命令<br></p>
+<h3 id="Docker安装"><a href="#Docker安装" class="headerlink" title="Docker安装"></a>Docker安装</h3><p><strong>没更新完</strong><br>首先我们需要安装Docker,输入下面这串命令<br></p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install -y yum-utils</span><br><span class="line">sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo</span><br></pre></td></tr></table></figure></div>
 <p>然后输入下面这串命令<br></p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin</span><br></pre></td></tr></table></figure></div>
@@ -933,7 +1006,42 @@
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">docker run ghcr.io/shadowsocks/sslocal-rust \</span><br><span class="line">  --restart always \</span><br><span class="line">  -p 1080:1080/tcp \</span><br><span class="line">  -v /path/to/config.json:/etc/shadowsocks-rust/config.json \</span><br><span class="line">  -dit ghcr.io/shadowsocks/sslocal-rust:latest</span><br></pre></td></tr></table></figure></div>
 
 <p>{<br>    “server”: “216.128.146.239”,<br>    “server_port”: 8388,<br>    “password”: “rwQc8qPXVsRpGx3uW+Y3Lj4Y42yF9Bs0xg1pmx8&#x2F;+bo&#x3D;”,<br>    “method”: “aes-256-gcm”,<br>    “local_address”: “216.128.146.239”,<br>    “local_port”: 1080<br>}</p>
-<h1 id="搭建V2ray"><a href="#搭建V2ray" class="headerlink" title="搭建V2ray"></a>搭建V2ray</h1><h1 id="搭建L2TP-IPsec"><a href="#搭建L2TP-IPsec" class="headerlink" title="搭建L2TP&#x2F;IPsec"></a>搭建L2TP&#x2F;IPsec</h1><h1 id="搭建IKEv2"><a href="#搭建IKEv2" class="headerlink" title="搭建IKEv2"></a>搭建IKEv2</h1>
+<h1 id="搭建V2ray"><a href="#搭建V2ray" class="headerlink" title="搭建V2ray"></a>搭建V2ray</h1><h2 id="wulabing脚本"><a href="#wulabing脚本" class="headerlink" title="wulabing脚本"></a>wulabing脚本</h2><p><a class="link"   target="_blank" rel="noopener" href="https://github.com/wulabing" >wulabing的Github <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br><a class="link"   target="_blank" rel="noopener" href="https://github.com/wulabing/V2Ray_ws-tls_bash_onekey?tab=readme-ov-file" >脚本位置仓库 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br>wulabing大佬还有别的脚本,Xray_onekey什么的,推荐看看<br><br>下面这个命令当中二选一<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -N --no-check-certificate -q -O install.sh &quot;https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/master/install.sh&quot; &amp;&amp; chmod +x install.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -N --no-check-certificate -q -O install.sh &quot;https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/dev/install.sh&quot; &amp;&amp; chmod +x install.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure></div>
+<p>优缺点呢,我也说不上来,所以我选的是VLESS<br><br>输入1进行安装<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJAaKP.png"
+                      alt="v2ray"
+                ><br>然后再等待这段时间里,我们先去CloudFlare里添加一个A记录,DNS代理先暂时关闭,名称随意,IP地址填写你的服务器地址<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJAo0b.png"
+                      alt="v2ray"
+                ><br><br>然后回到你的ssh,输入你刚才输入的名称加上你的主域名<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJAqwl.png"
+                      alt="v2ray"
+                ><br><br>端口默认443就可以了,回车之后需要等待一段时间,这个时间我们可以去刷会视频,看会后会无期什么的<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJAB1g.png"
+                      alt="v2ray"
+                ><br><br>然后就会输出你的配置,类似于这样<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJATHB.png"
+                      alt="v2ray"
+                ><br><br>windows就去v2rayN,安卓就去v2rayNG,照着配置填写,就像这样<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/16/OJAU8s.png"
+                      alt="v2ray"
+                ><br></p>
+<h2 id="Jrohy的multi-v2ray脚本"><a href="#Jrohy的multi-v2ray脚本" class="headerlink" title="Jrohy的multi-v2ray脚本"></a>Jrohy的multi-v2ray脚本</h2><p><a class="link"   target="_blank" rel="noopener" href="https://github.com/Jrohy" >Jrohy的Github <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br><a class="link"   target="_blank" rel="noopener" href="https://github.com/Jrohy/multi-v2ray" >multi-v2ray <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></p>
+<h1 id="搭建L2TP-IPsec"><a href="#搭建L2TP-IPsec" class="headerlink" title="搭建L2TP&#x2F;IPsec"></a>搭建L2TP&#x2F;IPsec</h1><h1 id="搭建IKEv2"><a href="#搭建IKEv2" class="headerlink" title="搭建IKEv2"></a>搭建IKEv2</h1>
         </div>
 
         
@@ -947,7 +1055,7 @@
         
             <li>
                 <strong>更新于
-                    :</strong> 2024-05-16 04:08:07
+                    :</strong> 2024-05-16 08:21:04
             </li>
         
         <li>
@@ -1071,7 +1179,7 @@
     <div class="post-toc">
         <div class="toc-title">此页目录</div>
         <div class="page-title">利用VPS搭建VPN</div>
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95"><span class="nav-text">目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BAShadowsocks"><span class="nav-text">搭建Shadowsocks</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#shadowsocksR%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85"><span class="nav-text">shadowsocksR脚本安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A7%8B%E6%B0%B4%E9%80%B8%E5%86%B0-teddysun-%E8%84%9A%E6%9C%AC"><span class="nav-text">秋水逸冰(teddysun)脚本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%97%E6%AF%94%E6%A0%B9%E6%8D%AE%E5%9C%B0%E8%84%9A%E6%9C%AC"><span class="nav-text">逗比根据地脚本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JeannieStudio%E8%84%9A%E6%9C%AC"><span class="nav-text">JeannieStudio脚本</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#shadowsocks-rust%E5%AE%89%E8%A3%85"><span class="nav-text">shadowsocks-rust安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#snap%E5%AE%89%E8%A3%85"><span class="nav-text">snap安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker%E5%AE%89%E8%A3%85"><span class="nav-text">Docker安装</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BAV2ray"><span class="nav-text">搭建V2ray</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BAL2TP-IPsec"><span class="nav-text">搭建L2TP&#x2F;IPsec</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BAIKEv2"><span class="nav-text">搭建IKEv2</span></a></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95"><span class="nav-text">目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-text">准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B4%AD%E4%B9%B0%E5%B9%B6%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-text">购买并连接服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B4%AD%E4%B9%B0%E5%9F%9F%E5%90%8D%E5%B9%B6%E9%85%8D%E7%BD%AECloudFlare"><span class="nav-text">购买域名并配置CloudFlare</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BAShadowsocks"><span class="nav-text">搭建Shadowsocks</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#shadowsocksR%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85"><span class="nav-text">shadowsocksR脚本安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A7%8B%E6%B0%B4%E9%80%B8%E5%86%B0-teddysun-%E8%84%9A%E6%9C%AC"><span class="nav-text">秋水逸冰(teddysun)脚本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%97%E6%AF%94%E6%A0%B9%E6%8D%AE%E5%9C%B0%E8%84%9A%E6%9C%AC"><span class="nav-text">逗比根据地脚本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JeannieStudio%E8%84%9A%E6%9C%AC"><span class="nav-text">JeannieStudio脚本</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#shadowsocks-rust%E5%AE%89%E8%A3%85"><span class="nav-text">shadowsocks-rust安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#snap%E5%AE%89%E8%A3%85"><span class="nav-text">snap安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker%E5%AE%89%E8%A3%85"><span class="nav-text">Docker安装</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BAV2ray"><span class="nav-text">搭建V2ray</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#wulabing%E8%84%9A%E6%9C%AC"><span class="nav-text">wulabing脚本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Jrohy%E7%9A%84multi-v2ray%E8%84%9A%E6%9C%AC"><span class="nav-text">Jrohy的multi-v2ray脚本</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BAL2TP-IPsec"><span class="nav-text">搭建L2TP&#x2F;IPsec</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BAIKEv2"><span class="nav-text">搭建IKEv2</span></a></li></ol>
 
     </div>
 </div>
@@ -1110,7 +1218,7 @@
                     </span>
                     
                         <span>
-                            共 12.2k 字
+                            共 12.9k 字
                         </span>
                     
                 </p>
