@@ -18,12 +18,12 @@
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="目录  准备工作  购买并连接服务器    搭建Shadowsocks  shadowsocksR脚本安装  秋水逸冰(teddysun)脚本 逗比根据地脚本 JeannieStudio脚本    shadowsocks-rust安装  snap安装 Docker安装       搭建V2ray  wulabing脚本 Jrohy的multi-v2ray脚本    搭建IKEv2 搭建L2TP&amp;#">
+        <meta name="description" content="目录  准备工作  购买并连接服务器    搭建Shadowsocks  shadowsocksR脚本安装  秋水逸冰(teddysun)脚本 逗比根据地脚本 JeannieStudio脚本    shadowsocks-rust安装  snap安装 Docker安装       搭建V2ray  wulabing脚本 Jrohy的multi-v2ray脚本    搭建Brook 搭建Trojan">
 <meta property="og:type" content="article">
 <meta property="og:title" content="利用VPS搭建VPN">
 <meta property="og:url" content="http://example.com/2024/05/15/%E5%AD%A6%E4%B9%A0/%E7%BD%91%E7%BB%9C/VPN/%E5%88%A9%E7%94%A8VPS%E6%90%AD%E5%BB%BAVPN/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="目录  准备工作  购买并连接服务器    搭建Shadowsocks  shadowsocksR脚本安装  秋水逸冰(teddysun)脚本 逗比根据地脚本 JeannieStudio脚本    shadowsocks-rust安装  snap安装 Docker安装       搭建V2ray  wulabing脚本 Jrohy的multi-v2ray脚本    搭建IKEv2 搭建L2TP&amp;#">
+<meta property="og:description" content="目录  准备工作  购买并连接服务器    搭建Shadowsocks  shadowsocksR脚本安装  秋水逸冰(teddysun)脚本 逗比根据地脚本 JeannieStudio脚本    shadowsocks-rust安装  snap安装 Docker安装       搭建V2ray  wulabing脚本 Jrohy的multi-v2ray脚本    搭建Brook 搭建Trojan">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ1ugq.png">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/15/OJ752F.png">
@@ -69,8 +69,11 @@
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/17/OJK5vY.png">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/17/OJKWNc.png">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/05/17/OJKUaq.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/17/OJKEht.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/17/OJKHIX.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/05/17/OJKGtx.png">
 <meta property="article:published_time" content="2024-05-15T11:11:26.417Z">
-<meta property="article:modified_time" content="2024-05-17T03:27:30.302Z">
+<meta property="article:modified_time" content="2024-05-17T06:57:48.909Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="VPS">
 <meta property="article:tag" content="VPN">
@@ -715,8 +718,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-05-16 20:27:30</span>
-            <span class="mobile">2024-05-16 20:27:30</span>
+            <span class="desktop">2024-05-16 23:57:48</span>
+            <span class="mobile">2024-05-16 23:57:48</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -742,12 +745,12 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>3k 字</span>
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>3.5k 字</span>
         </span>
     
     
         <span class="article-min2read article-meta-item">
-            <i class="fa-regular fa-clock"></i>&nbsp;<span>11 分钟</span>
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>14 分钟</span>
         </span>
     
     
@@ -801,8 +804,11 @@
 </ul>
 </blockquote>
 </li>
-<li><a href="#%E6%90%AD%E5%BB%BAikev2">搭建IKEv2</a></li>
+<li><a href="#%E6%90%AD%E5%BB%BAbrook">搭建Brook</a></li>
+<li><a href="#%E6%90%AD%E5%BB%BAtrojan">搭建Trojan</a></li>
+<li><a href="#%E6%90%AD%E5%BB%BAnetch%E6%B8%B8%E6%88%8F%E5%8A%A0%E9%80%9F%E5%99%A8">搭建Netch游戏加速器</a></li>
 <li><a href="#%E6%90%AD%E5%BB%BAl2tpipsec">搭建L2TP&#x2F;IPsec</a></li>
+<li><a href="#%E6%90%AD%E5%BB%BAikev2">搭建IKEv2</a></li>
 </ul>
 </blockquote>
 <p>在开始之前,必须先理解一件事,翻墙对于整个祖国建立起的防火墙来说,我认为是一种门槛,不管你使用的是免费的VPN,或者是付费的机场,更甚至是自己购买VPS搭建VPN,都是门槛,而不是漏洞,使用免费或者部分稍许便宜的VPN的就知道,节点通常会有很多,并且单个节点并不能一直使用,这就是被封了.当然,不管你是理解为漏洞还是门槛,你锁使用的VPN都有概率被封禁.<br><br>在这其中呢,自行搭建VPN是封可能性最小的,所以接下来就让我们开始搭建VPN吧.<br></p>
@@ -1094,7 +1100,28 @@
                      data-src="https://ooo.0x0.ooo/2024/05/17/OJKUaq.png"
                       alt="v2ray"
                 ><br><br>此外这个脚本还提供了docker安装的方法,可以自行去看<br></p>
-<h1 id="搭建Brook"><a href="#搭建Brook" class="headerlink" title="搭建Brook"></a>搭建Brook</h1><h1 id="搭建Trojan"><a href="#搭建Trojan" class="headerlink" title="搭建Trojan"></a>搭建Trojan</h1><h1 id="搭建Netch游戏加速器"><a href="#搭建Netch游戏加速器" class="headerlink" title="搭建Netch游戏加速器"></a>搭建Netch游戏加速器</h1><h1 id="搭建L2TP-IPsec"><a href="#搭建L2TP-IPsec" class="headerlink" title="搭建L2TP&#x2F;IPsec"></a>搭建L2TP&#x2F;IPsec</h1><h1 id="搭建IKEv2"><a href="#搭建IKEv2" class="headerlink" title="搭建IKEv2"></a>搭建IKEv2</h1>
+<h1 id="搭建Brook"><a href="#搭建Brook" class="headerlink" title="搭建Brook"></a>搭建Brook</h1><h1 id="搭建Trojan"><a href="#搭建Trojan" class="headerlink" title="搭建Trojan"></a>搭建Trojan</h1><h1 id="搭建Netch游戏加速器"><a href="#搭建Netch游戏加速器" class="headerlink" title="搭建Netch游戏加速器"></a>搭建Netch游戏加速器</h1><h1 id="搭建L2TP-IPsec"><a href="#搭建L2TP-IPsec" class="headerlink" title="搭建L2TP&#x2F;IPsec"></a>搭建L2TP&#x2F;IPsec</h1><p>L2TP&#x2F;IPsec可以直接用在设备上,不需要另外的软件.<br><br>先输入下面的命令<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># 所有变量值必须用 &#x27;单引号&#x27; 括起来</span><br><span class="line"># *不要* 在值中使用这些字符：  \ &quot; &#x27;</span><br><span class="line">wget https://git.io/vpnsetup-centos -O vpnsetup.sh &amp;&amp; sudo \</span><br><span class="line">VPN_IPSEC_PSK=&#x27;你的IPsec预共享密钥&#x27; \</span><br><span class="line">VPN_USER=&#x27;你的VPN用户名&#x27; \</span><br><span class="line">VPN_PASSWORD=&#x27;你的VPN密码&#x27; \</span><br><span class="line">sh vpnsetup.sh</span><br></pre></td></tr></table></figure></div>
+<p>等待安装完成后,会输出这样的内容<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/17/OJKEht.png"
+                      alt="l2tp"
+                ><br><br>然后我们需要找到证书文件,文件名一般为下图所示<br><br>.p12一般为windows和linux所用<br><br>.sswan一般为android所用<br><br>.mobileconfig一般为ios和macos所用<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/17/OJKHIX.png"
+                      alt="l2tp"
+                ><br><br>然后我们需要导出文件,可以直接用finalshell直接下载到本地<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/17/OJKGtx.png"
+                      alt="l2tp"
+                ><br><br>PS:到这一步的时候我的服务器过期了,所以需要等待我重新买一个.<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">wget https://git.io/vpnsetup-centos -O vpnsetup.sh &amp;&amp; sudo \</span><br><span class="line">VPN_IPSEC_PSK=&#x27;GuanYiNineHeaven&#x27; \</span><br><span class="line">VPN_USER=&#x27;GuanYi&#x27; \</span><br><span class="line">VPN_PASSWORD=&#x27;abcd1234&#x27; \</span><br><span class="line">sh vpnsetup.sh</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"># Note: All the variables to this image are optional.</span><br><span class="line"># See README for more information.</span><br><span class="line"># To use, uncomment and replace with your own values.</span><br><span class="line"></span><br><span class="line"># Define IPsec PSK, VPN username and password</span><br><span class="line"># - DO NOT put &quot;&quot; or &#x27;&#x27; around values, or add space around =</span><br><span class="line"># - DO NOT use these special characters within values: \ &quot; &#x27;</span><br><span class="line">VPN_IPSEC_PSK=GuanYiNineHeaven</span><br><span class="line">VPN_USER=GuanYi</span><br><span class="line">VPN_PASSWORD=abcd1234</span><br><span class="line"># Define additional VPN users</span><br><span class="line"># - DO NOT put &quot;&quot; or &#x27;&#x27; around values, or add space around =</span><br><span class="line"># - DO NOT use these special characters within values: \ &quot; &#x27;</span><br><span class="line"># - Usernames and passwords must be separated by spaces</span><br><span class="line"># VPN_ADDL_USERS=additional_username_1 additional_username_2</span><br><span class="line"># VPN_ADDL_PASSWORDS=additional_password_1 additional_password_2</span><br><span class="line"></span><br><span class="line"># Use a DNS name for the VPN server</span><br><span class="line"># - The DNS name must be a fully qualified domain name (FQDN)</span><br><span class="line">VPN_DNS_NAME=try.guanyi.lol</span><br><span class="line"></span><br><span class="line"># Specify a name for the first IKEv2 client</span><br><span class="line"># - Use one word only, no special characters except &#x27;-&#x27; and &#x27;_&#x27;</span><br><span class="line"># - The default is &#x27;vpnclient&#x27; if not specified</span><br><span class="line">VPN_CLIENT_NAME=try</span><br><span class="line"></span><br><span class="line"># Use alternative DNS servers</span><br><span class="line"># - By default, clients are set to use Google Public DNS</span><br><span class="line"># - Example below shows Cloudflare&#x27;s DNS service</span><br><span class="line">VPN_DNS_SRV1=1.1.1.1</span><br><span class="line">VPN_DNS_SRV2=1.0.0.1</span><br><span class="line"></span><br><span class="line"># Protect IKEv2 client config files using a password</span><br><span class="line"># - By default, no password is required when importing IKEv2 client configuration</span><br><span class="line"># - Uncomment if you want to protect these files using a random password</span><br><span class="line"># VPN_PROTECT_CONFIG=yes</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">docker run \</span><br><span class="line">    --name hwdsl2/ipsec-vpn-server \</span><br><span class="line">    --env-file ./vpn.env \</span><br><span class="line">    --restart=always \</span><br><span class="line">    -v ikev2-vpn-data:/etc/ipsec.d \</span><br><span class="line">    -v /lib/modules:/lib/modules:ro \</span><br><span class="line">    -p 500:500/udp \</span><br><span class="line">    -p 4500:4500/udp \</span><br><span class="line">    -d --privileged \</span><br></pre></td></tr></table></figure></div>
+<h1 id="搭建IKEv2"><a href="#搭建IKEv2" class="headerlink" title="搭建IKEv2"></a>搭建IKEv2</h1>
         </div>
 
         
@@ -1108,7 +1135,7 @@
         
             <li>
                 <strong>更新于
-                    :</strong> 2024-05-16 20:27:30
+                    :</strong> 2024-05-16 23:57:48
             </li>
         
         <li>
@@ -1271,7 +1298,7 @@
                     </span>
                     
                         <span>
-                            共 13.3k 字
+                            共 13.8k 字
                         </span>
                     
                 </p>

@@ -99,8 +99,11 @@
 </ul>
 </blockquote>
 </li>
-<li><a href="#%E6%90%AD%E5%BB%BAikev2">搭建IKEv2</a></li>
+<li><a href="#%E6%90%AD%E5%BB%BAbrook">搭建Brook</a></li>
+<li><a href="#%E6%90%AD%E5%BB%BAtrojan">搭建Trojan</a></li>
+<li><a href="#%E6%90%AD%E5%BB%BAnetch%E6%B8%B8%E6%88%8F%E5%8A%A0%E9%80%9F%E5%99%A8">搭建Netch游戏加速器</a></li>
 <li><a href="#%E6%90%AD%E5%BB%BAl2tpipsec">搭建L2TP&#x2F;IPsec</a></li>
+<li><a href="#%E6%90%AD%E5%BB%BAikev2">搭建IKEv2</a></li>
 </ul>
 </blockquote>
 <p>在开始之前,必须先理解一件事,翻墙对于整个祖国建立起的防火墙来说,我认为是一种门槛,不管你使用的是免费的VPN,或者是付费的机场,更甚至是自己购买VPS搭建VPN,都是门槛,而不是漏洞,使用免费或者部分稍许便宜的VPN的就知道,节点通常会有很多,并且单个节点并不能一直使用,这就是被封了.当然,不管你是理解为漏洞还是门槛,你锁使用的VPN都有概率被封禁.<br><br>在这其中呢,自行搭建VPN是封可能性最小的,所以接下来就让我们开始搭建VPN吧.<br></p>
@@ -392,7 +395,28 @@
                      data-src="https://ooo.0x0.ooo/2024/05/17/OJKUaq.png"
                       alt="v2ray"
                 ><br><br>此外这个脚本还提供了docker安装的方法,可以自行去看<br></p>
-<h1 id="搭建Brook"><a href="#搭建Brook" class="headerlink" title="搭建Brook"></a>搭建Brook</h1><h1 id="搭建Trojan"><a href="#搭建Trojan" class="headerlink" title="搭建Trojan"></a>搭建Trojan</h1><h1 id="搭建Netch游戏加速器"><a href="#搭建Netch游戏加速器" class="headerlink" title="搭建Netch游戏加速器"></a>搭建Netch游戏加速器</h1><h1 id="搭建L2TP-IPsec"><a href="#搭建L2TP-IPsec" class="headerlink" title="搭建L2TP&#x2F;IPsec"></a>搭建L2TP&#x2F;IPsec</h1><h1 id="搭建IKEv2"><a href="#搭建IKEv2" class="headerlink" title="搭建IKEv2"></a>搭建IKEv2</h1>]]></content>
+<h1 id="搭建Brook"><a href="#搭建Brook" class="headerlink" title="搭建Brook"></a>搭建Brook</h1><h1 id="搭建Trojan"><a href="#搭建Trojan" class="headerlink" title="搭建Trojan"></a>搭建Trojan</h1><h1 id="搭建Netch游戏加速器"><a href="#搭建Netch游戏加速器" class="headerlink" title="搭建Netch游戏加速器"></a>搭建Netch游戏加速器</h1><h1 id="搭建L2TP-IPsec"><a href="#搭建L2TP-IPsec" class="headerlink" title="搭建L2TP&#x2F;IPsec"></a>搭建L2TP&#x2F;IPsec</h1><p>L2TP&#x2F;IPsec可以直接用在设备上,不需要另外的软件.<br><br>先输入下面的命令<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 所有变量值必须用 &#x27;单引号&#x27; 括起来</span><br><span class="line"># *不要* 在值中使用这些字符：  \ &quot; &#x27;</span><br><span class="line">wget https://git.io/vpnsetup-centos -O vpnsetup.sh &amp;&amp; sudo \</span><br><span class="line">VPN_IPSEC_PSK=&#x27;你的IPsec预共享密钥&#x27; \</span><br><span class="line">VPN_USER=&#x27;你的VPN用户名&#x27; \</span><br><span class="line">VPN_PASSWORD=&#x27;你的VPN密码&#x27; \</span><br><span class="line">sh vpnsetup.sh</span><br></pre></td></tr></table></figure></div>
+<p>等待安装完成后,会输出这样的内容<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/17/OJKEht.png"
+                      alt="l2tp"
+                ><br><br>然后我们需要找到证书文件,文件名一般为下图所示<br><br>.p12一般为windows和linux所用<br><br>.sswan一般为android所用<br><br>.mobileconfig一般为ios和macos所用<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/17/OJKHIX.png"
+                      alt="l2tp"
+                ><br><br>然后我们需要导出文件,可以直接用finalshell直接下载到本地<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/05/17/OJKGtx.png"
+                      alt="l2tp"
+                ><br><br>PS:到这一步的时候我的服务器过期了,所以需要等待我重新买一个.<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget https://git.io/vpnsetup-centos -O vpnsetup.sh &amp;&amp; sudo \</span><br><span class="line">VPN_IPSEC_PSK=&#x27;GuanYiNineHeaven&#x27; \</span><br><span class="line">VPN_USER=&#x27;GuanYi&#x27; \</span><br><span class="line">VPN_PASSWORD=&#x27;abcd1234&#x27; \</span><br><span class="line">sh vpnsetup.sh</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Note: All the variables to this image are optional.</span><br><span class="line"># See README for more information.</span><br><span class="line"># To use, uncomment and replace with your own values.</span><br><span class="line"></span><br><span class="line"># Define IPsec PSK, VPN username and password</span><br><span class="line"># - DO NOT put &quot;&quot; or &#x27;&#x27; around values, or add space around =</span><br><span class="line"># - DO NOT use these special characters within values: \ &quot; &#x27;</span><br><span class="line">VPN_IPSEC_PSK=GuanYiNineHeaven</span><br><span class="line">VPN_USER=GuanYi</span><br><span class="line">VPN_PASSWORD=abcd1234</span><br><span class="line"># Define additional VPN users</span><br><span class="line"># - DO NOT put &quot;&quot; or &#x27;&#x27; around values, or add space around =</span><br><span class="line"># - DO NOT use these special characters within values: \ &quot; &#x27;</span><br><span class="line"># - Usernames and passwords must be separated by spaces</span><br><span class="line"># VPN_ADDL_USERS=additional_username_1 additional_username_2</span><br><span class="line"># VPN_ADDL_PASSWORDS=additional_password_1 additional_password_2</span><br><span class="line"></span><br><span class="line"># Use a DNS name for the VPN server</span><br><span class="line"># - The DNS name must be a fully qualified domain name (FQDN)</span><br><span class="line">VPN_DNS_NAME=try.guanyi.lol</span><br><span class="line"></span><br><span class="line"># Specify a name for the first IKEv2 client</span><br><span class="line"># - Use one word only, no special characters except &#x27;-&#x27; and &#x27;_&#x27;</span><br><span class="line"># - The default is &#x27;vpnclient&#x27; if not specified</span><br><span class="line">VPN_CLIENT_NAME=try</span><br><span class="line"></span><br><span class="line"># Use alternative DNS servers</span><br><span class="line"># - By default, clients are set to use Google Public DNS</span><br><span class="line"># - Example below shows Cloudflare&#x27;s DNS service</span><br><span class="line">VPN_DNS_SRV1=1.1.1.1</span><br><span class="line">VPN_DNS_SRV2=1.0.0.1</span><br><span class="line"></span><br><span class="line"># Protect IKEv2 client config files using a password</span><br><span class="line"># - By default, no password is required when importing IKEv2 client configuration</span><br><span class="line"># - Uncomment if you want to protect these files using a random password</span><br><span class="line"># VPN_PROTECT_CONFIG=yes</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker run \</span><br><span class="line">    --name hwdsl2/ipsec-vpn-server \</span><br><span class="line">    --env-file ./vpn.env \</span><br><span class="line">    --restart=always \</span><br><span class="line">    -v ikev2-vpn-data:/etc/ipsec.d \</span><br><span class="line">    -v /lib/modules:/lib/modules:ro \</span><br><span class="line">    -p 500:500/udp \</span><br><span class="line">    -p 4500:4500/udp \</span><br><span class="line">    -d --privileged \</span><br></pre></td></tr></table></figure></div>
+<h1 id="搭建IKEv2"><a href="#搭建IKEv2" class="headerlink" title="搭建IKEv2"></a>搭建IKEv2</h1>]]></content>
       <tags>
         <tag>VPS</tag>
         <tag>VPN</tag>
@@ -549,9 +573,9 @@
                 ><br>从ssh-rra AAAAB3NzaC1开始到结尾,全都要复制.复制出来的内容是这样的:<br><br>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC5Lh7rLEncm2966k6Flbsf&#x2F;PZva0vK+zUJmiEY&#x2F;GlGwy8JXeynpJER7ZZ30E0Yp3EKtG5YjHaefVr9QtgY7v0yW+&#x2F;vP18mjQMUje66Vo9&#x2F;onEcDU5nhzKxbORcH025bpKfeDK4gz7lP6okuqLsH4utmzbswoAXyKqX+kIaZfPMzvEbj&#x2F;NNEz8WwuR6iIydiwX+qix7FEuntBmU19g5Cbsa542h3xpnJu3BMGMGSwZqsCo50Budkx1H+in4HIWvdFwqsSzGjBejFNm3LvYeZ9rRNyNvXNm7WJWG0kpacI9R9OE752lbz96rvIHqsQvyS9+VqNaQ+n3hQp82vSahnbkf2jZ2AdE1f5ujqdt4TJKTRyUiQ0c1mhTnWLGe2kIVFdSRFodiL78V8O3XYs7&#x2F;BN8T5qbmYASDsed5IB4it8Q0Azn1Ua65dgL1aT3e4kRccxG0hvP+T5KC0mQpoQjerWXbOui+yQRuLCafi3Et0z2lrAz&#x2F;sn9YU1GZyD9NhJivxNk&#x3D; u0_a243@localhost<br><br><br>然后还是打开Gitee,进入设置,点击SSH公钥,将刚才复制的内容粘贴,就好了<br><br>然后是克隆仓库到本地,或者是在本地新建一个仓库.<br></p>
 <h2 id="克隆"><a href="#克隆" class="headerlink" title="克隆"></a>克隆</h2><p>如果你想克隆一个仓库,那么就去你的gitee,或者github或者别的,上面会有提示.比如说我的<br><br>先在Termux输入下面这一串</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &#x27;关轶&#x27; </span><br><span class="line">git config --global user.email &#x27;13339651+guan_yi@user.noreply.gitee.com&#x27;</span><br></pre></td></tr></table></figure></div>
-<p>其中<strong>关轶</strong>是你的用户名,而<strong><a class="link"   href="mailto:&#49;&#x33;&#x33;&#x33;&#57;&#x36;&#53;&#x31;&#43;&#103;&#x75;&#x61;&#110;&#95;&#x79;&#x69;&#64;&#117;&#x73;&#x65;&#x72;&#x2e;&#110;&#x6f;&#x72;&#x65;&#112;&#x6c;&#121;&#x2e;&#x67;&#105;&#x74;&#x65;&#x65;&#x2e;&#99;&#x6f;&#109;" >&#49;&#x33;&#x33;&#x33;&#57;&#x36;&#53;&#x31;&#43;&#103;&#x75;&#x61;&#110;&#95;&#x79;&#x69;&#64;&#117;&#x73;&#x65;&#x72;&#x2e;&#110;&#x6f;&#x72;&#x65;&#112;&#x6c;&#121;&#x2e;&#x67;&#105;&#x74;&#x65;&#x65;&#x2e;&#99;&#x6f;&#109; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong>则是你的邮箱.<br><br>然后克隆至本地,cd到你想要克隆的位置,然后输入下面这一串</p>
+<p>其中<strong>关轶</strong>是你的用户名,而<strong><a class="link"   href="mailto:&#x31;&#x33;&#51;&#x33;&#57;&#54;&#x35;&#49;&#43;&#103;&#117;&#x61;&#x6e;&#x5f;&#x79;&#105;&#64;&#x75;&#x73;&#x65;&#x72;&#x2e;&#110;&#111;&#114;&#x65;&#x70;&#108;&#121;&#x2e;&#x67;&#105;&#x74;&#101;&#101;&#46;&#x63;&#x6f;&#109;" >&#x31;&#x33;&#51;&#x33;&#57;&#54;&#x35;&#49;&#43;&#103;&#117;&#x61;&#x6e;&#x5f;&#x79;&#105;&#64;&#x75;&#x73;&#x65;&#x72;&#x2e;&#110;&#111;&#114;&#x65;&#x70;&#108;&#121;&#x2e;&#x67;&#105;&#x74;&#101;&#101;&#46;&#x63;&#x6f;&#109; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong>则是你的邮箱.<br><br>然后克隆至本地,cd到你想要克隆的位置,然后输入下面这一串</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone git@gitee.com:Guan_Yi/NineHeaven.git</span><br></pre></td></tr></table></figure></div>
-<p>clone 后面的<strong><a class="link"   href="mailto:&#103;&#x69;&#116;&#x40;&#103;&#x69;&#116;&#x65;&#101;&#x2e;&#x63;&#x6f;&#109;" >&#103;&#x69;&#116;&#x40;&#103;&#x69;&#116;&#x65;&#101;&#x2e;&#x63;&#x6f;&#109; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>:Guan_Yi&#x2F;NineHeaven.git</strong>是你的仓库地址.最后克隆成功后会是这样的:<br><img  
+<p>clone 后面的<strong><a class="link"   href="mailto:&#x67;&#105;&#116;&#64;&#x67;&#105;&#x74;&#x65;&#101;&#x2e;&#x63;&#x6f;&#x6d;" >&#x67;&#105;&#116;&#64;&#x67;&#105;&#x74;&#x65;&#101;&#x2e;&#x63;&#x6f;&#x6d; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>:Guan_Yi&#x2F;NineHeaven.git</strong>是你的仓库地址.最后克隆成功后会是这样的:<br><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://ooo.0x0.ooo/2024/04/13/Omsz56.jpg"
@@ -574,100 +598,25 @@
       </tags>
   </entry>
   <entry>
-    <title>Windows的桌面编译环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/Windowss%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<hr>
-<p>本文参考以下文章:</p>
-<ul>
-<li><a href="">Windows</a></li>
-</ul>
+    <title>Linux for Android 的桌面环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h2 id="本文参考以下文章"><a href="#本文参考以下文章" class="headerlink" title="本文参考以下文章"></a>本文参考以下文章</h2><br>
+有的时候我们不单单需要终端环境的，也需要桌面环境，例如当我们要看视频的时候,或者装逼的时候.<br>
+Android的桌面环境安装相对简单.<br>
+
 <h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
-<ul>
-<li><a href="#c%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83">C语言编译环境</a></li>
-<li><a href="#c%E8%AF%AD%E8%A8%80%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83">C++编译环境</a></li>
-<li><a href="#html">HTML</a></li>
-<li><a href="#java">Jave</a></li>
-<li><a href="#nodejs">Node.js</a></li>
-<li><a href="#python">Python</a></li>
-<li><a href="#%E6%B5%8B%E8%AF%95">测试</a></li>
-</ul>
+<p>- </p>
 </blockquote>
-<p>Windows的编译环境很简单,如果你是Python或者C++或C,可以直接下载微软的Visual Studio Community,就可以直接使用了,如果你需要在命令提示符里进行,那么请看 <a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/Windows%E7%9A%84%E5%91%BD%E4%BB%A4%E6%8F%90%E7%A4%BA%E7%AC%A6%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Windows的命令提示符编译环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br>Visual Studio Community的安装请选择供学生,开放源代码和个人免费使用的那个,如下图所示.,选择第三个.<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJSwv.png"
-                      alt="Visual"
-                ></p>
-<h1 id="C语言编译环境"><a href="#C语言编译环境" class="headerlink" title="C语言编译环境"></a>C语言编译环境</h1><p>C语言的勾选和C++差不多,就不说了.</p>
-<h1 id="C-编译环境配置"><a href="#C-编译环境配置" class="headerlink" title="C++编译环境配置"></a>C++编译环境配置</h1><p>在Visual Studio Community中勾选,当然你可以根据自己需求去勾选.<br><br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJrkB.png"
-                      alt="C++"
-                ><br><br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJAms.png"
-                      alt="C++"
-                ><br></p>
-<h1 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h1><p>Node.js请勾选这个<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJc1q.png"
-                      alt="Node.js"
-                ></p>
-<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><p>HTML可以直接拿浏览器看,就不说了.</p>
-<h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><p>Python请勾选这个<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJc1q.png"
-                      alt="Python"
-                ></p>
-<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><p>接下来我们进行一下测试,就拿C语言好了.<br><br>先点击创建新项目<br><br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPrLq.png"
-                      alt="新项目"
-                ><br>然后选择C++<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPAXc.png"
-                      alt="选择"
-                ><br>然后点击空项目<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPZzr.png"
-                      alt="空项目"
-                ><br>随后的这些选择一个喜欢的就行<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPmT1.png"
-                      alt="名称"
-                ><br>然后右边点击源文件,添加,新建项.<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPt76.png"
-                      alt="新建"
-                ><br>当我们输入完代码后点击上方的本地windows调试器<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmP50S.png"
-                      alt="测试"
-                ><br>随后在出现的命令提示符里,就是你的代码输出了<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmP4LP.png"
-                      alt="输出"
-                ></p>
-]]></content>
+<h1 id="脚本安装"><a href="#脚本安装" class="headerlink" title="脚本安装"></a>脚本安装</h1><h1 id="自行安装"><a href="#自行安装" class="headerlink" title="自行安装"></a>自行安装</h1>]]></content>
       <categories>
         <category>编程</category>
         <category>环境配置</category>
-        <category>Windows</category>
+        <category>Android</category>
       </categories>
       <tags>
-        <tag>编译环境</tag>
-        <tag>Windows</tag>
+        <tag>Termux</tag>
+        <tag>Android</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -894,42 +843,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Windows的命令提示符编译环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/Windows%E7%9A%84%E5%91%BD%E4%BB%A4%E6%8F%90%E7%A4%BA%E7%AC%A6%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>编译环境</tag>
-        <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux for Android 的桌面环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<h2 id="本文参考以下文章"><a href="#本文参考以下文章" class="headerlink" title="本文参考以下文章"></a>本文参考以下文章</h2><br>
-有的时候我们不单单需要终端环境的，也需要桌面环境，例如当我们要看视频的时候,或者装逼的时候.<br>
-Android的桌面环境安装相对简单.<br>
-
-<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
-<p>- </p>
-</blockquote>
-<h1 id="脚本安装"><a href="#脚本安装" class="headerlink" title="脚本安装"></a>脚本安装</h1><h1 id="自行安装"><a href="#自行安装" class="headerlink" title="自行安装"></a>自行安装</h1>]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Android</category>
-      </categories>
-      <tags>
-        <tag>Termux</tag>
-        <tag>Android</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linux C++编译环境配置</title>
     <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20C++%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<p>安装g++</p>
@@ -953,8 +866,8 @@ Android的桌面环境安装相对简单.<br>
         <category>Linux</category>
       </categories>
       <tags>
-        <tag>编译环境</tag>
         <tag>Linux</tag>
+        <tag>编译环境</tag>
       </tags>
   </entry>
   <entry>
@@ -1030,25 +943,9 @@ Android的桌面环境安装相对简单.<br>
         <category>Linux</category>
       </categories>
       <tags>
-        <tag>编译环境</tag>
         <tag>Linux</tag>
+        <tag>编译环境</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>在Windows上制作Linux to go</title>
-    <url>/2024/04/25/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/%E5%9C%A8Windows%E4%B8%8A%E5%88%B6%E4%BD%9CLinux%20to%20go/</url>
-    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>在某些时候使用Windows时，总是觉得Windows不够开放，不够自由的时候，该怎么办呢？<br>当然是装一个Linux，装Linux的途径有很多，可以通过虚拟机使用，也可以装到U盘里，随身携带使用。<br>接下来即是装到U盘的教程。</p>
-<hr>
-<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="这里使用的是Deepin作为示例"><a href="#这里使用的是Deepin作为示例" class="headerlink" title="这里使用的是Deepin作为示例"></a>这里使用的是Deepin作为示例</h3><h3 id="1-一台搭载了Windows的电脑"><a href="#1-一台搭载了Windows的电脑" class="headerlink" title="1. 一台搭载了Windows的电脑"></a>1. 一台搭载了Windows的电脑</h3><p>2023年，除苹果外绝大部份电脑搭载的都是Windows系统，如果不清楚，则可以去设置里找到关于设备里查看。</p>
-<h3 id="2-一个不低于8G的U盘"><a href="#2-一个不低于8G的U盘" class="headerlink" title="2. 一个不低于8G的U盘"></a>2. 一个不低于8G的U盘</h3><p>这个U盘没有速度要求，一般来说只是一个启动盘。</p>
-<h3 id="3-一个Linux镜像"><a href="#3-一个Linux镜像" class="headerlink" title="3. 一个Linux镜像"></a>3. 一个Linux镜像</h3><p>如果没有Linux镜像，去这里<br>[[生活-构思&#x2F;应对季&#x2F;生活&#x2F;兴趣爱好&#x2F;计算机&#x2F;Linux&#x2F;安装Linux&#x2F;Linux镜像|Linux镜像]]<br>社区人比较多的应该是Ubuntu和Debian，也可以使用国产的深度操作系统，也就是Deepin，Deepin是基于Debian的，所以理论Debian论坛也可以使用。</p>
-<h3 id="4-一个3-0以上的U盘-虚拟机"><a href="#4-一个3-0以上的U盘-虚拟机" class="headerlink" title="4. 一个3.0以上的U盘&#x2F;虚拟机"></a>4. 一个3.0以上的U盘&#x2F;虚拟机</h3><h4 id="U盘"><a href="#U盘" class="headerlink" title="U盘"></a>U盘</h4><p>一般3.0的U盘都是蓝口的，就像这样<br>![[Obsidian附件&#x2F;IMG_2023-06-30-23-47-08-121.jpg]]<br>当然如果不确定的话，可以用软件来测试<br>CrystalDiskMark<br><a class="link"   href="https://crystalmark.info/en/software/crystaldiskmark/" >https://crystalmark.info/en/software/crystaldiskmark/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>具体速度要求大概是这样<br>![[Obsidian附件&#x2F;6_96ANA4WNNUCH5UE.png]]<br>读取达到100，写入达到50。<br>说不定读取100，写入30也可以。<br>SD卡加转接器也可以。</p>
-<h4 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a>虚拟机</h4><p>使用Virtualbox<br><a class="link"   href="https://www.virtualbox.org/" >https://www.virtualbox.org/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<hr>
-<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><h3 id="U盘启动盘"><a href="#U盘启动盘" class="headerlink" title="U盘启动盘"></a>U盘启动盘</h3>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
   </entry>
   <entry>
     <title>Linux Java编译环境配置</title>
@@ -1060,8 +957,8 @@ Android的桌面环境安装相对简单.<br>
         <category>Linux</category>
       </categories>
       <tags>
-        <tag>编译环境</tag>
         <tag>Linux</tag>
+        <tag>编译环境</tag>
       </tags>
   </entry>
   <entry>
@@ -1074,8 +971,8 @@ Android的桌面环境安装相对简单.<br>
         <category>Linux</category>
       </categories>
       <tags>
-        <tag>编译环境</tag>
         <tag>Linux</tag>
+        <tag>编译环境</tag>
       </tags>
   </entry>
   <entry>
@@ -1098,6 +995,117 @@ Android的桌面环境安装相对简单.<br>
       </tags>
   </entry>
   <entry>
+    <title>Windows的命令提示符编译环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/Windows%E7%9A%84%E5%91%BD%E4%BB%A4%E6%8F%90%E7%A4%BA%E7%AC%A6%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>编译环境</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows的桌面编译环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/Windowss%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<hr>
+<p>本文参考以下文章:</p>
+<ul>
+<li><a href="">Windows</a></li>
+</ul>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
+<ul>
+<li><a href="#c%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83">C语言编译环境</a></li>
+<li><a href="#c%E8%AF%AD%E8%A8%80%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83">C++编译环境</a></li>
+<li><a href="#html">HTML</a></li>
+<li><a href="#java">Jave</a></li>
+<li><a href="#nodejs">Node.js</a></li>
+<li><a href="#python">Python</a></li>
+<li><a href="#%E6%B5%8B%E8%AF%95">测试</a></li>
+</ul>
+</blockquote>
+<p>Windows的编译环境很简单,如果你是Python或者C++或C,可以直接下载微软的Visual Studio Community,就可以直接使用了,如果你需要在命令提示符里进行,那么请看 <a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/Windows%E7%9A%84%E5%91%BD%E4%BB%A4%E6%8F%90%E7%A4%BA%E7%AC%A6%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Windows的命令提示符编译环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br>Visual Studio Community的安装请选择供学生,开放源代码和个人免费使用的那个,如下图所示.,选择第三个.<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJSwv.png"
+                      alt="Visual"
+                ></p>
+<h1 id="C语言编译环境"><a href="#C语言编译环境" class="headerlink" title="C语言编译环境"></a>C语言编译环境</h1><p>C语言的勾选和C++差不多,就不说了.</p>
+<h1 id="C-编译环境配置"><a href="#C-编译环境配置" class="headerlink" title="C++编译环境配置"></a>C++编译环境配置</h1><p>在Visual Studio Community中勾选,当然你可以根据自己需求去勾选.<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJrkB.png"
+                      alt="C++"
+                ><br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJAms.png"
+                      alt="C++"
+                ><br></p>
+<h1 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h1><p>Node.js请勾选这个<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJc1q.png"
+                      alt="Node.js"
+                ></p>
+<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><p>HTML可以直接拿浏览器看,就不说了.</p>
+<h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><p>Python请勾选这个<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJc1q.png"
+                      alt="Python"
+                ></p>
+<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><p>接下来我们进行一下测试,就拿C语言好了.<br><br>先点击创建新项目<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPrLq.png"
+                      alt="新项目"
+                ><br>然后选择C++<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPAXc.png"
+                      alt="选择"
+                ><br>然后点击空项目<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPZzr.png"
+                      alt="空项目"
+                ><br>随后的这些选择一个喜欢的就行<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPmT1.png"
+                      alt="名称"
+                ><br>然后右边点击源文件,添加,新建项.<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPt76.png"
+                      alt="新建"
+                ><br>当我们输入完代码后点击上方的本地windows调试器<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmP50S.png"
+                      alt="测试"
+                ><br>随后在出现的命令提示符里,就是你的代码输出了<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmP4LP.png"
+                      alt="输出"
+                ></p>
+]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>编译环境</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux 服务器环境配置</title>
     <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[]]></content>
@@ -1110,6 +1118,22 @@ Android的桌面环境安装相对简单.<br>
         <tag>Linux</tag>
         <tag>服务器</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>在Windows上制作Linux to go</title>
+    <url>/2024/04/25/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/%E5%9C%A8Windows%E4%B8%8A%E5%88%B6%E4%BD%9CLinux%20to%20go/</url>
+    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>在某些时候使用Windows时，总是觉得Windows不够开放，不够自由的时候，该怎么办呢？<br>当然是装一个Linux，装Linux的途径有很多，可以通过虚拟机使用，也可以装到U盘里，随身携带使用。<br>接下来即是装到U盘的教程。</p>
+<hr>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="这里使用的是Deepin作为示例"><a href="#这里使用的是Deepin作为示例" class="headerlink" title="这里使用的是Deepin作为示例"></a>这里使用的是Deepin作为示例</h3><h3 id="1-一台搭载了Windows的电脑"><a href="#1-一台搭载了Windows的电脑" class="headerlink" title="1. 一台搭载了Windows的电脑"></a>1. 一台搭载了Windows的电脑</h3><p>2023年，除苹果外绝大部份电脑搭载的都是Windows系统，如果不清楚，则可以去设置里找到关于设备里查看。</p>
+<h3 id="2-一个不低于8G的U盘"><a href="#2-一个不低于8G的U盘" class="headerlink" title="2. 一个不低于8G的U盘"></a>2. 一个不低于8G的U盘</h3><p>这个U盘没有速度要求，一般来说只是一个启动盘。</p>
+<h3 id="3-一个Linux镜像"><a href="#3-一个Linux镜像" class="headerlink" title="3. 一个Linux镜像"></a>3. 一个Linux镜像</h3><p>如果没有Linux镜像，去这里<br>[[生活-构思&#x2F;应对季&#x2F;生活&#x2F;兴趣爱好&#x2F;计算机&#x2F;Linux&#x2F;安装Linux&#x2F;Linux镜像|Linux镜像]]<br>社区人比较多的应该是Ubuntu和Debian，也可以使用国产的深度操作系统，也就是Deepin，Deepin是基于Debian的，所以理论Debian论坛也可以使用。</p>
+<h3 id="4-一个3-0以上的U盘-虚拟机"><a href="#4-一个3-0以上的U盘-虚拟机" class="headerlink" title="4. 一个3.0以上的U盘&#x2F;虚拟机"></a>4. 一个3.0以上的U盘&#x2F;虚拟机</h3><h4 id="U盘"><a href="#U盘" class="headerlink" title="U盘"></a>U盘</h4><p>一般3.0的U盘都是蓝口的，就像这样<br>![[Obsidian附件&#x2F;IMG_2023-06-30-23-47-08-121.jpg]]<br>当然如果不确定的话，可以用软件来测试<br>CrystalDiskMark<br><a class="link"   href="https://crystalmark.info/en/software/crystaldiskmark/" >https://crystalmark.info/en/software/crystaldiskmark/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>具体速度要求大概是这样<br>![[Obsidian附件&#x2F;6_96ANA4WNNUCH5UE.png]]<br>读取达到100，写入达到50。<br>说不定读取100，写入30也可以。<br>SD卡加转接器也可以。</p>
+<h4 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a>虚拟机</h4><p>使用Virtualbox<br><a class="link"   href="https://www.virtualbox.org/" >https://www.virtualbox.org/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<hr>
+<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><h3 id="U盘启动盘"><a href="#U盘启动盘" class="headerlink" title="U盘启动盘"></a>U盘启动盘</h3>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
   </entry>
   <entry>
     <title>HTML入门</title>
