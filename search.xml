@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>写在我的小窝之前.</title>
-    <url>/2024/04/19/%E6%88%91%E6%83%B3%E8%AF%B4%E7%9A%84/</url>
-    <content><![CDATA[<p>这里是一个博客的成长历程.<br></p>
-<h1 id="更新时间"><a href="#更新时间" class="headerlink" title="更新时间"></a>更新时间</h1><ul>
-<li><a href="#2024-04-17">2024-04-17</a></li>
-<li><a href="#2024-04-23">2024-04-23</a></li>
-</ul>
-<h2 id="2024-04-17"><a href="#2024-04-17" class="headerlink" title="2024-04-17"></a>2024-04-17</h2><p>虽然这个写博客的项目早在2022年就已经立项,期间辗转Notion,FlowUs,从飞书又转到钉钉,今年才发现原来Github可以写博客,于是这个博客就来了.<br><br>由于我没有国内的服务器,托管到gitee不能自定义域名,虽然DNS是CloudFlare,但访问也可能会慢.<br><br>这是一个静态网页,也就是说,想要刷新内容,可能需要包括但不限于重启浏览器,关闭标签页等操作.<br></p>
-<h2 id="2024-04-23"><a href="#2024-04-23" class="headerlink" title="2024-04-23"></a>2024-04-23</h2><p>那么有关于未来的一些更新方向,我认为是将现有的内容进行完善,这个过程应该会持续一个月到三个月不等,当然可能不会全部都会有后续,随后就是把此前Notion的内容转移,目前呢就这么多.<br><br>此外我觉得既然是博客,随意一些就得了,因此还会有别的内容.<br></p>
-]]></content>
-      <categories>
-        <category>闲聊</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>刷机是什么</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E5%88%B7%E6%9C%BA/%E5%88%B7%E6%9C%BA%E6%98%AF%E4%BB%80%E4%B9%88/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>刷机</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>心走地</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E6%96%87%E5%AD%A6/%E6%9C%9D%E5%8D%97%E6%9D%82%E8%AE%B0/28-%E5%BF%83%E8%B5%B0%E5%9C%B0/</url>
+    <url>/2024/05/29/%E5%AD%A6%E4%B9%A0/%E6%96%87%E5%AD%A6/%E6%9C%9D%E5%8D%97%E6%9D%82%E8%AE%B0/%E5%BF%83%E8%B5%B0%E5%9C%B0/</url>
     <content><![CDATA[<p>Created: May 9, 2023 1:46 PM<br></p>
 <p>——失常的世界！ <br></p>
 <p>   心脏！  <br></p>
@@ -52,6 +29,21 @@
       <tags>
         <tag>心走地</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>写在我的小窝之前.</title>
+    <url>/2024/04/19/%E6%88%91%E6%83%B3%E8%AF%B4%E7%9A%84/</url>
+    <content><![CDATA[<p>这里是一个博客的成长历程.<br></p>
+<h1 id="更新时间"><a href="#更新时间" class="headerlink" title="更新时间"></a>更新时间</h1><ul>
+<li><a href="#2024-04-17">2024-04-17</a></li>
+<li><a href="#2024-04-23">2024-04-23</a></li>
+</ul>
+<h2 id="2024-04-17"><a href="#2024-04-17" class="headerlink" title="2024-04-17"></a>2024-04-17</h2><p>虽然这个写博客的项目早在2022年就已经立项,期间辗转Notion,FlowUs,从飞书又转到钉钉,今年才发现原来Github可以写博客,于是这个博客就来了.<br><br>由于我没有国内的服务器,托管到gitee不能自定义域名,虽然DNS是CloudFlare,但访问也可能会慢.<br><br>这是一个静态网页,也就是说,想要刷新内容,可能需要包括但不限于重启浏览器,关闭标签页等操作.<br></p>
+<h2 id="2024-04-23"><a href="#2024-04-23" class="headerlink" title="2024-04-23"></a>2024-04-23</h2><p>那么有关于未来的一些更新方向,我认为是将现有的内容进行完善,这个过程应该会持续一个月到三个月不等,当然可能不会全部都会有后续,随后就是把此前Notion的内容转移,目前呢就这么多.<br><br>此外我觉得既然是博客,随意一些就得了,因此还会有别的内容.<br></p>
+]]></content>
+      <categories>
+        <category>闲聊</category>
+      </categories>
   </entry>
   <entry>
     <title>Unity基础教程</title>
@@ -106,7 +98,7 @@
 <li><a href="#%E6%90%AD%E5%BB%BAikev2">搭建IKEv2</a></li>
 </ul>
 </blockquote>
-<p>在开始之前,必须先理解一件事,翻墙对于整个祖国建立起的防火墙来说,我认为是一种门槛,不管你使用的是免费的VPN,或者是付费的机场,更甚至是自己购买VPS搭建VPN,都是门槛,而不是漏洞,使用免费或者部分稍许便宜的VPN的就知道,节点通常会有很多,并且单个节点并不能一直使用,这就是被封了.当然,不管你是理解为漏洞还是门槛,你锁使用的VPN都有概率被封禁.<br><br>在这其中呢,自行搭建VPN是封可能性最小的,所以接下来就让我们开始搭建VPN吧.<br></p>
+<p>在开始之前,必须先理解一件事,翻墙对于整个祖国建立起的防火墙来说,我认为是一种门槛,不管你使用的是免费的VPN,或者是付费的机场,更甚至是自己购买VPS搭建VPN,都是门槛,而不是漏洞,使用免费或者部分稍许便宜的VPN的就知道,节点通常会有很多,并且单个节点并不能一直使用,这就是被封了.当然,不管你是理解为漏洞还是门槛,你所使用的VPN都有概率被封禁.<br><br>在这其中呢,自行搭建VPN是封可能性最小的,所以接下来就让我们开始搭建VPN吧.<br></p>
 <h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><h2 id="购买并连接服务器"><a href="#购买并连接服务器" class="headerlink" title="购买并连接服务器"></a>购买并连接服务器</h2><p>之前使用vultr的服务器搭建过一个,时长超过三个月也依旧没有被封端口,自我感觉还行.<br><br>先注册vultr,怎么注册我就不教了,这是邀请码<br></p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://www.vultr.com/?ref=9614311</span><br></pre></td></tr></table></figure></div>
 <p>通过邀请码注册可以获得一百美元,前提是你得充十美元才可以用这一百美元.<br><br>然后点击左边的<strong>Dashboard</strong>,再点击<strong>Compute</strong>,最后点击<strong>Deploy Server</strong><br><br><img  
@@ -395,7 +387,8 @@
                      data-src="https://ooo.0x0.ooo/2024/05/17/OJKUaq.png"
                       alt="v2ray"
                 ><br><br>此外这个脚本还提供了docker安装的方法,可以自行去看<br></p>
-<h1 id="搭建Brook"><a href="#搭建Brook" class="headerlink" title="搭建Brook"></a>搭建Brook</h1><h1 id="搭建Trojan"><a href="#搭建Trojan" class="headerlink" title="搭建Trojan"></a>搭建Trojan</h1><h1 id="搭建Netch游戏加速器"><a href="#搭建Netch游戏加速器" class="headerlink" title="搭建Netch游戏加速器"></a>搭建Netch游戏加速器</h1><h1 id="搭建L2TP-IPsec"><a href="#搭建L2TP-IPsec" class="headerlink" title="搭建L2TP&#x2F;IPsec"></a>搭建L2TP&#x2F;IPsec</h1><p>L2TP&#x2F;IPsec可以直接用在设备上,不需要另外的软件.<br><br>先输入下面的命令<br></p>
+<h1 id="搭建Brook"><a href="#搭建Brook" class="headerlink" title="搭建Brook"></a>搭建Brook</h1><h1 id="搭建Trojan"><a href="#搭建Trojan" class="headerlink" title="搭建Trojan"></a>搭建Trojan</h1><h1 id="搭建Netch游戏加速器"><a href="#搭建Netch游戏加速器" class="headerlink" title="搭建Netch游戏加速器"></a>搭建Netch游戏加速器</h1><p>不建议自己搭建游戏加速器,该买还得买,自己搭的话,想要流畅不卡顿,不丢包延迟,成本太高了,当然你也可以购买拥有游戏加速节点的机场<br></p>
+<h1 id="搭建L2TP-IPsec"><a href="#搭建L2TP-IPsec" class="headerlink" title="搭建L2TP&#x2F;IPsec"></a>搭建L2TP&#x2F;IPsec</h1><p>L2TP&#x2F;IPsec可以直接用在设备上,不需要另外的软件.<br><br>先输入下面的命令<br></p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 所有变量值必须用 &#x27;单引号&#x27; 括起来</span><br><span class="line"># *不要* 在值中使用这些字符：  \ &quot; &#x27;</span><br><span class="line">wget https://git.io/vpnsetup-centos -O vpnsetup.sh &amp;&amp; sudo \</span><br><span class="line">VPN_IPSEC_PSK=&#x27;你的IPsec预共享密钥&#x27; \</span><br><span class="line">VPN_USER=&#x27;你的VPN用户名&#x27; \</span><br><span class="line">VPN_PASSWORD=&#x27;你的VPN密码&#x27; \</span><br><span class="line">sh vpnsetup.sh</span><br></pre></td></tr></table></figure></div>
 <p>等待安装完成后,会输出这样的内容<br><br><img  
                      lazyload
@@ -417,58 +410,24 @@
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Note: All the variables to this image are optional.</span><br><span class="line"># See README for more information.</span><br><span class="line"># To use, uncomment and replace with your own values.</span><br><span class="line"></span><br><span class="line"># Define IPsec PSK, VPN username and password</span><br><span class="line"># - DO NOT put &quot;&quot; or &#x27;&#x27; around values, or add space around =</span><br><span class="line"># - DO NOT use these special characters within values: \ &quot; &#x27;</span><br><span class="line">VPN_IPSEC_PSK=GuanYiNineHeaven</span><br><span class="line">VPN_USER=GuanYi</span><br><span class="line">VPN_PASSWORD=abcd1234</span><br><span class="line"># Define additional VPN users</span><br><span class="line"># - DO NOT put &quot;&quot; or &#x27;&#x27; around values, or add space around =</span><br><span class="line"># - DO NOT use these special characters within values: \ &quot; &#x27;</span><br><span class="line"># - Usernames and passwords must be separated by spaces</span><br><span class="line"># VPN_ADDL_USERS=additional_username_1 additional_username_2</span><br><span class="line"># VPN_ADDL_PASSWORDS=additional_password_1 additional_password_2</span><br><span class="line"></span><br><span class="line"># Use a DNS name for the VPN server</span><br><span class="line"># - The DNS name must be a fully qualified domain name (FQDN)</span><br><span class="line">VPN_DNS_NAME=try.guanyi.lol</span><br><span class="line"></span><br><span class="line"># Specify a name for the first IKEv2 client</span><br><span class="line"># - Use one word only, no special characters except &#x27;-&#x27; and &#x27;_&#x27;</span><br><span class="line"># - The default is &#x27;vpnclient&#x27; if not specified</span><br><span class="line">VPN_CLIENT_NAME=try</span><br><span class="line"></span><br><span class="line"># Use alternative DNS servers</span><br><span class="line"># - By default, clients are set to use Google Public DNS</span><br><span class="line"># - Example below shows Cloudflare&#x27;s DNS service</span><br><span class="line">VPN_DNS_SRV1=1.1.1.1</span><br><span class="line">VPN_DNS_SRV2=1.0.0.1</span><br><span class="line"></span><br><span class="line"># Protect IKEv2 client config files using a password</span><br><span class="line"># - By default, no password is required when importing IKEv2 client configuration</span><br><span class="line"># - Uncomment if you want to protect these files using a random password</span><br><span class="line"># VPN_PROTECT_CONFIG=yes</span><br></pre></td></tr></table></figure></div>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker run \</span><br><span class="line">    --name hwdsl2/ipsec-vpn-server \</span><br><span class="line">    --env-file ./vpn.env \</span><br><span class="line">    --restart=always \</span><br><span class="line">    -v ikev2-vpn-data:/etc/ipsec.d \</span><br><span class="line">    -v /lib/modules:/lib/modules:ro \</span><br><span class="line">    -p 500:500/udp \</span><br><span class="line">    -p 4500:4500/udp \</span><br><span class="line">    -d --privileged \</span><br></pre></td></tr></table></figure></div>
 <h1 id="搭建IKEv2"><a href="#搭建IKEv2" class="headerlink" title="搭建IKEv2"></a>搭建IKEv2</h1>]]></content>
+      <categories>
+        <category>网络</category>
+        <category>VPN</category>
+      </categories>
       <tags>
         <tag>VPS</tag>
         <tag>VPN</tag>
       </tags>
   </entry>
   <entry>
-    <title>Java版Minecraft联机教程</title>
-    <url>/2024/04/19/%E5%A8%B1%E4%B9%90/%E4%BC%91%E9%97%B2%E5%A8%B1%E4%B9%90/%E6%B8%B8%E6%88%8F/Minecraft/Java%E7%89%88Minecraft%E8%81%94%E6%9C%BA%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<h1 id="局域网联机"><a href="#局域网联机" class="headerlink" title="局域网联机"></a>局域网联机</h1><h2 id="远程局域网联机"><a href="#远程局域网联机" class="headerlink" title="远程局域网联机"></a>远程局域网联机</h2><h1 id="服务器联机hhh"><a href="#服务器联机hhh" class="headerlink" title="服务器联机hhh"></a>服务器联机hhh</h1>]]></content>
-      <tags>
-        <tag>联机</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git基础教程</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E5%91%BD%E4%BB%A4/Git/Git%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<p>本文参考以下文章:</p>
-<ul>
-<li><a class="link"   href="https://oschina.gitee.io/learn-git-branching/" >Git命令学习 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p>Git基础命令</p>
-<ul>
-<li><h2 id="提交"><a href="#提交" class="headerlink" title="提交"></a>提交</h2></li>
-</ul>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git commit</span><br></pre></td></tr></table></figure></div>
-<ul>
-<li><h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2></li>
-</ul>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git branch</span><br></pre></td></tr></table></figure></div>
-<ul>
-<li><h2 id=""><a href="#" class="headerlink" title=""></a></h2></li>
-</ul>
-]]></content>
-      <categories>
-        <category>编程</category>
-        <category>命令</category>
-        <category>Git</category>
-      </categories>
-      <tags>
-        <tag>基础教程</tag>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>心跳</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E6%96%87%E5%AD%A6/%E6%9C%9D%E5%8D%97%E6%9D%82%E8%AE%B0/%E5%BF%83%E8%B7%B3/%E5%BF%83%E8%B7%B3%20%E4%B8%8A/</url>
+    <url>/2024/05/29/%E5%AD%A6%E4%B9%A0/%E6%96%87%E5%AD%A6/%E6%9C%9D%E5%8D%97%E6%9D%82%E8%AE%B0/%E5%BF%83%E8%B7%B3/%E5%BF%83%E8%B7%B3%20%E4%B8%8A/</url>
     <content><![CDATA[<p>Created: May 9, 2023 2:03 PM<br></p>
 <p>我很幸运，在我为数不多的岁月里，心跳了无数次。<br></p>
 <p>　2022&#x2F;4&#x2F;15<br></p>
 <p>　摩根很烦恼，至少在外人看来是这样的，他一直都是愁眉苦脸的，范肯总是说：“你看，你看！忧愁的人啊，为什么不来和我们一起吃苹果派呢？”至于为什么要这么说，那是因为他的爸爸——肯纳先生租了一个店铺，在那卖苹果派呢！不止是苹果派，还有草莓派，香蕉派，蓝莓派……很多很多派！<br></p>
 <p>　摩根并不喜欢吃这些派，他更喜欢帮派，那种热血沸腾的感觉是他最爱的感觉，可城内的两大帮派都不想招收这个瘦弱的男孩。　<br></p>
-<p>　“妈妈总是说，你要是能像你爸爸是个英雄，她就奖励我一辆自行车。”摩根和他的小伙伴们说道。　<br></p>
+<p>　“妈妈总是说，你要是能像你爸爸是个英雄，她就奖励我一辆自行车。”摩根和他的小伙伴们说道。<br></p>
 <p>　“哈哈哈，你看，我就说吧，摩根那家伙一定会说这件事。”小伙伴们去找范肯说这件事，因为范肯跟摩根是邻居，但范肯总是这样嘲笑摩根。　<br></p>
 <p>　摩根总是喜欢幻想自己成为英雄，受到城市里所有人的膜拜，他的爸爸是一个英雄，为了救下一位轻生的人，掉下奔涌的江流里消失不见了。所有人集资为摩根的父亲建立起了一座雕像，就树立在城市广场的中央。　<br></p>
 <p>　有一天，摩根的妈妈跟摩根说，你得找到属于自己的东西，你的爸爸是勇敢善良的人，你同样可以成为勇敢善良的人，但他总是没脑子，你也不必成为任何一个人，而是成为你自己。<br></p>
@@ -529,317 +488,11 @@
       </tags>
   </entry>
   <entry>
-    <title>Git for Android</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Git%20for%20Andoird/</url>
-    <content><![CDATA[<p>本文参考以下文章:</p>
-<ul>
-<li><a href="">Git</a></li>
-</ul>
-<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
-<ul>
-<li><a href="#mgit">MGit</a></li>
-<li><a href="#termux">Termux</a><blockquote>
-<ul>
-<li><a href="#%E5%85%8B%E9%9A%86">克隆</a></li>
-<li><a href="#%E5%88%9B%E5%BB%BA">创建</a></li>
-</ul>
-</blockquote>
-</li>
-<li><a href="#%E5%85%B6%E4%BB%96%E6%93%8D%E4%BD%9C">其他操作</a></li>
-</ul>
-</blockquote>
-<h1 id="MGit"><a href="#MGit" class="headerlink" title="MGit"></a>MGit</h1><blockquote>
-<p>Mgit的下载链接:<br><br><a class="link"   href="https://play.google.com/store/apps/details?id=com.manichord.mgit" >Mgit On Google Play Store <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br><a class="link"   href="https://play.google.com/store/apps/details?id=com.manichord.mgit" >Mgit on F-Droid <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br>下载完成后进入到MGit, <strong>点击右上角三个点,进入设置,并把Git配置下的用户名和用户邮箱改成你自己的.</strong><br><br>例如Gitee,用Github或者别的就用别的,先进入网站,随后进入个人设置,或者设置,在基本管理处找到邮箱管理.<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/12/OmE3mL.png"
-                      alt="Gitee"
-                ><br>在我的邮箱地址处就可以看见了.用户名就是你的Gitee的用户名,比如说我的Gitee的用户名是关轶,那么在MGit的Git配置当中的用户名里,就输入关轶,用户邮箱就输入Gitee给你的,或者你自己绑定的就行了.<br><br>随后在 <strong>安全,进入SSH Key,点击右上角的的加号</strong> 文件名随意,其余的默认就行,然后点击,把里面的内容全部复制,然后打开Gitee,还是在设置里,找到SSH公钥,把刚才复制的内容粘贴.随后回到的MGit,复制你仓库的地址,然后选择一个本地路径,克隆就好了.<br><br>想实现多端同步呢,就时不时的拉取和推送一下,这样就ok了.</p>
-</blockquote>
-<h1 id="Termux"><a href="#Termux" class="headerlink" title="Termux"></a>Termux</h1><p>相比较来说呢,Termux的操作难度要比MGit高些许,不过也不是什么大问题.<br>首先进入到你的Termux,如果没有Termux请看 <strong><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux for Android 的终端环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong> <br><br>然后输入</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">pkg install git</span><br></pre></td></tr></table></figure></div>
-<p>如果中途有停顿,就看看是不是需要输入Y&#x2F;N,如果是就输入Y.<br>安装完成后会出现这样的界面<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/13/OmsaSc.jpg"
-                      alt="TermuxGit"
-                ><br>然后我们将 <strong>The key fingerprint is</strong>上面的文件路径复制,<strong>只需要复制RSA 3072上面的就好了</strong>,比方说我的就是:<strong>&#x2F;data&#x2F;data&#x2F;com.termux&#x2F;files&#x2F;usr&#x2F;etc&#x2F;ssh&#x2F;ssh_host_rsa_key.pub</strong><br><br>然后再你的文件路径前输入一个cat用来读取你的key,比方说我的就是</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">cat /data/data/com.termux/files/usr/etc/ssh/ssh_host_rsa_key.pub</span><br></pre></td></tr></table></figure></div>
-<p>然后就可以看到输出了,是这样的<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/13/Omsowr.jpg"
-                      alt="TermuxGit"
-                ><br>从ssh-rra AAAAB3NzaC1开始到结尾,全都要复制.复制出来的内容是这样的:<br><br>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC5Lh7rLEncm2966k6Flbsf&#x2F;PZva0vK+zUJmiEY&#x2F;GlGwy8JXeynpJER7ZZ30E0Yp3EKtG5YjHaefVr9QtgY7v0yW+&#x2F;vP18mjQMUje66Vo9&#x2F;onEcDU5nhzKxbORcH025bpKfeDK4gz7lP6okuqLsH4utmzbswoAXyKqX+kIaZfPMzvEbj&#x2F;NNEz8WwuR6iIydiwX+qix7FEuntBmU19g5Cbsa542h3xpnJu3BMGMGSwZqsCo50Budkx1H+in4HIWvdFwqsSzGjBejFNm3LvYeZ9rRNyNvXNm7WJWG0kpacI9R9OE752lbz96rvIHqsQvyS9+VqNaQ+n3hQp82vSahnbkf2jZ2AdE1f5ujqdt4TJKTRyUiQ0c1mhTnWLGe2kIVFdSRFodiL78V8O3XYs7&#x2F;BN8T5qbmYASDsed5IB4it8Q0Azn1Ua65dgL1aT3e4kRccxG0hvP+T5KC0mQpoQjerWXbOui+yQRuLCafi3Et0z2lrAz&#x2F;sn9YU1GZyD9NhJivxNk&#x3D; u0_a243@localhost<br><br><br>然后还是打开Gitee,进入设置,点击SSH公钥,将刚才复制的内容粘贴,就好了<br><br>然后是克隆仓库到本地,或者是在本地新建一个仓库.<br></p>
-<h2 id="克隆"><a href="#克隆" class="headerlink" title="克隆"></a>克隆</h2><p>如果你想克隆一个仓库,那么就去你的gitee,或者github或者别的,上面会有提示.比如说我的<br><br>先在Termux输入下面这一串</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &#x27;关轶&#x27; </span><br><span class="line">git config --global user.email &#x27;13339651+guan_yi@user.noreply.gitee.com&#x27;</span><br></pre></td></tr></table></figure></div>
-<p>其中<strong>关轶</strong>是你的用户名,而<strong><a class="link"   href="mailto:&#x31;&#x33;&#51;&#x33;&#57;&#54;&#x35;&#49;&#43;&#103;&#117;&#x61;&#x6e;&#x5f;&#x79;&#105;&#64;&#x75;&#x73;&#x65;&#x72;&#x2e;&#110;&#111;&#114;&#x65;&#x70;&#108;&#121;&#x2e;&#x67;&#105;&#x74;&#101;&#101;&#46;&#x63;&#x6f;&#109;" >&#x31;&#x33;&#51;&#x33;&#57;&#54;&#x35;&#49;&#43;&#103;&#117;&#x61;&#x6e;&#x5f;&#x79;&#105;&#64;&#x75;&#x73;&#x65;&#x72;&#x2e;&#110;&#111;&#114;&#x65;&#x70;&#108;&#121;&#x2e;&#x67;&#105;&#x74;&#101;&#101;&#46;&#x63;&#x6f;&#109; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong>则是你的邮箱.<br><br>然后克隆至本地,cd到你想要克隆的位置,然后输入下面这一串</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone git@gitee.com:Guan_Yi/NineHeaven.git</span><br></pre></td></tr></table></figure></div>
-<p>clone 后面的<strong><a class="link"   href="mailto:&#x67;&#105;&#116;&#64;&#x67;&#105;&#x74;&#x65;&#101;&#x2e;&#x63;&#x6f;&#x6d;" >&#x67;&#105;&#116;&#64;&#x67;&#105;&#x74;&#x65;&#101;&#x2e;&#x63;&#x6f;&#x6d; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>:Guan_Yi&#x2F;NineHeaven.git</strong>是你的仓库地址.最后克隆成功后会是这样的:<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/13/Omsz56.jpg"
-                      alt="TermuxGit"
-                ><br><br></p>
-<h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><p>如果你想在本地创建一个仓库,那么请先cd到你要创建仓库的位置,然后会把当前目录变成一个仓库</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></div>
-<p>不过你也可以这样,与上面的命令不同的是,下面这条命令是在当前的目录下新建一个仓库.</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init [project-name]</span><br></pre></td></tr></table></figure></div>
-<h1 id="其他操作"><a href="#其他操作" class="headerlink" title="其他操作"></a>其他操作</h1>]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Android</category>
-      </categories>
+    <title>Java版Minecraft联机教程</title>
+    <url>/2024/04/19/%E5%A8%B1%E4%B9%90/%E4%BC%91%E9%97%B2%E5%A8%B1%E4%B9%90/%E6%B8%B8%E6%88%8F/Minecraft/Java%E7%89%88Minecraft%E8%81%94%E6%9C%BA%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="局域网联机"><a href="#局域网联机" class="headerlink" title="局域网联机"></a>局域网联机</h1><h2 id="远程局域网联机"><a href="#远程局域网联机" class="headerlink" title="远程局域网联机"></a>远程局域网联机</h2><h1 id="服务器联机hhh"><a href="#服务器联机hhh" class="headerlink" title="服务器联机hhh"></a>服务器联机hhh</h1>]]></content>
       <tags>
-        <tag>Git</tag>
-        <tag>Termux</tag>
-        <tag>Android</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux for Android 的桌面环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<h2 id="本文参考以下文章"><a href="#本文参考以下文章" class="headerlink" title="本文参考以下文章"></a>本文参考以下文章</h2><br>
-有的时候我们不单单需要终端环境的，也需要桌面环境，例如当我们要看视频的时候,或者装逼的时候.<br>
-Android的桌面环境安装相对简单.<br>
-
-<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
-<p>- </p>
-</blockquote>
-<h1 id="脚本安装"><a href="#脚本安装" class="headerlink" title="脚本安装"></a>脚本安装</h1><h1 id="自行安装"><a href="#自行安装" class="headerlink" title="自行安装"></a>自行安装</h1>]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Android</category>
-      </categories>
-      <tags>
-        <tag>Termux</tag>
-        <tag>Android</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux for Android 的终端环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<p>本文参考以下文章：</p>
-<ul>
-<li><a class="link"   href="https://www.sqlsec.com/2018/05/termux.html" >Termux 高级终端安装使用配置教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
-<li><a class="link"   href="https://www.runoob.com/linux/linux-comm-apt.html" >Linux教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
-<li><a class="link"   href="https://www.ruanyifeng.com/blog/2019/09/curl-reference.html" >curl用法指南 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
-</ul>
-<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
-<ul>
-<li><a href="#%E5%89%8D%E7%BD%AE%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C">前置准备工作</a><blockquote>
-<ul>
-<li><a href="#%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE">基础配置</a><blockquote>
-<ul>
-<li><a href="#0-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86">0-基础知识</a><blockquote>
-<ul>
-<li><a href="#Root%E6%9D%83%E9%99%90">Root权限</a><blockquote>
-<ul>
-<li><a href="#%E6%9C%89root">有Root</a></li>
-<li><a href="#%E6%97%A0root">无Root</a></li>
-</ul>
-</blockquote>
-</li>
-<li><a href="#%E5%91%BD%E4%BB%A4">命令</a></li>
-</ul>
-</blockquote>
-</li>
-<li><a href="#1-%E6%8D%A2%E6%BA%90">1-换源</a><blockquote>
-<ul>
-<li><a href="#%E7%AE%80%E5%8D%95%E6%8D%A2%E6%BA%90">简单换源</a></li>
-<li><a href="#%E5%85%B6%E4%BB%96%E6%8D%A2%E6%BA%90">其他换源</a></li>
-</ul>
-</blockquote>
-</li>
-<li><a href="#2-Termux%E7%BE%8E%E5%8C%96">2-Termux美化</a><blockquote>
-<ul>
-<li><a href="#%E7%BB%88%E7%AB%AF%E7%BE%8E%E5%8C%96">终端美化</a></li>
-<li><a href="#%E6%8C%89%E9%94%AE%E6%9B%B4%E6%94%B9%E5%8F%8A%E4%BF%AE%E6%94%B9%E9%97%AE%E5%80%99%E8%AF%AD">按键更改及修改问候语</a></li>
-</ul>
-</blockquote>
-</li>
-</ul>
-</blockquote>
-</li>
-<li><a href="#%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE">编译环境配置</a></li>
-</ul>
-</blockquote>
-</li>
-</ul>
-</blockquote>
-<h1 id="前置准备工作"><a href="#前置准备工作" class="headerlink" title="前置准备工作"></a>前置准备工作</h1><blockquote>
-<ul>
-<li>Termux  <br><blockquote>
-<p>Trmux是一个在Android当中的一个开源的Linux终端软件，这个软件即便没有Root也可以进行许多Linux可以进行的操作。  <br></p>
-<blockquote>
-<ul>
-<li><a class="link"   href="https://f-droid.org/zh_Hans/packages/com.termux/" >Termux F-Droid 下载地址 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US" >Termux Google Play Store 下载地址 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>  <br><br>此外Termux还有第三方修改过的版本，例如ZeroTermux和UTermux。  <br><br>在此只推荐ZeroTermux，并不是很推荐原版Termux以及UTermux。  <br><br>ZeroTermux截至2024年2月14日，推荐最新版本，也就是0.118.38的版本。  <br><br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov65Xg.png"
-                      alt="ZeroTermux0.118.38"
-                ></li>
-<li><a class="link"   href="https://od.ixcmstudio.cn/repository/main/ZeroTermux/" >ZeroTermux 下载地址 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://od.ixcmstudio.cn/utermux/UTermux%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/" >UTermux 下载地址 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>  <br><br>除去Termux本体以外，还有许多Termux的 <strong>“插件”</strong> ，当然这些 <strong>“插件”</strong> 并不是必须的，同时在ZeroTermux当中也提供了非常方便的下载方式。  <br></li>
-<li><a class="link"   href="https://f-droid.org/zh_Hans/packages/com.termux.api/" >Termux API <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.sqlsec.com/2018/05/termuxapi.html" >Termux API使用教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://f-droid.org/zh_Hans/packages/com.termux.boot/" >Termux Boot <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://f-droid.org/zh_Hans/packages/com.termux.styling/" >Termux Styling <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://f-droid.org/zh_Hans/packages/com.termux.tasker/" >Termux Tasker <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a href="">Termux X11</a></li>
-<li><a class="link"   href="https://f-droid.org/zh_Hans/packages/com.termux.window/" >Termux Float <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://f-droid.org/zh_Hans/packages/com.termux.widget/" >Termux Widget <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> <br></li>
-</ul>
-</blockquote>
-</blockquote>
-</li>
-</ul>
-</blockquote>
-<h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><h3 id="0-基础知识"><a href="#0-基础知识" class="headerlink" title="0-基础知识"></a>0-基础知识</h3><p>由于Termux的特殊性，所以和直接在真机上装的Linux中的路径是有些细微的小差别<br></p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="variable">$HOME</span></span><br><span class="line">/data/data/com.termux/files/home</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$PREFIX</span></span><br><span class="line">/data/data/com.termux/files/usr</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$TMPPREFIX</span></span><br><span class="line">/data/data/com.termux/files/usr/tmp/zsh</span><br></pre></td></tr></table></figure></div>
-<h4 id="Root权限"><a href="#Root权限" class="headerlink" title="Root权限"></a>Root权限</h4><p>Android其实相当于是Linux的一个发行版，就是说在Android手机里也拥有Root权限，只不过通常被厂家出厂锁死，例如市面上售卖的华为，小米，红米，oppo，vivo，真我，iqoo等等这些手机，都是出厂没有Root的，一切都需要用户自己获取。简单些的手机可以通过打开开发者选项的oem选项后进行解锁操作，并不是打开后就拥有Root权限，而困难些的手机需要强解，9008等，不同的芯片解锁方式也稍有不同。<br><br>如果你不知道什么是Root权限，也不知道自己是否拥有Root权限，那么查看以下网址以及安装以下应用来确定。<br></p>
-<blockquote>
-<p>当然了，如果你连Root权限是什么都不知道的话，那么你的手机99%也就不会有Root权限。不要觉得自己是那1%，因为如果你已经在安卓设备上Root，手机里必然会有Magisk或者SpuerSu这类软件，如果是旧手机那也必然会有KingRoot，360Root这类软件，并且在运行类似银行软件，支付宝等软件的时候都会无法运行。<br></p>
-<ul>
-<li><a class="link"   href="https://baike.baidu.com/item/root/73226" >Root什么-百度百科 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://t.me/magiskalpha/529" >MoMo4.4.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
-</ul>
-<p>至于你想把你的手机Root，请看下面这个文章<br><br><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E5%88%B7%E6%9C%BA/%E5%88%B7%E6%9C%BA%E6%98%AF%E4%BB%80%E4%B9%88.md" >刷机是什么 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</blockquote>
-<h5 id="有Root"><a href="#有Root" class="headerlink" title="有Root"></a>有Root</h5><p>如果你的手机拥有Root权限,那么可以直接安装tsu来进入Root用户,输入下面的命令即可安装.<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">pkg install tsu</span><br></pre></td></tr></table></figure></div>
-<p>当我们安装完成后会显示这样<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/02/15/OvXO4l.jpg"
-                      alt="tsu1"
-                ><br><br>随后输入 <strong>tsu</strong> 就会进入到Root，输入 <strong>exit</strong> 退出Root，如果是第一次使用ZeroTermux，并且是第一次使用tsu，就会提示是否授权Root权限,这时候给予Root权限就可以了。<br></p>
-<h5 id="无Root"><a href="#无Root" class="headerlink" title="无Root"></a>无Root</h5><p>无Root可以参考<a class="link"   href="https://www.sqlsec.com/2018/05/termux.html#%E6%89%8B%E6%9C%BA%E6%B2%A1%E6%9C%89root" >国光的教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h4 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h4><p>命令是Linux当中不可缺少的部分，其重要程度甚至超过桌面环境。</p>
-<h5 id="Linux命令"><a href="#Linux命令" class="headerlink" title="Linux命令"></a>Linux命令</h5><h5 id="apt常用命令"><a href="#apt常用命令" class="headerlink" title="apt常用命令"></a>apt常用命令</h5><blockquote>
-<ul>
-<li>apt update  (更新源)</li>
-<li>apt search “keyword”  (查找软件包)</li>
-<li>apt upgrade  (升级软件包)</li>
-<li>apt list –installed  (列出所有已安装的包)</li>
-<li>apt list –upgradeable  (列出所有可供更新的软件包)</li>
-<li>apt full-upgrade (升级软件包，升级前先删除需要更新软件包)</li>
-<li>apt install “package_name” (安装包)</li>
-<li>apt install “package_1” “package_2” “package_3”  (安装多个软件包)</li>
-<li>apt update “package_name”  (更新指定软件包)</li>
-<li>apt remove “package_name”  (删除指定软件包)</li>
-<li>apt show “package_name“  (显示指定软件包信息)</li>
-<li>list –all-versions  (显示所有已安装的软件包的版本信息)</li>
-<li>apt autoremove  (删除不再使用的依赖和库文件)</li>
-<li>apt purge “package_name”  (移除软件包及配置文件)</li>
-</ul>
-</blockquote>
-<h5 id="pkg常用命令"><a href="#pkg常用命令" class="headerlink" title="pkg常用命令"></a>pkg常用命令</h5><blockquote>
-<ul>
-<li>pkg search “query”  (搜索包)</li>
-<li>pkg install “package_name”  (安装包)</li>
-<li>pkg uninstall “package_name”  (卸载包)</li>
-<li>pkg reinstall “package_name”  (重新安装包)</li>
-<li>pkg update  (更新源)</li>
-<li>pkg upgrade  (更新软件包)</li>
-<li>pkg list-all  (列出所有可供安装的软件包)</li>
-<li>pkg list-installed  (列出所有已安装的包)</li>
-<li>pkg show “package_name”  (显示某一个包的详细信息)</li>
-<li>pkg files “package_name”  (显示某一个包的相关文件夹路径)</li>
-</ul>
-</blockquote>
-<h5 id="curl常用命令"><a href="#curl常用命令" class="headerlink" title="curl常用命令"></a>curl常用命令</h5><p>请参考阮一峰的这篇文章</p>
-<blockquote>
-<ul>
-<li><a class="link"   href="https://www.ruanyifeng.com/blog/2019/09/curl-reference.html" >curl用法指南 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-</blockquote>
-<h3 id="1-换源"><a href="#1-换源" class="headerlink" title="1-换源"></a>1-换源</h3><h2 id="换源是什么？-镜像源-可以理解为一个市场，而-镜像源-所在的位置不同，下载的速度也不同，由于我们是在中国，所以优先推荐清华源和北京源。"><a href="#换源是什么？-镜像源-可以理解为一个市场，而-镜像源-所在的位置不同，下载的速度也不同，由于我们是在中国，所以优先推荐清华源和北京源。" class="headerlink" title="换源是什么？&gt; 镜像源 可以理解为一个市场，而 镜像源 所在的位置不同，下载的速度也不同，由于我们是在中国，所以优先推荐清华源和北京源。  "></a>换源是什么？<br>&gt; <strong>镜像源</strong> 可以理解为一个市场，而 <strong>镜像源</strong> 所在的位置不同，下载的速度也不同，由于我们是在中国，所以优先推荐清华源和北京源。  </h2><h4 id="简单换源"><a href="#简单换源" class="headerlink" title="简单换源"></a>简单换源</h4><ol>
-<li>先打开ZeroTermux。<br><br> 随后按一下音量加，就会进入到下面这个界面。<br><br> <img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov6TzB.jpg"
-                      alt="Step1"
-                >  </li>
-<li>随后点击切换源，点击后会出现下面这个界面<br><br> <img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov6UJs.jpg"
-                      alt="Step2"
-                >  </li>
-<li>然后随你心意去点击清华源或者北京源这两个源。<br><br> 当出现下面这个界面时，就代表着你已经开始换源了<br><br> <img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov6wjx.jpg"
-                      alt="Step3"
-                ></li>
-<li>接下来就是确认安装的环节<br><br> 一般在Linux下安装一些环境，软件等都是需要确认的，例如你使用的是Deepin系统那么就会要求你验证账户的密码.<br><br> 遇到以下的截图里的情况时，并不是网络问题也不是手机问题，而是需要确认<br><br> <img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov8OUj.jpg"
-                      alt="Step4"
-                ><br> <img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov8ayp.jpg"
-                      alt="Step5"
-                ><br> 如何确认呢，只需要输入Y并回车就可以了。<br><br> 如果换源成功，那么就会是这样的。<br><br> <img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov8osU.jpg"
-                      alt="Step6"
-                ><br> 至此，简单换源这个步骤已经完成。<br></li>
-</ol>
-<h4 id="其他换源"><a href="#其他换源" class="headerlink" title="其他换源"></a>其他换源</h4><p> 如果上面的换源操作失败了,可以尝试一下<a class="link"   href="https://mirrors.tuna.tsinghua.edu.cn/help/termux/" >清华给出的教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
-<blockquote>
-<pre><code>换完源后，可以输入下面这两串命来进行更新源。
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt update</span><br></pre></td></tr></table></figure></div>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">pkg update</span><br></pre></td></tr></table></figure></div>
-</code></pre>
-</blockquote>
-<h3 id="2-Termux美化"><a href="#2-Termux美化" class="headerlink" title="2-Termux美化"></a>2-Termux美化</h3><p>没有Root权限请输入下面这行命令来获取手机的存储权限<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">termux-steup-storage</span><br></pre></td></tr></table></figure></div>
-<h4 id="终端美化"><a href="#终端美化" class="headerlink" title="终端美化"></a>终端美化</h4><p>默认的终端非常难看，所以可以尝试以下美化终端。<br><br>请输入下面这行命令<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)&quot;  </span><br></pre></td></tr></table></figure></div>
-<p>如果出现 <strong>“port 443: Connection refused”</strong> 这样的情况，请使用代理。<br><br>或者使用国光提供的地址<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https://html.sqlsec.com/termux-install.sh)&quot;  </span><br></pre></td></tr></table></figure></div>
-
-<p>当然你可以更改主题，只需要在home路径下vim .zshrc，并把开头的ZSH_THEME&#x3D;”xxx”里的xxx更改为你想要改变的主题文件名就可以了。<br><br>主题位置在 <strong>“&#x2F;home&#x2F;.oh-my-zsh&#x2F;themes”</strong> 里<br><br>如果你想更改字体，请输入<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">~/.termux/colors.sh</span><br></pre></td></tr></table></figure></div>
-<p>如果你想更改色彩样式，请输入<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">~/.termux/fonts.sh</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="按键更改及修改问候语"><a href="#按键更改及修改问候语" class="headerlink" title="按键更改及修改问候语"></a>按键更改及修改问候语</h4><p>请参考国光的教程<a class="link"   href="https://www.sqlsec.com/2018/05/termux.html#%E5%AE%9A%E5%88%B6%E5%B8%B8%E7%94%A8%E6%8C%89%E9%94%AE" >定制常用按键 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></p>
-<h2 id="编译环境配置"><a href="#编译环境配置" class="headerlink" title="编译环境配置"></a>编译环境配置</h2><blockquote>
-<ul>
-<li>在安装完成基础的环境配置之后，可以参考下面的文章进行更进一步的进阶操作。<br><blockquote>
-<ul>
-<li><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux for Android的桌面环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux 服务器环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.md" >Linux 基础配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20C%2B%2B%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux C++编译环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20C%E8%AF%AD%E8%A8%80%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux C语言编译环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20Java%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux Java编译环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20Python%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux Python编译环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-</blockquote>
-</li>
-</ul>
-</blockquote>
-]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Android</category>
-      </categories>
-      <tags>
-        <tag>Termux</tag>
-        <tag>Android</tag>
-        <tag>Linux</tag>
+        <tag>联机</tag>
       </tags>
   </entry>
   <entry>
@@ -866,8 +519,8 @@ Android的桌面环境安装相对简单.<br>
         <category>Linux</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
         <tag>编译环境</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -943,8 +596,8 @@ Android的桌面环境安装相对简单.<br>
         <category>Linux</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
         <tag>编译环境</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -957,8 +610,22 @@ Android的桌面环境安装相对简单.<br>
         <category>Linux</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
         <tag>编译环境</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux 服务器环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>服务器</tag>
       </tags>
   </entry>
   <entry>
@@ -971,27 +638,99 @@ Android的桌面环境安装相对简单.<br>
         <category>Linux</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
         <tag>编译环境</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
-    <title>Linux 基础配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><ul>
-<li><blockquote>
-</blockquote>
-刚安装上的Linux处于一个能用的状态,但是如果想更进一步,那就需要进行自己的配置.</li>
+    <title>Git on Android</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Git%20on%20Andoird/</url>
+    <content><![CDATA[<p>本文参考以下文章:</p>
+<ul>
+<li><a href="">Git</a></li>
 </ul>
-]]></content>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
+<ul>
+<li><a href="#mgit">MGit</a></li>
+<li><a href="#termux">Termux</a><blockquote>
+<ul>
+<li><a href="#%E5%85%8B%E9%9A%86">克隆</a></li>
+<li><a href="#%E5%88%9B%E5%BB%BA">创建</a></li>
+</ul>
+</blockquote>
+</li>
+<li><a href="#%E5%85%B6%E4%BB%96%E6%93%8D%E4%BD%9C">其他操作</a></li>
+</ul>
+</blockquote>
+<h1 id="MGit"><a href="#MGit" class="headerlink" title="MGit"></a>MGit</h1><blockquote>
+<p>Mgit的下载链接:<br><br><a class="link"   href="https://play.google.com/store/apps/details?id=com.manichord.mgit" >Mgit On Google Play Store <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br><a class="link"   href="https://play.google.com/store/apps/details?id=com.manichord.mgit" >Mgit on F-Droid <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br>下载完成后进入到MGit, <strong>点击右上角三个点,进入设置,并把Git配置下的用户名和用户邮箱改成你自己的.</strong><br><br>例如Gitee,用Github或者别的就用别的,先进入网站,随后进入个人设置,或者设置,在基本管理处找到邮箱管理.<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/12/OmE3mL.png"
+                      alt="Gitee"
+                ><br>在我的邮箱地址处就可以看见了.用户名就是你的Gitee的用户名,比如说我的Gitee的用户名是关轶,那么在MGit的Git配置当中的用户名里,就输入关轶,用户邮箱就输入Gitee给你的,或者你自己绑定的就行了.<br><br>随后在 <strong>安全,进入SSH Key,点击右上角的的加号</strong> 文件名随意,其余的默认就行,然后点击,把里面的内容全部复制,然后打开Gitee,还是在设置里,找到SSH公钥,把刚才复制的内容粘贴.随后回到的MGit,复制你仓库的地址,然后选择一个本地路径,克隆就好了.<br><br>想实现多端同步呢,就时不时的拉取和推送一下,这样就ok了.</p>
+</blockquote>
+<h1 id="Termux"><a href="#Termux" class="headerlink" title="Termux"></a>Termux</h1><p>相比较来说呢,Termux的操作难度要比MGit高些许,不过也不是什么大问题.<br>首先进入到你的Termux,如果没有Termux请看 <strong><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux for Android 的终端环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong> <br><br>然后输入</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">pkg install git</span><br></pre></td></tr></table></figure></div>
+<p>如果中途有停顿,就看看是不是需要输入Y&#x2F;N,如果是就输入Y.<br>安装完成后会出现这样的界面<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/13/OmsaSc.jpg"
+                      alt="TermuxGit"
+                ><br>然后我们将 <strong>The key fingerprint is</strong>上面的文件路径复制,<strong>只需要复制RSA 3072上面的就好了</strong>,比方说我的就是:<strong>&#x2F;data&#x2F;data&#x2F;com.termux&#x2F;files&#x2F;usr&#x2F;etc&#x2F;ssh&#x2F;ssh_host_rsa_key.pub</strong><br><br>然后再你的文件路径前输入一个cat用来读取你的key,比方说我的就是</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">cat /data/data/com.termux/files/usr/etc/ssh/ssh_host_rsa_key.pub</span><br></pre></td></tr></table></figure></div>
+<p>然后就可以看到输出了,是这样的<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/13/Omsowr.jpg"
+                      alt="TermuxGit"
+                ><br>从ssh-rra AAAAB3NzaC1开始到结尾,全都要复制.复制出来的内容是这样的:<br><br>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC5Lh7rLEncm2966k6Flbsf&#x2F;PZva0vK+zUJmiEY&#x2F;GlGwy8JXeynpJER7ZZ30E0Yp3EKtG5YjHaefVr9QtgY7v0yW+&#x2F;vP18mjQMUje66Vo9&#x2F;onEcDU5nhzKxbORcH025bpKfeDK4gz7lP6okuqLsH4utmzbswoAXyKqX+kIaZfPMzvEbj&#x2F;NNEz8WwuR6iIydiwX+qix7FEuntBmU19g5Cbsa542h3xpnJu3BMGMGSwZqsCo50Budkx1H+in4HIWvdFwqsSzGjBejFNm3LvYeZ9rRNyNvXNm7WJWG0kpacI9R9OE752lbz96rvIHqsQvyS9+VqNaQ+n3hQp82vSahnbkf2jZ2AdE1f5ujqdt4TJKTRyUiQ0c1mhTnWLGe2kIVFdSRFodiL78V8O3XYs7&#x2F;BN8T5qbmYASDsed5IB4it8Q0Azn1Ua65dgL1aT3e4kRccxG0hvP+T5KC0mQpoQjerWXbOui+yQRuLCafi3Et0z2lrAz&#x2F;sn9YU1GZyD9NhJivxNk&#x3D; u0_a243@localhost<br><br><br>然后还是打开Gitee,进入设置,点击SSH公钥,将刚才复制的内容粘贴,就好了<br><br>然后是克隆仓库到本地,或者是在本地新建一个仓库.<br></p>
+<h2 id="克隆"><a href="#克隆" class="headerlink" title="克隆"></a>克隆</h2><p>如果你想克隆一个仓库,那么就去你的gitee,或者github或者别的,上面会有提示.比如说我的<br><br>先在Termux输入下面这一串</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &#x27;关轶&#x27; </span><br><span class="line">git config --global user.email &#x27;13339651+guan_yi@user.noreply.gitee.com&#x27;</span><br></pre></td></tr></table></figure></div>
+<p>其中<strong>关轶</strong>是你的用户名,而<strong><a class="link"   href="mailto:&#x31;&#x33;&#51;&#x33;&#57;&#54;&#x35;&#49;&#x2b;&#103;&#x75;&#x61;&#110;&#95;&#121;&#105;&#x40;&#x75;&#115;&#x65;&#114;&#x2e;&#110;&#x6f;&#114;&#101;&#x70;&#108;&#121;&#x2e;&#103;&#105;&#x74;&#101;&#x65;&#x2e;&#x63;&#111;&#109;" >&#x31;&#x33;&#51;&#x33;&#57;&#54;&#x35;&#49;&#x2b;&#103;&#x75;&#x61;&#110;&#95;&#121;&#105;&#x40;&#x75;&#115;&#x65;&#114;&#x2e;&#110;&#x6f;&#114;&#101;&#x70;&#108;&#121;&#x2e;&#103;&#105;&#x74;&#101;&#x65;&#x2e;&#x63;&#111;&#109; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong>则是你的邮箱.<br><br>然后克隆至本地,cd到你想要克隆的位置,然后输入下面这一串</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone git@gitee.com:Guan_Yi/NineHeaven.git</span><br></pre></td></tr></table></figure></div>
+<p>clone 后面的<strong><a class="link"   href="mailto:&#x67;&#105;&#116;&#x40;&#x67;&#x69;&#x74;&#101;&#x65;&#x2e;&#99;&#x6f;&#x6d;" >&#x67;&#105;&#116;&#x40;&#x67;&#x69;&#x74;&#101;&#x65;&#x2e;&#99;&#x6f;&#x6d; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>:Guan_Yi&#x2F;NineHeaven.git</strong>是你的仓库地址.最后克隆成功后会是这样的:<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/13/Omsz56.jpg"
+                      alt="TermuxGit"
+                ><br><br></p>
+<h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><p>如果你想在本地创建一个仓库,那么请先cd到你要创建仓库的位置,然后会把当前目录变成一个仓库</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></div>
+<p>不过你也可以这样,与上面的命令不同的是,下面这条命令是在当前的目录下新建一个仓库.</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init [project-name]</span><br></pre></td></tr></table></figure></div>
+<h1 id="其他操作"><a href="#其他操作" class="headerlink" title="其他操作"></a>其他操作</h1>]]></content>
       <categories>
         <category>编程</category>
         <category>环境配置</category>
-        <category>Linux</category>
+        <category>Android</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Termux</tag>
+        <tag>Android</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux on Android 的桌面环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20on%20Android%20%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h2 id="本文参考以下文章"><a href="#本文参考以下文章" class="headerlink" title="本文参考以下文章"></a>本文参考以下文章</h2><br>
+有的时候我们不单单需要终端环境的，也需要桌面环境，例如当我们要看视频的时候,或者装逼的时候.<br>
+Android的桌面环境安装相对简单.<br>
+
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
+<p>- </p>
+</blockquote>
+<h1 id="脚本安装"><a href="#脚本安装" class="headerlink" title="脚本安装"></a>脚本安装</h1><h1 id="自行安装"><a href="#自行安装" class="headerlink" title="自行安装"></a>自行安装</h1>]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Android</category>
       </categories>
       <tags>
         <tag>Linux</tag>
-        <tag>基础配置</tag>
+        <tag>Termux</tag>
+        <tag>Android</tag>
       </tags>
   </entry>
   <entry>
@@ -1106,34 +845,292 @@ Android的桌面环境安装相对简单.<br>
       </tags>
   </entry>
   <entry>
-    <title>Linux 服务器环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[]]></content>
+    <title>Windows on Android 的安装教程</title>
+    <url>/2024/05/29/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Windows%20on%20Android%20%E7%9A%84%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>本文参考以下文章<br><br>那就是没有参考文章,全是官方文档.<br><br>所以,这篇文章就不写了.(滑稽)<br></p>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><h1 id="要用到的东西"><a href="#要用到的东西" class="headerlink" title="要用到的东西"></a>要用到的东西</h1><ul>
+<li><a class="link"   href="https://mindows.cn/" >Mindows <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
+<li>一个Windows镜像,可以在Mindows官网下载.<br></li>
+<li>一个符合条件的设备.可以去Minedows官网查看设备支持列表.<br></li>
+<li>一个出厂系统的镜像.<br></li>
+</ul>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1>]]></content>
       <categories>
         <category>编程</category>
         <category>环境配置</category>
-        <category>Linux</category>
+        <category>Android</category>
+      </categories>
+      <tags>
+        <tag>Android</tag>
+        <tag>WOA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux on Android 的终端环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20on%20Android%20%E7%9A%84%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p>本文参考以下文章：</p>
+<ul>
+<li><a class="link"   href="https://www.sqlsec.com/2018/05/termux.html" >Termux 高级终端安装使用配置教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
+<li><a class="link"   href="https://www.runoob.com/linux/linux-comm-apt.html" >Linux教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
+<li><a class="link"   href="https://www.ruanyifeng.com/blog/2019/09/curl-reference.html" >curl用法指南 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
+</ul>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
+<ul>
+<li><a href="#%E5%89%8D%E7%BD%AE%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C">前置准备工作</a><blockquote>
+<ul>
+<li><a href="#%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE">基础配置</a><blockquote>
+<ul>
+<li><a href="#0-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86">0-基础知识</a><blockquote>
+<ul>
+<li><a href="#Root%E6%9D%83%E9%99%90">Root权限</a><blockquote>
+<ul>
+<li><a href="#%E6%9C%89root">有Root</a></li>
+<li><a href="#%E6%97%A0root">无Root</a></li>
+</ul>
+</blockquote>
+</li>
+<li><a href="#%E5%91%BD%E4%BB%A4">命令</a></li>
+</ul>
+</blockquote>
+</li>
+<li><a href="#1-%E6%8D%A2%E6%BA%90">1-换源</a><blockquote>
+<ul>
+<li><a href="#%E7%AE%80%E5%8D%95%E6%8D%A2%E6%BA%90">简单换源</a></li>
+<li><a href="#%E5%85%B6%E4%BB%96%E6%8D%A2%E6%BA%90">其他换源</a></li>
+</ul>
+</blockquote>
+</li>
+<li><a href="#2-Termux%E7%BE%8E%E5%8C%96">2-Termux美化</a><blockquote>
+<ul>
+<li><a href="#%E7%BB%88%E7%AB%AF%E7%BE%8E%E5%8C%96">终端美化</a></li>
+<li><a href="#%E6%8C%89%E9%94%AE%E6%9B%B4%E6%94%B9%E5%8F%8A%E4%BF%AE%E6%94%B9%E9%97%AE%E5%80%99%E8%AF%AD">按键更改及修改问候语</a></li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><a href="#%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE">编译环境配置</a></li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+<h1 id="前置准备工作"><a href="#前置准备工作" class="headerlink" title="前置准备工作"></a>前置准备工作</h1><blockquote>
+<ul>
+<li>Termux  <br><blockquote>
+<p>Trmux是一个在Android当中的一个开源的Linux终端软件，这个软件即便没有Root也可以进行许多Linux可以进行的操作。  <br></p>
+<blockquote>
+<ul>
+<li><a class="link"   href="https://f-droid.org/zh_Hans/packages/com.termux/" >Termux F-Droid 下载地址 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US" >Termux Google Play Store 下载地址 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>  <br><br>此外Termux还有第三方修改过的版本，例如ZeroTermux和UTermux。  <br><br>在此只推荐ZeroTermux，并不是很推荐原版Termux以及UTermux。  <br><br>ZeroTermux截至2024年2月14日，推荐最新版本，也就是0.118.38的版本。  <br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov65Xg.png"
+                      alt="ZeroTermux0.118.38"
+                ></li>
+<li><a class="link"   href="https://od.ixcmstudio.cn/repository/main/ZeroTermux/" >ZeroTermux 下载地址 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://od.ixcmstudio.cn/utermux/UTermux%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/" >UTermux 下载地址 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>  <br><br>除去Termux本体以外，还有许多Termux的 <strong>“插件”</strong> ，当然这些 <strong>“插件”</strong> 并不是必须的，同时在ZeroTermux当中也提供了非常方便的下载方式。  <br></li>
+<li><a class="link"   href="https://f-droid.org/zh_Hans/packages/com.termux.api/" >Termux API <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.sqlsec.com/2018/05/termuxapi.html" >Termux API使用教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://f-droid.org/zh_Hans/packages/com.termux.boot/" >Termux Boot <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://f-droid.org/zh_Hans/packages/com.termux.styling/" >Termux Styling <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://f-droid.org/zh_Hans/packages/com.termux.tasker/" >Termux Tasker <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a href="">Termux X11</a></li>
+<li><a class="link"   href="https://f-droid.org/zh_Hans/packages/com.termux.window/" >Termux Float <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://f-droid.org/zh_Hans/packages/com.termux.widget/" >Termux Widget <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> <br></li>
+</ul>
+</blockquote>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+<h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><h3 id="0-基础知识"><a href="#0-基础知识" class="headerlink" title="0-基础知识"></a>0-基础知识</h3><p>由于Termux的特殊性，所以和直接在真机上装的Linux中的路径是有些细微的小差别<br></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="variable">$HOME</span></span><br><span class="line">/data/data/com.termux/files/home</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$PREFIX</span></span><br><span class="line">/data/data/com.termux/files/usr</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$TMPPREFIX</span></span><br><span class="line">/data/data/com.termux/files/usr/tmp/zsh</span><br></pre></td></tr></table></figure></div>
+<h4 id="Root权限"><a href="#Root权限" class="headerlink" title="Root权限"></a>Root权限</h4><p>Android其实相当于是Linux的一个发行版，就是说在Android手机里也拥有Root权限，只不过通常被厂家出厂锁死，例如市面上售卖的华为，小米，红米，oppo，vivo，真我，iqoo等等这些手机，都是出厂没有Root的，一切都需要用户自己获取。简单些的手机可以通过打开开发者选项的oem选项后进行解锁操作，并不是打开后就拥有Root权限，而困难些的手机需要强解，9008等，不同的芯片解锁方式也稍有不同。<br><br>如果你不知道什么是Root权限，也不知道自己是否拥有Root权限，那么查看以下网址以及安装以下应用来确定。<br></p>
+<blockquote>
+<p>当然了，如果你连Root权限是什么都不知道的话，那么你的手机99%也就不会有Root权限。不要觉得自己是那1%，因为如果你已经在安卓设备上Root，手机里必然会有Magisk或者SpuerSu这类软件，即便没有那也必然会有KingRoot，360Root这类软件，并且在运行类似银行软件，支付宝等软件的时候都会无法运行。<br></p>
+<ul>
+<li><a class="link"   href="https://baike.baidu.com/item/root/73226" >Root什么-百度百科 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://t.me/magiskalpha/529" >MoMo4.4.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
+</ul>
+</blockquote>
+<h5 id="有Root"><a href="#有Root" class="headerlink" title="有Root"></a>有Root</h5><p>如果你的手机拥有Root权限,那么可以直接安装tsu来进入Root用户,输入下面的命令即可安装.<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">pkg install tsu</span><br></pre></td></tr></table></figure></div>
+<p>当我们安装完成后会显示这样<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/02/15/OvXO4l.jpg"
+                      alt="tsu1"
+                ><br><br>随后输入 <strong>tsu</strong> 就会进入到Root，输入 <strong>exit</strong> 退出Root，如果是第一次使用ZeroTermux，并且是第一次使用tsu，就会提示是否授权Root权限,这时候给予Root权限就可以了。<br></p>
+<h5 id="无Root"><a href="#无Root" class="headerlink" title="无Root"></a>无Root</h5><p>无Root可以参考<a class="link"   href="https://www.sqlsec.com/2018/05/termux.html#%E6%89%8B%E6%9C%BA%E6%B2%A1%E6%9C%89root" >国光的教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h4 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h4><p>命令是Linux当中不可缺少的部分.</p>
+<h5 id="Linux命令"><a href="#Linux命令" class="headerlink" title="Linux命令"></a>Linux命令</h5><h5 id="apt常用命令"><a href="#apt常用命令" class="headerlink" title="apt常用命令"></a>apt常用命令</h5><blockquote>
+<ul>
+<li>apt update  (更新源)</li>
+<li>apt search “keyword”  (查找软件包)</li>
+<li>apt upgrade  (升级软件包)</li>
+<li>apt list –installed  (列出所有已安装的包)</li>
+<li>apt list –upgradeable  (列出所有可供更新的软件包)</li>
+<li>apt full-upgrade (升级软件包，升级前先删除需要更新软件包)</li>
+<li>apt install “package_name” (安装包)</li>
+<li>apt install “package_1” “package_2” “package_3”  (安装多个软件包)</li>
+<li>apt update “package_name”  (更新指定软件包)</li>
+<li>apt remove “package_name”  (删除指定软件包)</li>
+<li>apt show “package_name“  (显示指定软件包信息)</li>
+<li>list –all-versions  (显示所有已安装的软件包的版本信息)</li>
+<li>apt autoremove  (删除不再使用的依赖和库文件)</li>
+<li>apt purge “package_name”  (移除软件包及配置文件)</li>
+</ul>
+</blockquote>
+<h5 id="pkg常用命令"><a href="#pkg常用命令" class="headerlink" title="pkg常用命令"></a>pkg常用命令</h5><blockquote>
+<ul>
+<li>pkg search “query”  (搜索包)</li>
+<li>pkg install “package_name”  (安装包)</li>
+<li>pkg uninstall “package_name”  (卸载包)</li>
+<li>pkg reinstall “package_name”  (重新安装包)</li>
+<li>pkg update  (更新源)</li>
+<li>pkg upgrade  (更新软件包)</li>
+<li>pkg list-all  (列出所有可供安装的软件包)</li>
+<li>pkg list-installed  (列出所有已安装的包)</li>
+<li>pkg show “package_name”  (显示某一个包的详细信息)</li>
+<li>pkg files “package_name”  (显示某一个包的相关文件夹路径)</li>
+</ul>
+</blockquote>
+<h5 id="curl常用命令"><a href="#curl常用命令" class="headerlink" title="curl常用命令"></a>curl常用命令</h5><p>请参考阮一峰的这篇文章</p>
+<blockquote>
+<ul>
+<li><a class="link"   href="https://www.ruanyifeng.com/blog/2019/09/curl-reference.html" >curl用法指南 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+</blockquote>
+<h3 id="1-换源"><a href="#1-换源" class="headerlink" title="1-换源"></a>1-换源</h3><h2 id="换源是什么？-镜像源-可以理解为一个市场，而-镜像源-所在的位置不同，下载的速度也不同，由于我们是在中国，所以优先推荐清华源和北京源。"><a href="#换源是什么？-镜像源-可以理解为一个市场，而-镜像源-所在的位置不同，下载的速度也不同，由于我们是在中国，所以优先推荐清华源和北京源。" class="headerlink" title="换源是什么？&gt; 镜像源 可以理解为一个市场，而 镜像源 所在的位置不同，下载的速度也不同，由于我们是在中国，所以优先推荐清华源和北京源。  "></a>换源是什么？<br>&gt; <strong>镜像源</strong> 可以理解为一个市场，而 <strong>镜像源</strong> 所在的位置不同，下载的速度也不同，由于我们是在中国，所以优先推荐清华源和北京源。  </h2><h4 id="简单换源"><a href="#简单换源" class="headerlink" title="简单换源"></a>简单换源</h4><ol>
+<li>先打开ZeroTermux。<br><br> 随后按一下音量加，就会进入到下面这个界面。<br><br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov6TzB.jpg"
+                      alt="Step1"
+                >  </li>
+<li>随后点击切换源，点击后会出现下面这个界面<br><br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov6UJs.jpg"
+                      alt="Step2"
+                >  </li>
+<li>然后随你心意去点击清华源或者北京源这两个源。<br><br> 当出现下面这个界面时，就代表着你已经开始换源了<br><br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov6wjx.jpg"
+                      alt="Step3"
+                ></li>
+<li>接下来就是确认安装的环节<br><br> 一般在Linux下安装一些环境，软件等都是需要确认的，例如你使用的是Deepin系统那么就会要求你验证账户的密码.<br><br> 遇到以下的截图里的情况时，并不是网络问题也不是手机问题，而是需要确认<br><br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov8OUj.jpg"
+                      alt="Step4"
+                ><br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov8ayp.jpg"
+                      alt="Step5"
+                ><br> 如何确认呢，只需要输入Y并回车就可以了。<br><br> 如果换源成功，那么就会是这样的。<br><br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov8osU.jpg"
+                      alt="Step6"
+                ><br> 至此，简单换源这个步骤已经完成。<br></li>
+</ol>
+<h4 id="其他换源"><a href="#其他换源" class="headerlink" title="其他换源"></a>其他换源</h4><p> 如果上面的换源操作失败了,可以尝试一下<a class="link"   href="https://mirrors.tuna.tsinghua.edu.cn/help/termux/" >清华给出的教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
+<blockquote>
+<pre><code>换完源后，可以输入下面这两串命来进行更新源。
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt update</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">pkg update</span><br></pre></td></tr></table></figure></div>
+</code></pre>
+</blockquote>
+<h3 id="2-Termux美化"><a href="#2-Termux美化" class="headerlink" title="2-Termux美化"></a>2-Termux美化</h3><p>没有Root权限请输入下面这行命令来获取手机的存储权限<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">termux-steup-storage</span><br></pre></td></tr></table></figure></div>
+<h4 id="终端美化"><a href="#终端美化" class="headerlink" title="终端美化"></a>终端美化</h4><p>默认的终端非常难看，所以可以尝试以下美化终端。<br><br>请输入下面这行命令<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)&quot;  </span><br></pre></td></tr></table></figure></div>
+<p>如果出现 <strong>“port 443: Connection refused”</strong> 这样的情况，请使用代理。<br><br>或者使用国光提供的地址<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https://html.sqlsec.com/termux-install.sh)&quot;  </span><br></pre></td></tr></table></figure></div>
+
+<p>当然你可以更改主题，只需要在home路径下vim .zshrc，并把开头的ZSH_THEME&#x3D;”xxx”里的xxx更改为你想要改变的主题文件名就可以了。<br><br>主题位置在 <strong>“&#x2F;home&#x2F;.oh-my-zsh&#x2F;themes”</strong> 里<br><br>如果你想更改字体，请输入<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">~/.termux/colors.sh</span><br></pre></td></tr></table></figure></div>
+<p>如果你想更改色彩样式，请输入<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">~/.termux/fonts.sh</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="按键更改及修改问候语"><a href="#按键更改及修改问候语" class="headerlink" title="按键更改及修改问候语"></a>按键更改及修改问候语</h4><p>请参考国光的教程<a class="link"   href="https://www.sqlsec.com/2018/05/termux.html#%E5%AE%9A%E5%88%B6%E5%B8%B8%E7%94%A8%E6%8C%89%E9%94%AE" >定制常用按键 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></p>
+<h2 id="编译环境配置"><a href="#编译环境配置" class="headerlink" title="编译环境配置"></a>编译环境配置</h2><blockquote>
+<ul>
+<li>在安装完成基础的环境配置之后，可以参考下面的文章进行更进一步的进阶操作。<br><blockquote>
+<ul>
+<li><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux for Android的桌面环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux 服务器环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20C%2B%2B%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux C++编译环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20C%E8%AF%AD%E8%A8%80%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux C语言编译环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20Java%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux Java编译环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20Python%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux Python编译环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Android</category>
       </categories>
       <tags>
         <tag>Linux</tag>
-        <tag>服务器</tag>
+        <tag>Termux</tag>
+        <tag>Android</tag>
       </tags>
   </entry>
   <entry>
     <title>在Windows上制作Linux to go</title>
     <url>/2024/04/25/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/%E5%9C%A8Windows%E4%B8%8A%E5%88%B6%E4%BD%9CLinux%20to%20go/</url>
-    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>在某些时候使用Windows时，总是觉得Windows不够开放，不够自由的时候，该怎么办呢？<br>当然是装一个Linux，装Linux的途径有很多，可以通过虚拟机使用，也可以装到U盘里，随身携带使用。<br>接下来即是装到U盘的教程。</p>
+    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>在某些时候使用Windows时，总是觉得Windows不够开放，不够自由的时候，该怎么办呢？<br>当然是装一个Linux，装Linux的途径有很多，可以通过虚拟机使用，也可以装到U盘里，随身携带使用。<br>接下来即是装到U盘的教程。</p>
 <hr>
-<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="这里使用的是Deepin作为示例"><a href="#这里使用的是Deepin作为示例" class="headerlink" title="这里使用的是Deepin作为示例"></a>这里使用的是Deepin作为示例</h3><h3 id="1-一台搭载了Windows的电脑"><a href="#1-一台搭载了Windows的电脑" class="headerlink" title="1. 一台搭载了Windows的电脑"></a>1. 一台搭载了Windows的电脑</h3><p>2023年，除苹果外绝大部份电脑搭载的都是Windows系统，如果不清楚，则可以去设置里找到关于设备里查看。</p>
-<h3 id="2-一个不低于8G的U盘"><a href="#2-一个不低于8G的U盘" class="headerlink" title="2. 一个不低于8G的U盘"></a>2. 一个不低于8G的U盘</h3><p>这个U盘没有速度要求，一般来说只是一个启动盘。</p>
-<h3 id="3-一个Linux镜像"><a href="#3-一个Linux镜像" class="headerlink" title="3. 一个Linux镜像"></a>3. 一个Linux镜像</h3><p>如果没有Linux镜像，去这里<br>[[生活-构思&#x2F;应对季&#x2F;生活&#x2F;兴趣爱好&#x2F;计算机&#x2F;Linux&#x2F;安装Linux&#x2F;Linux镜像|Linux镜像]]<br>社区人比较多的应该是Ubuntu和Debian，也可以使用国产的深度操作系统，也就是Deepin，Deepin是基于Debian的，所以理论Debian论坛也可以使用。</p>
-<h3 id="4-一个3-0以上的U盘-虚拟机"><a href="#4-一个3-0以上的U盘-虚拟机" class="headerlink" title="4. 一个3.0以上的U盘&#x2F;虚拟机"></a>4. 一个3.0以上的U盘&#x2F;虚拟机</h3><h4 id="U盘"><a href="#U盘" class="headerlink" title="U盘"></a>U盘</h4><p>一般3.0的U盘都是蓝口的，就像这样<br>![[Obsidian附件&#x2F;IMG_2023-06-30-23-47-08-121.jpg]]<br>当然如果不确定的话，可以用软件来测试<br>CrystalDiskMark<br><a class="link"   href="https://crystalmark.info/en/software/crystaldiskmark/" >https://crystalmark.info/en/software/crystaldiskmark/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>具体速度要求大概是这样<br>![[Obsidian附件&#x2F;6_96ANA4WNNUCH5UE.png]]<br>读取达到100，写入达到50。<br>说不定读取100，写入30也可以。<br>SD卡加转接器也可以。</p>
-<h4 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a>虚拟机</h4><p>使用Virtualbox<br><a class="link"   href="https://www.virtualbox.org/" >https://www.virtualbox.org/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><h2 id="1-一台搭载了Windows的电脑"><a href="#1-一台搭载了Windows的电脑" class="headerlink" title="1. 一台搭载了Windows的电脑"></a>1. 一台搭载了Windows的电脑</h2><p>2023年，除苹果外绝大部份电脑搭载的都是Windows系统，如果不清楚，则可以去设置里找到关于设备里查看。</p>
+<h2 id="2-一个不低于8G的U盘"><a href="#2-一个不低于8G的U盘" class="headerlink" title="2. 一个不低于8G的U盘"></a>2. 一个不低于8G的U盘</h2><p>这个U盘没有速度要求，一般来说只是一个启动盘。</p>
+<h2 id="3-一个Linux镜像"><a href="#3-一个Linux镜像" class="headerlink" title="3. 一个Linux镜像"></a>3. 一个Linux镜像</h2><p>如果没有Linux镜像，去这里<br>社区人比较多的应该是Ubuntu和Debian，也可以使用国产的深度操作系统，也就是Deepin，Deepin是基于Debian的，所以理论Debian论坛也可以使用。</p>
+<h2 id="4-一个3-0以上的U盘-虚拟机"><a href="#4-一个3-0以上的U盘-虚拟机" class="headerlink" title="4. 一个3.0以上的U盘&#x2F;虚拟机"></a>4. 一个3.0以上的U盘&#x2F;虚拟机</h2><h3 id="U盘"><a href="#U盘" class="headerlink" title="U盘"></a>U盘</h3><p>一般3.0的U盘都是蓝口的，就像这样<br>![[Obsidian附件&#x2F;IMG_2023-06-30-23-47-08-121.jpg]]<br>当然如果不确定的话，可以用软件来测试<br>CrystalDiskMark<br><a class="link"   href="https://crystalmark.info/en/software/crystaldiskmark/" >https://crystalmark.info/en/software/crystaldiskmark/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>具体速度要求大概是这样<br>![[Obsidian附件&#x2F;6_96ANA4WNNUCH5UE.png]]<br>读取达到100，写入达到50。<br>说不定读取100，写入30也可以。<br>SD卡加转接器也可以。</p>
+<h3 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a>虚拟机</h3><p>使用Virtualbox<br><a class="link"   href="https://www.virtualbox.org/" >https://www.virtualbox.org/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <hr>
 <h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><h3 id="U盘启动盘"><a href="#U盘启动盘" class="headerlink" title="U盘启动盘"></a>U盘启动盘</h3>]]></content>
       <categories>
         <category>教程</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Git基础教程</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E5%91%BD%E4%BB%A4/Git/Git%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>本文参考以下文章:</p>
+<ul>
+<li><a class="link"   href="https://oschina.gitee.io/learn-git-branching/" >Git命令学习 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p>Git基础命令</p>
+<ul>
+<li><h2 id="提交"><a href="#提交" class="headerlink" title="提交"></a>提交</h2></li>
+</ul>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git commit</span><br></pre></td></tr></table></figure></div>
+<ul>
+<li><h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2></li>
+</ul>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git branch</span><br></pre></td></tr></table></figure></div>
+<ul>
+<li><h2 id=""><a href="#" class="headerlink" title=""></a></h2></li>
+</ul>
+]]></content>
+      <categories>
+        <category>编程</category>
+        <category>命令</category>
+        <category>Git</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>基础教程</tag>
+      </tags>
   </entry>
   <entry>
     <title>HTML入门</title>
@@ -1232,7 +1229,15 @@ Android的桌面环境安装相对简单.<br>
     <url>/2024/04/21/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E8%AF%AD%E8%A8%80/%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/C%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8/</url>
     <content><![CDATA[<p>本文参考以下文章</p>
 <h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p>- </p>
-<h2 id="第一个C语言代码"><a href="#第一个C语言代码" class="headerlink" title="第一个C语言代码"></a>第一个C语言代码</h2>]]></content>
+<h2 id="第一个C语言代码"><a href="#第一个C语言代码" class="headerlink" title="第一个C语言代码"></a>第一个C语言代码</h2><pre><code class="c">#include &lt;stdio.h&gt; //整个语句代表有关的预处理操作,include是文件包含命令,stdio.h是一个头文件.
+
+int main() //整个语句代表着函数头,int表示定义整形.也就是说,整个函数体只能返回一个整形.
+&#123;
+    printf(&quot;Hello World&quot;); //输出
+    return 0; //结束程序
+&#125;
+</code></pre>
+]]></content>
       <categories>
         <category>编程</category>
         <category>语言</category>
