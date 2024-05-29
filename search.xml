@@ -46,6 +46,14 @@
       </tags>
   </entry>
   <entry>
+    <title>Unity基础教程</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C/Unity/Unity%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>游戏引擎</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>利用VPS搭建VPN</title>
     <url>/2024/05/15/%E5%AD%A6%E4%B9%A0/%E7%BD%91%E7%BB%9C/VPN/%E5%88%A9%E7%94%A8VPS%E6%90%AD%E5%BB%BAVPN/</url>
     <content><![CDATA[<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
@@ -412,22 +420,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Unity基础教程</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C/Unity/Unity%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>游戏引擎</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java版Minecraft联机教程</title>
-    <url>/2024/04/19/%E5%A8%B1%E4%B9%90/%E4%BC%91%E9%97%B2%E5%A8%B1%E4%B9%90/%E6%B8%B8%E6%88%8F/Minecraft/Java%E7%89%88Minecraft%E8%81%94%E6%9C%BA%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<h1 id="局域网联机"><a href="#局域网联机" class="headerlink" title="局域网联机"></a>局域网联机</h1><h2 id="远程局域网联机"><a href="#远程局域网联机" class="headerlink" title="远程局域网联机"></a>远程局域网联机</h2><h1 id="服务器联机hhh"><a href="#服务器联机hhh" class="headerlink" title="服务器联机hhh"></a>服务器联机hhh</h1>]]></content>
-      <tags>
-        <tag>联机</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>心跳</title>
     <url>/2024/05/29/%E5%AD%A6%E4%B9%A0/%E6%96%87%E5%AD%A6/%E6%9C%9D%E5%8D%97%E6%9D%82%E8%AE%B0/%E5%BF%83%E8%B7%B3/%E5%BF%83%E8%B7%B3%20%E4%B8%8A/</url>
     <content><![CDATA[<p>Created: May 9, 2023 2:03 PM<br></p>
@@ -526,6 +518,302 @@
       </tags>
   </entry>
   <entry>
+    <title>Linux Java编译环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20Java%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>编译环境</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux C++编译环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20C++%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p>安装g++</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install g++</span><br></pre></td></tr></table></figure></div>
+<p>然后出现类似于下面这个图片里的内容,就说明你已经安装成功了.<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyKeb.png"
+                      alt="c language version"
+                ><br>随后让我们在终端里尝试一下,能不能成功.<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">touch 文件名</span><br></pre></td></tr></table></figure></div>
+<p>然后使用vim来进行编辑源文件,当然如果你有别的编辑器,例如nano之类的,就输入<strong>nano 文件名</strong>来进行编辑.<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">vim 文件名</span><br></pre></td></tr></table></figure></div>
+<p>编辑好以后,输入<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">g++ 文件名 -o 可执行文件名</span><br></pre></td></tr></table></figure></div>
+<p>然后我们运行你的程序<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">./可执行文件名</span><br></pre></td></tr></table></figure></div>]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>编译环境</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux C语言编译环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20C%E8%AF%AD%E8%A8%80%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p>本文参考以下文章</p>
+<ul>
+<li><a href="">Linux</a><br></li>
+</ul>
+<blockquote>
+<p>配置教程分为两部分。<br><br>一部分为终端环境的配置，这部分主要环绕着Linux的终端环境来说，另一部分是Linux桌面环境的编译教程.二者其实大差不差吧.<br><br>如果你想在Android当中码代码，请转到 ↓ <br><br><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux for Android 的终端环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></p>
+</blockquote>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
+<ul>
+<li><a href="#linux-c%E8%AF%AD%E8%A8%80%E7%BB%88%E7%AB%AF%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B">Linux C语言终端编译环境配置教程</a><blockquote>
+<ul>
+<li><a href="#clang%E7%BC%96%E8%AF%91">Clang编译</a></li>
+<li><a href="#gcc%E7%BC%96%E8%AF%91">gcc编译</a></li>
+<li><a href="#%E6%B5%8B%E8%AF%95">测试</a></li>
+</ul>
+</blockquote>
+</li>
+<li><a href="#linux-c%E8%AF%AD%E8%A8%80%E6%A1%8C%E9%9D%A2%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B">Linux C语言桌面编译环境配置教程</a></li>
+</ul>
+</blockquote>
+<h1 id="Linux-C语言终端编译环境配置教程"><a href="#Linux-C语言终端编译环境配置教程" class="headerlink" title="Linux C语言终端编译环境配置教程"></a>Linux C语言终端编译环境配置教程</h1><h2 id="clang编译"><a href="#clang编译" class="headerlink" title="clang编译"></a>clang编译</h2><h2 id="TermuxTermux如果不安装完整系统是无法安装gcc和g-的-如果你要使用这些编译环境-那么有两种办法-Termux安装完整LinuxAid-LearningUbuntu-gcc编译Ubuntu-测试随后检查一下版本-如果你是clang就输入-clang-–version如果你是gcc就输入-gcc-–version然后出现类似于下面这个图片里的内容-就说明你已经安装成功了-随后让我们在终端里尝试一下-能不能成功-先输入-touch-文件名然后vim-文件名-如果没有vim-那就用下面这个命令安装一下进入到vim的界面后-输入-i-进行编辑-编辑完成后-按-esc-然后输入-wq-然后回车-就可以退出vim的界面了-随后是编译-如果你是clang-就输入-clang-文件名-o-可执行文件名如果你是gcc-就输入-gcc-文件名-o-可执行文件名随后输入-可执行文件名随后-你就可以看到输出了-Linux-C语言桌面编译环境配置教程-随后是桌面环境-桌面环境并不是必要的-如果觉得麻烦可以不做这一步-在-Android-上-如果你用的是termux-在安装完整版的linux之后请跟着这个教程-Linux-for-Android的桌面环境配置如果你用的是Aid-Learning-那么请看这个教程-AidLux文档在-Windows或者Linux上-桌面环境通常是自带的-如果没有自带-请查看官方文档"><a href="#TermuxTermux如果不安装完整系统是无法安装gcc和g-的-如果你要使用这些编译环境-那么有两种办法-Termux安装完整LinuxAid-LearningUbuntu-gcc编译Ubuntu-测试随后检查一下版本-如果你是clang就输入-clang-–version如果你是gcc就输入-gcc-–version然后出现类似于下面这个图片里的内容-就说明你已经安装成功了-随后让我们在终端里尝试一下-能不能成功-先输入-touch-文件名然后vim-文件名-如果没有vim-那就用下面这个命令安装一下进入到vim的界面后-输入-i-进行编辑-编辑完成后-按-esc-然后输入-wq-然后回车-就可以退出vim的界面了-随后是编译-如果你是clang-就输入-clang-文件名-o-可执行文件名如果你是gcc-就输入-gcc-文件名-o-可执行文件名随后输入-可执行文件名随后-你就可以看到输出了-Linux-C语言桌面编译环境配置教程-随后是桌面环境-桌面环境并不是必要的-如果觉得麻烦可以不做这一步-在-Android-上-如果你用的是termux-在安装完整版的linux之后请跟着这个教程-Linux-for-Android的桌面环境配置如果你用的是Aid-Learning-那么请看这个教程-AidLux文档在-Windows或者Linux上-桌面环境通常是自带的-如果没有自带-请查看官方文档" class="headerlink" title="TermuxTermux如果不安装完整系统是无法安装gcc和g++的,如果你要使用这些编译环境,那么有两种办法.Termux安装完整LinuxAid LearningUbuntu## gcc编译Ubuntu## 测试随后检查一下版本.如果你是clang就输入 clang –version如果你是gcc就输入 gcc –version然后出现类似于下面这个图片里的内容,就说明你已经安装成功了.随后让我们在终端里尝试一下,能不能成功.先输入 touch 文件名然后vim 文件名 ,如果没有vim,那就用下面这个命令安装一下进入到vim的界面后,输入 i 进行编辑.编辑完成后,按 esc ,然后输入 :wq,然后回车,就可以退出vim的界面了.随后是编译,如果你是clang,就输入 clang 文件名 -o 可执行文件名如果你是gcc,就输入 gcc 文件名 -o 可执行文件名随后输入.&#x2F;可执行文件名随后,你就可以看到输出了.# Linux C语言桌面编译环境配置教程&gt; 随后是桌面环境,桌面环境并不是必要的,如果觉得麻烦可以不做这一步.在 Android 上,如果你用的是termux,在安装完整版的linux之后请跟着这个教程 Linux for Android的桌面环境配置如果你用的是Aid Learning,那么请看这个教程 AidLux文档在 Windows或者Linux上,桌面环境通常是自带的,如果没有自带,请查看官方文档."></a>Termux<br><br>Termux如果不安装完整系统是无法安装gcc和g++的,如果你要使用这些编译环境,那么有两种办法.<br><br><a href="">Termux安装完整Linux</a><br><br><a class="link"   href="https://zhuanlan.zhihu.com/p/92161002" >Aid Learning <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">pkg install clang</span><br></pre></td></tr></table></figure></div><br>Ubuntu<br><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install clang</span><br></pre></td></tr></table></figure></div><br>## gcc编译<br>Ubuntu<br><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install gcc</span><br></pre></td></tr></table></figure></div><br>## 测试<br>随后检查一下版本.<br><br>如果你是clang就输入 <strong>clang –version</strong><br><br>如果你是gcc就输入 <strong>gcc –version</strong><br><br>然后出现类似于下面这个图片里的内容,就说明你已经安装成功了.<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyKeb.png"
+                      alt="c language version"
+                ><br>随后让我们在终端里尝试一下,能不能成功.<br><br>先输入 <strong>touch 文件名</strong><br><br>然后<strong>vim 文件名</strong> ,如果没有vim,那就用下面这个命令安装一下<br><br><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install vim</span><br></pre></td></tr></table></figure></div><br>进入到vim的界面后,输入 <strong>i</strong> 进行编辑.<br><br>编辑完成后,按 <strong>esc</strong> ,然后输入 <strong>:wq</strong>,然后回车,就可以退出vim的界面了.<br><br>随后是编译,如果你是clang,就输入 <strong>clang 文件名 -o 可执行文件名</strong><br><br>如果你是gcc,就输入 <strong>gcc 文件名 -o 可执行文件名</strong><br><br>随后输入.&#x2F;可执行文件名<br><br>随后,你就可以看到输出了.<br><br># Linux C语言桌面编译环境配置教程<br>&gt; 随后是桌面环境,桌面环境并不是必要的,如果觉得麻烦可以不做这一步.<br><br>在 <strong>Android</strong> 上,如果你用的是termux,在安装完整版的linux之后请跟着这个教程 <strong><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux for Android的桌面环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong><br><br>如果你用的是Aid Learning,那么请看这个教程 <strong><a class="link"   href="https://docs.aidlux.com/#/" >AidLux文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong><br><br>在 <strong>Windows或者Linux上</strong>,桌面环境通常是自带的,如果没有自带,请查看官方文档.<br></h2><p>首先,我们下载一个vscode,这是我认为比较好用的编辑器,当然你也可以用其他的编辑器.<br><br>下载完成后,使用 <strong>cd</strong> 命令cd到你存放vscode安装包的目录,然后输入<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo dpkg -i 安装包名</span><br></pre></td></tr></table></figure></div>
+<p>等到安装完成后,渠道你的应用列表.找到Visual Studio Code,点击进去,你会看到这个界面.<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyPWa.png"
+                      alt="VSCode"
+                ><br>然后点击左边的四个方框,进入扩展界面,搜索Chinese<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/09/OmytsN.png"
+                      alt="VScode"
+                ><br>点击install<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyRyS.png"
+                      alt="VScode"
+                ><br>在右下角会出现一个change language and restart,点击它,随后vscode会重启,重启过后就是中文了.<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyDaC.png"
+                      alt="VScode"
+                ><br>点击打开文件夹,随意你选一个文件夹.<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyHeL.png"
+                      alt="VScode"
+                ><br>把信任父文件夹中的所有文件夹打勾,然后点击是,我信任此作者.<br>随后新建一个文件,输入代码.<br><br>随后点击右上角的三角形.<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyEIX.png"
+                      alt="VScode"
+                ><br>选择第一个.<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyQht.png"
+                      alt="VScode"
+                ><br>在下面的终端里,你就可以看见你输出的东西了.</p>
+]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>编译环境</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux 服务器环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux Python编译环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20Python%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>编译环境</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows的桌面编译环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/Windowss%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<hr>
+<p>本文参考以下文章:</p>
+<ul>
+<li><a href="">Windows</a></li>
+</ul>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
+<ul>
+<li><a href="#c%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83">C语言编译环境</a></li>
+<li><a href="#c%E8%AF%AD%E8%A8%80%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83">C++编译环境</a></li>
+<li><a href="#html">HTML</a></li>
+<li><a href="#java">Jave</a></li>
+<li><a href="#nodejs">Node.js</a></li>
+<li><a href="#python">Python</a></li>
+<li><a href="#%E6%B5%8B%E8%AF%95">测试</a></li>
+</ul>
+</blockquote>
+<p>Windows的编译环境很简单,如果你是Python或者C++或C,可以直接下载微软的Visual Studio Community,就可以直接使用了,如果你需要在命令提示符里进行,那么请看 <a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/Windows%E7%9A%84%E5%91%BD%E4%BB%A4%E6%8F%90%E7%A4%BA%E7%AC%A6%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Windows的命令提示符编译环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br>Visual Studio Community的安装请选择供学生,开放源代码和个人免费使用的那个,如下图所示.,选择第三个.<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJSwv.png"
+                      alt="Visual"
+                ></p>
+<h1 id="C语言编译环境"><a href="#C语言编译环境" class="headerlink" title="C语言编译环境"></a>C语言编译环境</h1><p>C语言的勾选和C++差不多,就不说了.</p>
+<h1 id="C-编译环境配置"><a href="#C-编译环境配置" class="headerlink" title="C++编译环境配置"></a>C++编译环境配置</h1><p>在Visual Studio Community中勾选,当然你可以根据自己需求去勾选.<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJrkB.png"
+                      alt="C++"
+                ><br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJAms.png"
+                      alt="C++"
+                ><br></p>
+<h1 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h1><p>Node.js请勾选这个<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJc1q.png"
+                      alt="Node.js"
+                ></p>
+<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><p>HTML可以直接拿浏览器看,就不说了.</p>
+<h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><p>Python请勾选这个<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJc1q.png"
+                      alt="Python"
+                ></p>
+<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><p>接下来我们进行一下测试,就拿C语言好了.<br><br>先点击创建新项目<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPrLq.png"
+                      alt="新项目"
+                ><br>然后选择C++<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPAXc.png"
+                      alt="选择"
+                ><br>然后点击空项目<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPZzr.png"
+                      alt="空项目"
+                ><br>随后的这些选择一个喜欢的就行<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPmT1.png"
+                      alt="名称"
+                ><br>然后右边点击源文件,添加,新建项.<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPt76.png"
+                      alt="新建"
+                ><br>当我们输入完代码后点击上方的本地windows调试器<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmP50S.png"
+                      alt="测试"
+                ><br>随后在出现的命令提示符里,就是你的代码输出了<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/04/10/OmP4LP.png"
+                      alt="输出"
+                ></p>
+]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>编译环境</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows的命令提示符编译环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/Windows%E7%9A%84%E5%91%BD%E4%BB%A4%E6%8F%90%E7%A4%BA%E7%AC%A6%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>编译环境</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在Windows上制作Linux to go</title>
+    <url>/2024/04/25/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/%E5%9C%A8Windows%E4%B8%8A%E5%88%B6%E4%BD%9CLinux%20to%20go/</url>
+    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>在某些时候使用Windows时，总是觉得Windows不够开放，不够自由的时候，该怎么办呢？<br>当然是装一个Linux，装Linux的途径有很多，可以通过虚拟机使用，也可以装到U盘里，随身携带使用。<br>接下来即是装到U盘的教程。</p>
+<hr>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><h2 id="1-一台搭载了Windows的电脑"><a href="#1-一台搭载了Windows的电脑" class="headerlink" title="1. 一台搭载了Windows的电脑"></a>1. 一台搭载了Windows的电脑</h2><p>2023年，除苹果外绝大部份电脑搭载的都是Windows系统，如果不清楚，则可以去设置里找到关于设备里查看。</p>
+<h2 id="2-一个不低于8G的U盘"><a href="#2-一个不低于8G的U盘" class="headerlink" title="2. 一个不低于8G的U盘"></a>2. 一个不低于8G的U盘</h2><p>这个U盘没有速度要求，一般来说只是一个启动盘。</p>
+<h2 id="3-一个Linux镜像"><a href="#3-一个Linux镜像" class="headerlink" title="3. 一个Linux镜像"></a>3. 一个Linux镜像</h2><p>如果没有Linux镜像，去这里<br>社区人比较多的应该是Ubuntu和Debian，也可以使用国产的深度操作系统，也就是Deepin，Deepin是基于Debian的，所以理论Debian论坛也可以使用。</p>
+<h2 id="4-一个3-0以上的U盘-虚拟机"><a href="#4-一个3-0以上的U盘-虚拟机" class="headerlink" title="4. 一个3.0以上的U盘&#x2F;虚拟机"></a>4. 一个3.0以上的U盘&#x2F;虚拟机</h2><h3 id="U盘"><a href="#U盘" class="headerlink" title="U盘"></a>U盘</h3><p>一般3.0的U盘都是蓝口的，就像这样<br>![[Obsidian附件&#x2F;IMG_2023-06-30-23-47-08-121.jpg]]<br>当然如果不确定的话，可以用软件来测试<br>CrystalDiskMark<br><a class="link"   href="https://crystalmark.info/en/software/crystaldiskmark/" >https://crystalmark.info/en/software/crystaldiskmark/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>具体速度要求大概是这样<br>![[Obsidian附件&#x2F;6_96ANA4WNNUCH5UE.png]]<br>读取达到100，写入达到50。<br>说不定读取100，写入30也可以。<br>SD卡加转接器也可以。</p>
+<h3 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a>虚拟机</h3><p>使用Virtualbox<br><a class="link"   href="https://www.virtualbox.org/" >https://www.virtualbox.org/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<hr>
+<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><h3 id="U盘启动盘"><a href="#U盘启动盘" class="headerlink" title="U盘启动盘"></a>U盘启动盘</h3>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Linux on Android 的桌面环境配置</title>
+    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20on%20Android%20%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h2 id="本文参考以下文章"><a href="#本文参考以下文章" class="headerlink" title="本文参考以下文章"></a>本文参考以下文章</h2><br>
+有的时候我们不单单需要终端环境的，也需要桌面环境，例如当我们要看视频的时候,或者装逼的时候.<br>
+Android的桌面环境安装相对简单.<br>
+
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
+<p>- </p>
+</blockquote>
+<h1 id="脚本安装"><a href="#脚本安装" class="headerlink" title="脚本安装"></a>脚本安装</h1><h1 id="自行安装"><a href="#自行安装" class="headerlink" title="自行安装"></a>自行安装</h1>]]></content>
+      <categories>
+        <category>编程</category>
+        <category>环境配置</category>
+        <category>Android</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Termux</tag>
+        <tag>Android</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Git on Android</title>
     <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Git%20on%20Andoird/</url>
     <content><![CDATA[<p>本文参考以下文章:</p>
@@ -570,9 +858,9 @@
                 ><br>从ssh-rra AAAAB3NzaC1开始到结尾,全都要复制.复制出来的内容是这样的:<br><br>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC5Lh7rLEncm2966k6Flbsf&#x2F;PZva0vK+zUJmiEY&#x2F;GlGwy8JXeynpJER7ZZ30E0Yp3EKtG5YjHaefVr9QtgY7v0yW+&#x2F;vP18mjQMUje66Vo9&#x2F;onEcDU5nhzKxbORcH025bpKfeDK4gz7lP6okuqLsH4utmzbswoAXyKqX+kIaZfPMzvEbj&#x2F;NNEz8WwuR6iIydiwX+qix7FEuntBmU19g5Cbsa542h3xpnJu3BMGMGSwZqsCo50Budkx1H+in4HIWvdFwqsSzGjBejFNm3LvYeZ9rRNyNvXNm7WJWG0kpacI9R9OE752lbz96rvIHqsQvyS9+VqNaQ+n3hQp82vSahnbkf2jZ2AdE1f5ujqdt4TJKTRyUiQ0c1mhTnWLGe2kIVFdSRFodiL78V8O3XYs7&#x2F;BN8T5qbmYASDsed5IB4it8Q0Azn1Ua65dgL1aT3e4kRccxG0hvP+T5KC0mQpoQjerWXbOui+yQRuLCafi3Et0z2lrAz&#x2F;sn9YU1GZyD9NhJivxNk&#x3D; u0_a243@localhost<br><br><br>然后还是打开Gitee,进入设置,点击SSH公钥,将刚才复制的内容粘贴,就好了<br><br>然后是克隆仓库到本地,或者是在本地新建一个仓库.<br></p>
 <h2 id="克隆"><a href="#克隆" class="headerlink" title="克隆"></a>克隆</h2><p>如果你想克隆一个仓库,那么就去你的gitee,或者github或者别的,上面会有提示.比如说我的<br><br>先在Termux输入下面这一串</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &#x27;关轶&#x27; </span><br><span class="line">git config --global user.email &#x27;13339651+guan_yi@user.noreply.gitee.com&#x27;</span><br></pre></td></tr></table></figure></div>
-<p>其中<strong>关轶</strong>是你的用户名,而<strong><a class="link"   href="mailto:&#x31;&#51;&#51;&#51;&#57;&#x36;&#53;&#x31;&#43;&#x67;&#x75;&#x61;&#x6e;&#95;&#x79;&#x69;&#64;&#x75;&#115;&#x65;&#x72;&#x2e;&#x6e;&#x6f;&#114;&#x65;&#112;&#x6c;&#121;&#46;&#103;&#105;&#116;&#101;&#x65;&#x2e;&#99;&#x6f;&#x6d;" >&#x31;&#51;&#51;&#51;&#57;&#x36;&#53;&#x31;&#43;&#x67;&#x75;&#x61;&#x6e;&#95;&#x79;&#x69;&#64;&#x75;&#115;&#x65;&#x72;&#x2e;&#x6e;&#x6f;&#114;&#x65;&#112;&#x6c;&#121;&#46;&#103;&#105;&#116;&#101;&#x65;&#x2e;&#99;&#x6f;&#x6d; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong>则是你的邮箱.<br><br>然后克隆至本地,cd到你想要克隆的位置,然后输入下面这一串</p>
+<p>其中<strong>关轶</strong>是你的用户名,而<strong><a class="link"   href="mailto:&#x31;&#51;&#51;&#x33;&#x39;&#x36;&#x35;&#x31;&#x2b;&#x67;&#x75;&#97;&#110;&#x5f;&#121;&#x69;&#64;&#117;&#x73;&#101;&#114;&#x2e;&#x6e;&#111;&#x72;&#101;&#x70;&#108;&#x79;&#46;&#x67;&#105;&#x74;&#x65;&#101;&#x2e;&#x63;&#x6f;&#x6d;" >&#x31;&#51;&#51;&#x33;&#x39;&#x36;&#x35;&#x31;&#x2b;&#x67;&#x75;&#97;&#110;&#x5f;&#121;&#x69;&#64;&#117;&#x73;&#101;&#114;&#x2e;&#x6e;&#111;&#x72;&#101;&#x70;&#108;&#x79;&#46;&#x67;&#105;&#x74;&#x65;&#101;&#x2e;&#x63;&#x6f;&#x6d; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong>则是你的邮箱.<br><br>然后克隆至本地,cd到你想要克隆的位置,然后输入下面这一串</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone git@gitee.com:Guan_Yi/NineHeaven.git</span><br></pre></td></tr></table></figure></div>
-<p>clone 后面的<strong><a class="link"   href="mailto:&#103;&#x69;&#116;&#x40;&#103;&#x69;&#116;&#x65;&#x65;&#46;&#x63;&#x6f;&#109;" >&#103;&#x69;&#116;&#x40;&#103;&#x69;&#116;&#x65;&#x65;&#46;&#x63;&#x6f;&#109; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>:Guan_Yi&#x2F;NineHeaven.git</strong>是你的仓库地址.最后克隆成功后会是这样的:<br><img  
+<p>clone 后面的<strong><a class="link"   href="mailto:&#x67;&#x69;&#116;&#x40;&#x67;&#x69;&#116;&#x65;&#101;&#x2e;&#x63;&#x6f;&#x6d;" >&#x67;&#x69;&#116;&#x40;&#x67;&#x69;&#116;&#x65;&#101;&#x2e;&#x63;&#x6f;&#x6d; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>:Guan_Yi&#x2F;NineHeaven.git</strong>是你的仓库地址.最后克隆成功后会是这样的:<br><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://ooo.0x0.ooo/2024/04/13/Omsz56.jpg"
@@ -592,77 +880,6 @@
         <tag>Git</tag>
         <tag>Termux</tag>
         <tag>Android</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux on Android 的桌面环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20on%20Android%20%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<h2 id="本文参考以下文章"><a href="#本文参考以下文章" class="headerlink" title="本文参考以下文章"></a>本文参考以下文章</h2><br>
-有的时候我们不单单需要终端环境的，也需要桌面环境，例如当我们要看视频的时候,或者装逼的时候.<br>
-Android的桌面环境安装相对简单.<br>
-
-<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
-<p>- </p>
-</blockquote>
-<h1 id="脚本安装"><a href="#脚本安装" class="headerlink" title="脚本安装"></a>脚本安装</h1><h1 id="自行安装"><a href="#自行安装" class="headerlink" title="自行安装"></a>自行安装</h1>]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Android</category>
-      </categories>
-      <tags>
-        <tag>Termux</tag>
-        <tag>Android</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux C++编译环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20C++%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<p>安装g++</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install g++</span><br></pre></td></tr></table></figure></div>
-<p>然后出现类似于下面这个图片里的内容,就说明你已经安装成功了.<br><br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyKeb.png"
-                      alt="c language version"
-                ><br>随后让我们在终端里尝试一下,能不能成功.<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">touch 文件名</span><br></pre></td></tr></table></figure></div>
-<p>然后使用vim来进行编辑源文件,当然如果你有别的编辑器,例如nano之类的,就输入<strong>nano 文件名</strong>来进行编辑.<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">vim 文件名</span><br></pre></td></tr></table></figure></div>
-<p>编辑好以后,输入<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">g++ 文件名 -o 可执行文件名</span><br></pre></td></tr></table></figure></div>
-<p>然后我们运行你的程序<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">./可执行文件名</span><br></pre></td></tr></table></figure></div>]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>编译环境</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows on Android 的安装教程</title>
-    <url>/2024/05/29/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Windows%20on%20Android%20%E7%9A%84%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<p>本文参考以下文章<br><br>那就是没有参考文章,全是官方文档.<br><br>所以,这篇文章就不写了.(滑稽)<br></p>
-<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><h1 id="要用到的东西"><a href="#要用到的东西" class="headerlink" title="要用到的东西"></a>要用到的东西</h1><ul>
-<li><a class="link"   href="https://mindows.cn/" >Mindows <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
-<li>一个Windows镜像,可以在Mindows官网下载.<br></li>
-<li>一个符合条件的设备.可以去Minedows官网查看设备支持列表.<br></li>
-<li>一个出厂系统的镜像.<br></li>
-</ul>
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1>]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Android</category>
-      </categories>
-      <tags>
-        <tag>Android</tag>
-        <tag>WOA</tag>
       </tags>
   </entry>
   <entry>
@@ -881,256 +1098,39 @@ Android的桌面环境安装相对简单.<br>
         <category>Android</category>
       </categories>
       <tags>
+        <tag>Linux</tag>
         <tag>Termux</tag>
         <tag>Android</tag>
-        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
-    <title>Linux C语言编译环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20C%E8%AF%AD%E8%A8%80%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<p>本文参考以下文章</p>
-<ul>
-<li><a href="">Linux</a><br></li>
+    <title>Java版Minecraft联机教程</title>
+    <url>/2024/04/19/%E5%A8%B1%E4%B9%90/%E4%BC%91%E9%97%B2%E5%A8%B1%E4%B9%90/%E6%B8%B8%E6%88%8F/Minecraft/Java%E7%89%88Minecraft%E8%81%94%E6%9C%BA%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="局域网联机"><a href="#局域网联机" class="headerlink" title="局域网联机"></a>局域网联机</h1><h2 id="远程局域网联机"><a href="#远程局域网联机" class="headerlink" title="远程局域网联机"></a>远程局域网联机</h2><h1 id="服务器联机hhh"><a href="#服务器联机hhh" class="headerlink" title="服务器联机hhh"></a>服务器联机hhh</h1>]]></content>
+      <tags>
+        <tag>联机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows on Android 的安装教程</title>
+    <url>/2024/05/29/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Windows%20on%20Android%20%E7%9A%84%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>本文参考以下文章<br><br>那就是没有参考文章,全是官方文档.<br><br>所以,这篇文章就不写了.(滑稽)<br></p>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><h1 id="要用到的东西"><a href="#要用到的东西" class="headerlink" title="要用到的东西"></a>要用到的东西</h1><ul>
+<li><a class="link"   href="https://mindows.cn/" >Mindows <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
+<li>一个Windows镜像,可以在Mindows官网下载.<br></li>
+<li>一个符合条件的设备.可以去Minedows官网查看设备支持列表.<br></li>
+<li>一个出厂系统的镜像.<br></li>
 </ul>
-<blockquote>
-<p>配置教程分为两部分。<br><br>一部分为终端环境的配置，这部分主要环绕着Linux的终端环境来说，另一部分是Linux桌面环境的编译教程.二者其实大差不差吧.<br><br>如果你想在Android当中码代码，请转到 ↓ <br><br><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux for Android 的终端环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></p>
-</blockquote>
-<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
-<ul>
-<li><a href="#linux-c%E8%AF%AD%E8%A8%80%E7%BB%88%E7%AB%AF%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B">Linux C语言终端编译环境配置教程</a><blockquote>
-<ul>
-<li><a href="#clang%E7%BC%96%E8%AF%91">Clang编译</a></li>
-<li><a href="#gcc%E7%BC%96%E8%AF%91">gcc编译</a></li>
-<li><a href="#%E6%B5%8B%E8%AF%95">测试</a></li>
-</ul>
-</blockquote>
-</li>
-<li><a href="#linux-c%E8%AF%AD%E8%A8%80%E6%A1%8C%E9%9D%A2%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B">Linux C语言桌面编译环境配置教程</a></li>
-</ul>
-</blockquote>
-<h1 id="Linux-C语言终端编译环境配置教程"><a href="#Linux-C语言终端编译环境配置教程" class="headerlink" title="Linux C语言终端编译环境配置教程"></a>Linux C语言终端编译环境配置教程</h1><h2 id="clang编译"><a href="#clang编译" class="headerlink" title="clang编译"></a>clang编译</h2><h2 id="TermuxTermux如果不安装完整系统是无法安装gcc和g-的-如果你要使用这些编译环境-那么有两种办法-Termux安装完整LinuxAid-LearningUbuntu-gcc编译Ubuntu-测试随后检查一下版本-如果你是clang就输入-clang-–version如果你是gcc就输入-gcc-–version然后出现类似于下面这个图片里的内容-就说明你已经安装成功了-随后让我们在终端里尝试一下-能不能成功-先输入-touch-文件名然后vim-文件名-如果没有vim-那就用下面这个命令安装一下进入到vim的界面后-输入-i-进行编辑-编辑完成后-按-esc-然后输入-wq-然后回车-就可以退出vim的界面了-随后是编译-如果你是clang-就输入-clang-文件名-o-可执行文件名如果你是gcc-就输入-gcc-文件名-o-可执行文件名随后输入-可执行文件名随后-你就可以看到输出了-Linux-C语言桌面编译环境配置教程-随后是桌面环境-桌面环境并不是必要的-如果觉得麻烦可以不做这一步-在-Android-上-如果你用的是termux-在安装完整版的linux之后请跟着这个教程-Linux-for-Android的桌面环境配置如果你用的是Aid-Learning-那么请看这个教程-AidLux文档在-Windows或者Linux上-桌面环境通常是自带的-如果没有自带-请查看官方文档"><a href="#TermuxTermux如果不安装完整系统是无法安装gcc和g-的-如果你要使用这些编译环境-那么有两种办法-Termux安装完整LinuxAid-LearningUbuntu-gcc编译Ubuntu-测试随后检查一下版本-如果你是clang就输入-clang-–version如果你是gcc就输入-gcc-–version然后出现类似于下面这个图片里的内容-就说明你已经安装成功了-随后让我们在终端里尝试一下-能不能成功-先输入-touch-文件名然后vim-文件名-如果没有vim-那就用下面这个命令安装一下进入到vim的界面后-输入-i-进行编辑-编辑完成后-按-esc-然后输入-wq-然后回车-就可以退出vim的界面了-随后是编译-如果你是clang-就输入-clang-文件名-o-可执行文件名如果你是gcc-就输入-gcc-文件名-o-可执行文件名随后输入-可执行文件名随后-你就可以看到输出了-Linux-C语言桌面编译环境配置教程-随后是桌面环境-桌面环境并不是必要的-如果觉得麻烦可以不做这一步-在-Android-上-如果你用的是termux-在安装完整版的linux之后请跟着这个教程-Linux-for-Android的桌面环境配置如果你用的是Aid-Learning-那么请看这个教程-AidLux文档在-Windows或者Linux上-桌面环境通常是自带的-如果没有自带-请查看官方文档" class="headerlink" title="TermuxTermux如果不安装完整系统是无法安装gcc和g++的,如果你要使用这些编译环境,那么有两种办法.Termux安装完整LinuxAid LearningUbuntu## gcc编译Ubuntu## 测试随后检查一下版本.如果你是clang就输入 clang –version如果你是gcc就输入 gcc –version然后出现类似于下面这个图片里的内容,就说明你已经安装成功了.随后让我们在终端里尝试一下,能不能成功.先输入 touch 文件名然后vim 文件名 ,如果没有vim,那就用下面这个命令安装一下进入到vim的界面后,输入 i 进行编辑.编辑完成后,按 esc ,然后输入 :wq,然后回车,就可以退出vim的界面了.随后是编译,如果你是clang,就输入 clang 文件名 -o 可执行文件名如果你是gcc,就输入 gcc 文件名 -o 可执行文件名随后输入.&#x2F;可执行文件名随后,你就可以看到输出了.# Linux C语言桌面编译环境配置教程&gt; 随后是桌面环境,桌面环境并不是必要的,如果觉得麻烦可以不做这一步.在 Android 上,如果你用的是termux,在安装完整版的linux之后请跟着这个教程 Linux for Android的桌面环境配置如果你用的是Aid Learning,那么请看这个教程 AidLux文档在 Windows或者Linux上,桌面环境通常是自带的,如果没有自带,请查看官方文档."></a>Termux<br><br>Termux如果不安装完整系统是无法安装gcc和g++的,如果你要使用这些编译环境,那么有两种办法.<br><br><a href="">Termux安装完整Linux</a><br><br><a class="link"   href="https://zhuanlan.zhihu.com/p/92161002" >Aid Learning <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">pkg install clang</span><br></pre></td></tr></table></figure></div><br>Ubuntu<br><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install clang</span><br></pre></td></tr></table></figure></div><br>## gcc编译<br>Ubuntu<br><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install gcc</span><br></pre></td></tr></table></figure></div><br>## 测试<br>随后检查一下版本.<br><br>如果你是clang就输入 <strong>clang –version</strong><br><br>如果你是gcc就输入 <strong>gcc –version</strong><br><br>然后出现类似于下面这个图片里的内容,就说明你已经安装成功了.<br><br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyKeb.png"
-                      alt="c language version"
-                ><br>随后让我们在终端里尝试一下,能不能成功.<br><br>先输入 <strong>touch 文件名</strong><br><br>然后<strong>vim 文件名</strong> ,如果没有vim,那就用下面这个命令安装一下<br><br><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install vim</span><br></pre></td></tr></table></figure></div><br>进入到vim的界面后,输入 <strong>i</strong> 进行编辑.<br><br>编辑完成后,按 <strong>esc</strong> ,然后输入 <strong>:wq</strong>,然后回车,就可以退出vim的界面了.<br><br>随后是编译,如果你是clang,就输入 <strong>clang 文件名 -o 可执行文件名</strong><br><br>如果你是gcc,就输入 <strong>gcc 文件名 -o 可执行文件名</strong><br><br>随后输入.&#x2F;可执行文件名<br><br>随后,你就可以看到输出了.<br><br># Linux C语言桌面编译环境配置教程<br>&gt; 随后是桌面环境,桌面环境并不是必要的,如果觉得麻烦可以不做这一步.<br><br>在 <strong>Android</strong> 上,如果你用的是termux,在安装完整版的linux之后请跟着这个教程 <strong><a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Linux%20for%20Android%20%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Linux for Android的桌面环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong><br><br>如果你用的是Aid Learning,那么请看这个教程 <strong><a class="link"   href="https://docs.aidlux.com/#/" >AidLux文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong><br><br>在 <strong>Windows或者Linux上</strong>,桌面环境通常是自带的,如果没有自带,请查看官方文档.<br></h2><p>首先,我们下载一个vscode,这是我认为比较好用的编辑器,当然你也可以用其他的编辑器.<br><br>下载完成后,使用 <strong>cd</strong> 命令cd到你存放vscode安装包的目录,然后输入<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo dpkg -i 安装包名</span><br></pre></td></tr></table></figure></div>
-<p>等到安装完成后,渠道你的应用列表.找到Visual Studio Code,点击进去,你会看到这个界面.<br><br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyPWa.png"
-                      alt="VSCode"
-                ><br>然后点击左边的四个方框,进入扩展界面,搜索Chinese<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/09/OmytsN.png"
-                      alt="VScode"
-                ><br>点击install<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyRyS.png"
-                      alt="VScode"
-                ><br>在右下角会出现一个change language and restart,点击它,随后vscode会重启,重启过后就是中文了.<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyDaC.png"
-                      alt="VScode"
-                ><br>点击打开文件夹,随意你选一个文件夹.<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyHeL.png"
-                      alt="VScode"
-                ><br>把信任父文件夹中的所有文件夹打勾,然后点击是,我信任此作者.<br>随后新建一个文件,输入代码.<br><br>随后点击右上角的三角形.<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyEIX.png"
-                      alt="VScode"
-                ><br>选择第一个.<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/09/OmyQht.png"
-                      alt="VScode"
-                ><br>在下面的终端里,你就可以看见你输出的东西了.</p>
-]]></content>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1>]]></content>
       <categories>
         <category>编程</category>
         <category>环境配置</category>
-        <category>Linux</category>
+        <category>Android</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
-        <tag>编译环境</tag>
+        <tag>Android</tag>
+        <tag>WOA</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Linux Java编译环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20Java%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>编译环境</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows的桌面编译环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/Windowss%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<hr>
-<p>本文参考以下文章:</p>
-<ul>
-<li><a href="">Windows</a></li>
-</ul>
-<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
-<ul>
-<li><a href="#c%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83">C语言编译环境</a></li>
-<li><a href="#c%E8%AF%AD%E8%A8%80%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83">C++编译环境</a></li>
-<li><a href="#html">HTML</a></li>
-<li><a href="#java">Jave</a></li>
-<li><a href="#nodejs">Node.js</a></li>
-<li><a href="#python">Python</a></li>
-<li><a href="#%E6%B5%8B%E8%AF%95">测试</a></li>
-</ul>
-</blockquote>
-<p>Windows的编译环境很简单,如果你是Python或者C++或C,可以直接下载微软的Visual Studio Community,就可以直接使用了,如果你需要在命令提示符里进行,那么请看 <a class="link"   href="https://github.com/frost-MAZF/NineHeaven/blob/main/source/_posts/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/Windows%E7%9A%84%E5%91%BD%E4%BB%A4%E6%8F%90%E7%A4%BA%E7%AC%A6%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md" >Windows的命令提示符编译环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br>Visual Studio Community的安装请选择供学生,开放源代码和个人免费使用的那个,如下图所示.,选择第三个.<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJSwv.png"
-                      alt="Visual"
-                ></p>
-<h1 id="C语言编译环境"><a href="#C语言编译环境" class="headerlink" title="C语言编译环境"></a>C语言编译环境</h1><p>C语言的勾选和C++差不多,就不说了.</p>
-<h1 id="C-编译环境配置"><a href="#C-编译环境配置" class="headerlink" title="C++编译环境配置"></a>C++编译环境配置</h1><p>在Visual Studio Community中勾选,当然你可以根据自己需求去勾选.<br><br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJrkB.png"
-                      alt="C++"
-                ><br><br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJAms.png"
-                      alt="C++"
-                ><br></p>
-<h1 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h1><p>Node.js请勾选这个<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJc1q.png"
-                      alt="Node.js"
-                ></p>
-<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><p>HTML可以直接拿浏览器看,就不说了.</p>
-<h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><p>Python请勾选这个<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmJc1q.png"
-                      alt="Python"
-                ></p>
-<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><p>接下来我们进行一下测试,就拿C语言好了.<br><br>先点击创建新项目<br><br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPrLq.png"
-                      alt="新项目"
-                ><br>然后选择C++<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPAXc.png"
-                      alt="选择"
-                ><br>然后点击空项目<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPZzr.png"
-                      alt="空项目"
-                ><br>随后的这些选择一个喜欢的就行<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPmT1.png"
-                      alt="名称"
-                ><br>然后右边点击源文件,添加,新建项.<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmPt76.png"
-                      alt="新建"
-                ><br>当我们输入完代码后点击上方的本地windows调试器<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmP50S.png"
-                      alt="测试"
-                ><br>随后在出现的命令提示符里,就是你的代码输出了<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/04/10/OmP4LP.png"
-                      alt="输出"
-                ></p>
-]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>编译环境</tag>
-        <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux 服务器环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>服务器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows的命令提示符编译环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/Windows%E7%9A%84%E5%91%BD%E4%BB%A4%E6%8F%90%E7%A4%BA%E7%AC%A6%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>编译环境</tag>
-        <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux Python编译环境配置</title>
-    <url>/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20Python%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>编程</category>
-        <category>环境配置</category>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>编译环境</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在Windows上制作Linux to go</title>
-    <url>/2024/04/25/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Windows/%E5%9C%A8Windows%E4%B8%8A%E5%88%B6%E4%BD%9CLinux%20to%20go/</url>
-    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>在某些时候使用Windows时，总是觉得Windows不够开放，不够自由的时候，该怎么办呢？<br>当然是装一个Linux，装Linux的途径有很多，可以通过虚拟机使用，也可以装到U盘里，随身携带使用。<br>接下来即是装到U盘的教程。</p>
-<hr>
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><h2 id="1-一台搭载了Windows的电脑"><a href="#1-一台搭载了Windows的电脑" class="headerlink" title="1. 一台搭载了Windows的电脑"></a>1. 一台搭载了Windows的电脑</h2><p>2023年，除苹果外绝大部份电脑搭载的都是Windows系统，如果不清楚，则可以去设置里找到关于设备里查看。</p>
-<h2 id="2-一个不低于8G的U盘"><a href="#2-一个不低于8G的U盘" class="headerlink" title="2. 一个不低于8G的U盘"></a>2. 一个不低于8G的U盘</h2><p>这个U盘没有速度要求，一般来说只是一个启动盘。</p>
-<h2 id="3-一个Linux镜像"><a href="#3-一个Linux镜像" class="headerlink" title="3. 一个Linux镜像"></a>3. 一个Linux镜像</h2><p>如果没有Linux镜像，去这里<br>社区人比较多的应该是Ubuntu和Debian，也可以使用国产的深度操作系统，也就是Deepin，Deepin是基于Debian的，所以理论Debian论坛也可以使用。</p>
-<h2 id="4-一个3-0以上的U盘-虚拟机"><a href="#4-一个3-0以上的U盘-虚拟机" class="headerlink" title="4. 一个3.0以上的U盘&#x2F;虚拟机"></a>4. 一个3.0以上的U盘&#x2F;虚拟机</h2><h3 id="U盘"><a href="#U盘" class="headerlink" title="U盘"></a>U盘</h3><p>一般3.0的U盘都是蓝口的，就像这样<br>![[Obsidian附件&#x2F;IMG_2023-06-30-23-47-08-121.jpg]]<br>当然如果不确定的话，可以用软件来测试<br>CrystalDiskMark<br><a class="link"   href="https://crystalmark.info/en/software/crystaldiskmark/" >https://crystalmark.info/en/software/crystaldiskmark/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>具体速度要求大概是这样<br>![[Obsidian附件&#x2F;6_96ANA4WNNUCH5UE.png]]<br>读取达到100，写入达到50。<br>说不定读取100，写入30也可以。<br>SD卡加转接器也可以。</p>
-<h3 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a>虚拟机</h3><p>使用Virtualbox<br><a class="link"   href="https://www.virtualbox.org/" >https://www.virtualbox.org/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<hr>
-<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><h3 id="U盘启动盘"><a href="#U盘启动盘" class="headerlink" title="U盘启动盘"></a>U盘启动盘</h3>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
   </entry>
   <entry>
     <title>HTML入门</title>
