@@ -700,7 +700,17 @@
 <li>pkg files “package_name”  (显示某一个包的相关文件夹路径)</li>
 </ul>
 </blockquote>
-<h5 id="curl常用命令"><a href="#curl常用命令" class="headerlink" title="curl常用命令"></a>curl常用命令</h5><h2 id="请参考阮一峰的这篇文章-curl用法指南-1-换源换源是什么？-镜像源-可以理解为一个市场，而-镜像源-所在的位置不同，下载的速度也不同，由于我们是在中国，所以优先推荐清华源和北京源。"><a href="#请参考阮一峰的这篇文章-curl用法指南-1-换源换源是什么？-镜像源-可以理解为一个市场，而-镜像源-所在的位置不同，下载的速度也不同，由于我们是在中国，所以优先推荐清华源和北京源。" class="headerlink" title="请参考阮一峰的这篇文章&gt; - curl用法指南### 1-换源换源是什么？&gt; 镜像源 可以理解为一个市场，而 镜像源 所在的位置不同，下载的速度也不同，由于我们是在中国，所以优先推荐清华源和北京源。 "></a>请参考阮一峰的这篇文章<br>&gt; - <a class="link"   href="https://www.ruanyifeng.com/blog/2019/09/curl-reference.html" >curl用法指南 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>### 1-换源<br>换源是什么？<br><br>&gt; <strong>镜像源</strong> 可以理解为一个市场，而 <strong>镜像源</strong> 所在的位置不同，下载的速度也不同，由于我们是在中国，所以优先推荐清华源和北京源。<br> </h2><h4 id="简单换源"><a href="#简单换源" class="headerlink" title="简单换源"></a>简单换源</h4><ol>
+<h5 id="curl常用命令"><a href="#curl常用命令" class="headerlink" title="curl常用命令"></a>curl常用命令</h5><p>请参考阮一峰的这篇文章.<br></p>
+<blockquote>
+<ul>
+<li><a class="link"   href="https://www.ruanyifeng.com/blog/2019/09/curl-reference.html" >curl用法指南 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+</blockquote>
+<h3 id="1-换源"><a href="#1-换源" class="headerlink" title="1-换源"></a>1-换源</h3><p>换源是什么？<br></p>
+<blockquote>
+<p><strong>镜像源</strong> 可以理解为一个市场，而 <strong>镜像源</strong> 所在的位置不同，下载的速度也不同，由于我们是在中国，所以优先推荐清华源和北京源 <br></p>
+</blockquote>
+<h4 id="简单换源"><a href="#简单换源" class="headerlink" title="简单换源"></a>简单换源</h4><ol>
 <li>先打开ZeroTermux。<br><br> 随后按一下音量加，就会进入到下面这个界面。<br><br> <img  
                      lazyload
                      src="/images/loading.svg"
