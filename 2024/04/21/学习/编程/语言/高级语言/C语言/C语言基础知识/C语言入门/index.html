@@ -26,7 +26,7 @@
 <meta property="og:description" content="这是一篇C语言入门笔记">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-04-21T11:45:27.632Z">
-<meta property="article:modified_time" content="2024-06-25T08:19:13.841Z">
+<meta property="article:modified_time" content="2024-06-30T10:11:24.218Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="基础教程">
 <meta property="article:tag" content="C语言">
@@ -619,15 +619,15 @@
 
         <div class="statistics flex justify-around my-2.5">
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">19</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">21</div>
         <div class="label text-third-text-color text-sm">标签</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">19</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">21</div>
         <div class="label text-third-text-color text-sm">分类</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">22</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">23</div>
         <div class="label text-third-text-color text-sm">文章</div>
     </a>
 </div>
@@ -681,8 +681,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-06-25 01:19:13</span>
-            <span class="mobile">2024-06-25 01:19:13</span>
+            <span class="desktop">2024-06-30 03:11:24</span>
+            <span class="mobile">2024-06-30 03:11:24</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -744,7 +744,7 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>113 字</span>
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>333 字</span>
         </span>
     
     
@@ -768,7 +768,25 @@
 
 
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-            <h2 id="本文参考以下文章及书籍-目录"><a href="#本文参考以下文章及书籍-目录" class="headerlink" title="本文参考以下文章及书籍# 目录"></a>本文参考以下文章及书籍<br># 目录</h2><h1 id="C语言基础知识"><a href="#C语言基础知识" class="headerlink" title="C语言基础知识"></a>C语言基础知识</h1><h2 id="第一个C语言代码"><a href="#第一个C语言代码" class="headerlink" title="第一个C语言代码"></a>第一个C语言代码</h2><div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span> <span class="comment">//整个语句代表有关的预处理操作,include是文件包含命令,stdio.h是一个头文件.</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> <span class="comment">//整个语句代表着函数头,int表示定义整形.也就是说,整个函数体只能返回一个整形.</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World&quot;</span>); <span class="comment">//输出</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>; <span class="comment">//结束程序</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+            <h2 id="本文参考以下文章及书籍-目录"><a href="#本文参考以下文章及书籍-目录" class="headerlink" title="本文参考以下文章及书籍# 目录"></a>本文参考以下文章及书籍<br># 目录</h2><h1 id="C语言基础知识"><a href="#C语言基础知识" class="headerlink" title="C语言基础知识"></a>C语言基础知识</h1><h2 id="C语言的历史"><a href="#C语言的历史" class="headerlink" title="C语言的历史"></a>C语言的历史</h2><ul>
+<li>机器语言<blockquote>
+<p>机器语言由0和1组成,也就是二进制代码,特点就是计算机可以直接识别机械语言.</p>
+</blockquote>
+</li>
+<li>汇编语言<blockquote>
+<p>汇编语言是基于机器语言的,用一些容易理解和记忆的字母，单词来代替一个特定的指令。通过这种方法，人们很容易去阅读 已经完成的程序或者理解程序正在执行的功能，对现有程序的bug修复以及运营维护都变得更加简单方便.</p>
+</blockquote>
+</li>
+<li>高级语言<blockquote>
+<p>高级语言是一种比汇编语言更高级的编程语言,它更加贴近人类所使用的语言.</p>
+</blockquote>
+</li>
+<li>C语言<blockquote>
+<p>1972年，计算机科学家丹尼斯·里奇发明了C语言,它是在B语言的基础上发展和完善起来的.</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="第一个C语言代码"><a href="#第一个C语言代码" class="headerlink" title="第一个C语言代码"></a>第一个C语言代码</h2><div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span> <span class="comment">//整个语句代表有关的预处理操作,include是文件包含命令,stdio.h是一个头文件.</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> <span class="comment">//整个语句代表着函数头,int表示定义整形.也就是说,整个函数体只能返回一个整形.</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World&quot;</span>); <span class="comment">//输出</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>; <span class="comment">//结束程序</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 
         </div>
 
@@ -783,7 +801,7 @@
         
             <li>
                 <strong>更新于
-                    :</strong> 2024-06-25 01:19:13
+                    :</strong> 2024-06-30 03:11:24
             </li>
         
         <li>
@@ -922,7 +940,7 @@
     <div class="post-toc">
         <div class="toc-title">此页目录</div>
         <div class="page-title">C语言入门</div>
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AC%E6%96%87%E5%8F%82%E8%80%83%E4%BB%A5%E4%B8%8B%E6%96%87%E7%AB%A0%E5%8F%8A%E4%B9%A6%E7%B1%8D-%E7%9B%AE%E5%BD%95"><span class="nav-text">本文参考以下文章及书籍# 目录</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86"><span class="nav-text">C语言基础知识</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E4%B8%AAC%E8%AF%AD%E8%A8%80%E4%BB%A3%E7%A0%81"><span class="nav-text">第一个C语言代码</span></a></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AC%E6%96%87%E5%8F%82%E8%80%83%E4%BB%A5%E4%B8%8B%E6%96%87%E7%AB%A0%E5%8F%8A%E4%B9%A6%E7%B1%8D-%E7%9B%AE%E5%BD%95"><span class="nav-text">本文参考以下文章及书籍# 目录</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86"><span class="nav-text">C语言基础知识</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#C%E8%AF%AD%E8%A8%80%E7%9A%84%E5%8E%86%E5%8F%B2"><span class="nav-text">C语言的历史</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E4%B8%AAC%E8%AF%AD%E8%A8%80%E4%BB%A3%E7%A0%81"><span class="nav-text">第一个C语言代码</span></a></li></ol>
 
     </div>
 </div>
@@ -957,11 +975,11 @@
                 
                 <p class="post-count space-x-0.5">
                     <span>
-                        共 22 篇文章
+                        共 23 篇文章
                     </span>
                     
                         <span>
-                            共 14.6k 字
+                            共 15k 字
                         </span>
                     
                 </p>
