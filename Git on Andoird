@@ -861,9 +861,9 @@
                 ><br>从ssh-rra AAAAB3NzaC1开始到结尾,全都要复制.复制出来的内容是这样的:<br><br>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC5Lh7rLEncm2966k6Flbsf&#x2F;PZva0vK+zUJmiEY&#x2F;GlGwy8JXeynpJER7ZZ30E0Yp3EKtG5YjHaefVr9QtgY7v0yW+&#x2F;vP18mjQMUje66Vo9&#x2F;onEcDU5nhzKxbORcH025bpKfeDK4gz7lP6okuqLsH4utmzbswoAXyKqX+kIaZfPMzvEbj&#x2F;NNEz8WwuR6iIydiwX+qix7FEuntBmU19g5Cbsa542h3xpnJu3BMGMGSwZqsCo50Budkx1H+in4HIWvdFwqsSzGjBejFNm3LvYeZ9rRNyNvXNm7WJWG0kpacI9R9OE752lbz96rvIHqsQvyS9+VqNaQ+n3hQp82vSahnbkf2jZ2AdE1f5ujqdt4TJKTRyUiQ0c1mhTnWLGe2kIVFdSRFodiL78V8O3XYs7&#x2F;BN8T5qbmYASDsed5IB4it8Q0Azn1Ua65dgL1aT3e4kRccxG0hvP+T5KC0mQpoQjerWXbOui+yQRuLCafi3Et0z2lrAz&#x2F;sn9YU1GZyD9NhJivxNk&#x3D; u0_a243@localhost<br><br><br>然后还是打开Gitee,进入设置,点击SSH公钥,将刚才复制的内容粘贴,就好了<br><br>然后是克隆仓库到本地,或者是在本地新建一个仓库.<br></p>
 <h2 id="克隆"><a href="#克隆" class="headerlink" title="克隆"></a>克隆</h2><p>如果你想克隆一个仓库,那么就去你的gitee,或者github或者别的,上面会有提示.比如说我的<br><br>先在Termux输入下面这一串</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &#x27;关轶&#x27; </span><br><span class="line">git config --global user.email &#x27;13339651+guan_yi@user.noreply.gitee.com&#x27;</span><br></pre></td></tr></table></figure></div>
-<p>其中<strong>关轶</strong>是你的用户名,而<strong><a class="link"   href="mailto:&#49;&#x33;&#x33;&#51;&#x39;&#x36;&#x35;&#49;&#x2b;&#x67;&#117;&#x61;&#x6e;&#95;&#x79;&#105;&#x40;&#117;&#x73;&#x65;&#114;&#x2e;&#x6e;&#x6f;&#x72;&#x65;&#112;&#x6c;&#121;&#x2e;&#103;&#x69;&#x74;&#101;&#101;&#46;&#x63;&#x6f;&#x6d;" >&#49;&#x33;&#x33;&#51;&#x39;&#x36;&#x35;&#49;&#x2b;&#x67;&#117;&#x61;&#x6e;&#95;&#x79;&#105;&#x40;&#117;&#x73;&#x65;&#114;&#x2e;&#x6e;&#x6f;&#x72;&#x65;&#112;&#x6c;&#121;&#x2e;&#103;&#x69;&#x74;&#101;&#101;&#46;&#x63;&#x6f;&#x6d; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong>则是你的邮箱.<br><br>然后克隆至本地,cd到你想要克隆的位置,然后输入下面这一串</p>
+<p>其中<strong>关轶</strong>是你的用户名,而<strong><a class="link"   href="mailto:&#x31;&#x33;&#51;&#x33;&#x39;&#x36;&#x35;&#x31;&#43;&#x67;&#117;&#x61;&#x6e;&#95;&#x79;&#x69;&#64;&#x75;&#115;&#x65;&#114;&#46;&#x6e;&#111;&#114;&#101;&#x70;&#x6c;&#121;&#x2e;&#103;&#x69;&#x74;&#x65;&#x65;&#x2e;&#99;&#x6f;&#109;" >&#x31;&#x33;&#51;&#x33;&#x39;&#x36;&#x35;&#x31;&#43;&#x67;&#117;&#x61;&#x6e;&#95;&#x79;&#x69;&#64;&#x75;&#115;&#x65;&#114;&#46;&#x6e;&#111;&#114;&#101;&#x70;&#x6c;&#121;&#x2e;&#103;&#x69;&#x74;&#x65;&#x65;&#x2e;&#99;&#x6f;&#109; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong>则是你的邮箱.<br><br>然后克隆至本地,cd到你想要克隆的位置,然后输入下面这一串</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone git@gitee.com:Guan_Yi/NineHeaven.git</span><br></pre></td></tr></table></figure></div>
-<p>clone 后面的<strong><a class="link"   href="mailto:&#x67;&#x69;&#116;&#x40;&#x67;&#105;&#x74;&#x65;&#x65;&#x2e;&#x63;&#x6f;&#x6d;" >&#x67;&#x69;&#116;&#x40;&#x67;&#105;&#x74;&#x65;&#x65;&#x2e;&#x63;&#x6f;&#x6d; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>:Guan_Yi&#x2F;NineHeaven.git</strong>是你的仓库地址.最后克隆成功后会是这样的:<br><img  
+<p>clone 后面的<strong><a class="link"   href="mailto:&#103;&#x69;&#x74;&#64;&#103;&#105;&#x74;&#x65;&#101;&#x2e;&#99;&#111;&#x6d;" >&#103;&#x69;&#x74;&#64;&#103;&#105;&#x74;&#x65;&#101;&#x2e;&#99;&#111;&#x6d; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>:Guan_Yi&#x2F;NineHeaven.git</strong>是你的仓库地址.最后克隆成功后会是这样的:<br><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://ooo.0x0.ooo/2024/04/13/Omsz56.jpg"
@@ -935,13 +935,13 @@
                     <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
                         <a class="prev"
                         rel="prev"
-                        href="/Git%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B"
+                        href="/Unity%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B"
                         >
                             <span class="left arrow-icon flex justify-center items-center">
                                 <i class="fa-solid fa-chevron-left"></i>
                             </span>
                             <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">Git基础教程</span>
+                                <span class="post-nav-title-item">Unity基础教程</span>
                                 <span class="post-nav-item">上一篇</span>
                             </span>
                         </a>
@@ -951,10 +951,10 @@
                     <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
                         <a class="next"
                         rel="next"
-                        href="/Linux%20on%20Android%20%E7%9A%84%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE"
+                        href="/Linux%20%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE"
                         >
                             <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">Linux on Android 的环境配置</span>
+                                <span class="post-nav-title-item">Linux 编译环境配置</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
                             <span class="right arrow-icon flex justify-center items-center">
