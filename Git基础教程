@@ -28,8 +28,8 @@
 <meta property="article:published_time" content="2024-04-19T14:00:35.343Z">
 <meta property="article:modified_time" content="2024-08-04T11:50:36.610Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="Git">
 <meta property="article:tag" content="基础教程">
+<meta property="article:tag" content="Git">
 <meta name="twitter:card" content="summary">
     
     
@@ -770,11 +770,11 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/Git/">Git</a>&nbsp;
+                        <a href="/tags/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/">基础教程</a>&nbsp;
                     </li>
                 
                     <li>
-                        | <a href="/tags/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/">基础教程</a>&nbsp;
+                        | <a href="/tags/Git/">Git</a>&nbsp;
                     </li>
                 
             </ul>
@@ -864,11 +864,11 @@
             <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
                 
                     <li class="tag-item mx-0.5">
-                        <a href="/tags/Git/">#Git</a>&nbsp;
+                        <a href="/tags/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/">#基础教程</a>&nbsp;
                     </li>
                 
                     <li class="tag-item mx-0.5">
-                        <a href="/tags/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/">#基础教程</a>&nbsp;
+                        <a href="/tags/Git/">#Git</a>&nbsp;
                     </li>
                 
             </ul>
@@ -882,13 +882,13 @@
                     <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
                         <a class="prev"
                         rel="prev"
-                        href="/Linux%20on%20Android%20%E7%9A%84%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE"
+                        href="/Unity%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B"
                         >
                             <span class="left arrow-icon flex justify-center items-center">
                                 <i class="fa-solid fa-chevron-left"></i>
                             </span>
                             <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">Linux on Android 的环境配置</span>
+                                <span class="post-nav-title-item">Unity基础教程</span>
                                 <span class="post-nav-item">上一篇</span>
                             </span>
                         </a>
@@ -898,10 +898,10 @@
                     <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
                         <a class="next"
                         rel="next"
-                        href="/Java%E7%89%88Minecraft%E8%81%94%E6%9C%BA%E6%95%99%E7%A8%8B"
+                        href="/Git%20on%20Andoird"
                         >
                             <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">Java版Minecraft联机教程</span>
+                                <span class="post-nav-title-item">Git on Android</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
                             <span class="right arrow-icon flex justify-center items-center">
