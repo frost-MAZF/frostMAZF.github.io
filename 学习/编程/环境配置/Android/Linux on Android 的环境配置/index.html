@@ -25,22 +25,20 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="Termux的一个入门笔记">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://ooo.0x0.ooo/2024/02/15/OvXO4l.jpg">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/02/14/Ov65Xg.png">
+<meta property="og:image" content="https://ooo.0x0.ooo/2024/02/15/OvXO4l.jpg">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/02/14/Ov6TzB.jpg">
-<meta property="og:image" content="https://ooo.0x0.ooo/2024/02/14/Ov6UJs.jpg">
-<meta property="og:image" content="https://ooo.0x0.ooo/2024/02/14/Ov6wjx.jpg">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/02/14/Ov8OUj.jpg">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/02/14/Ov8ayp.jpg">
 <meta property="og:image" content="https://ooo.0x0.ooo/2024/02/14/Ov8osU.jpg">
 <meta property="article:published_time" content="2024-04-19T14:00:35.343Z">
-<meta property="article:modified_time" content="2024-08-04T11:50:36.611Z">
+<meta property="article:modified_time" content="2024-08-05T10:26:31.413Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="Linux">
 <meta property="article:tag" content="Termux">
 <meta property="article:tag" content="Android">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://ooo.0x0.ooo/2024/02/15/OvXO4l.jpg">
+<meta name="twitter:image" content="https://ooo.0x0.ooo/2024/02/14/Ov65Xg.png">
     
     
         <!-- Google tag (gtag.js) -->
@@ -677,7 +675,7 @@
         <div class="label text-third-text-color text-sm">分类</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">21</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">22</div>
         <div class="label text-third-text-color text-sm">文章</div>
     </a>
 </div>
@@ -731,8 +729,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-08-04 04:50:36</span>
-            <span class="mobile">2024-08-04 04:50:36</span>
+            <span class="desktop">2024-08-05 03:26:31</span>
+            <span class="mobile">2024-08-05 03:26:31</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -823,113 +821,155 @@
 
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
             <p>本文参考以下文章：</p>
+<address>
+
 <ul>
 <li><a class="link"   target="_blank" rel="noopener" href="https://www.sqlsec.com/2018/05/termux.html" >Termux 高级终端安装使用配置教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
 <li><a class="link"   target="_blank" rel="noopener" href="https://www.runoob.com/linux/linux-comm-apt.html" >Linux教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
 <li><a class="link"   target="_blank" rel="noopener" href="https://www.ruanyifeng.com/blog/2019/09/curl-reference.html" >curl用法指南 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
 </ul>
-<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
-<ul>
-<li><a href="#%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE">终端环境配置</a><blockquote>
-<ul>
-<li><a href="#%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86">基础知识</a><blockquote>
-<ul>
-<li><a href="#Root%E6%9D%83%E9%99%90">Root权限</a><blockquote>
-<ul>
-<li><a href="#%E6%9C%89root">有Root</a></li>
-<li><a href="#%E6%97%A0root">无Root</a></li>
+</address>
+
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><ul>
+<li><a href="#%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE">终端环境配置</a><ul>
+<li><a href="#%E5%89%8D%E7%BD%AE%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C">前置准备工作</a><ul>
+<li><a href="#%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE">基础配置</a><ul>
+<li><a href="#Root%E6%9D%83%E9%99%90">Root权限</a><ul>
+<li><a href="#%E6%9C%89Root%E6%9D%83%E9%99%90">有Root权限</a></li>
+<li><a href="#%E6%97%A0Root%E6%9D%83%E9%99%90">无Root权限</a></li>
 </ul>
-</blockquote>
 </li>
 </ul>
-</blockquote>
 </li>
-<li><a href="#%E5%89%8D%E7%BD%AE%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C">前置准备工作</a><blockquote>
-<ul>
-<li><a href="#%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE">基础配置</a><blockquote>
-<ul>
-<li><a href="#%E5%91%BD%E4%BB%A4">命令</a></li>
-</ul>
-</blockquote>
-</li>
-<li><a href="#%E6%8D%A2%E6%BA%90">换源</a><blockquote>
-<ul>
+<li><a href="#%E6%8D%A2%E6%BA%90">换源</a><ul>
 <li><a href="#%E7%AE%80%E5%8D%95%E6%8D%A2%E6%BA%90">简单换源</a></li>
 <li><a href="#%E5%85%B6%E4%BB%96%E6%8D%A2%E6%BA%90">其他换源</a></li>
 </ul>
-</blockquote>
 </li>
-<li><a href="#Termux%E7%BE%8E%E5%8C%96">Termux美化</a><blockquote>
-<ul>
+<li><a href="#Termux%E7%BE%8E%E5%8C%96">Termux美化</a><ul>
 <li><a href="#%E7%BB%88%E7%AB%AF%E7%BE%8E%E5%8C%96">终端美化</a></li>
 <li><a href="#%E6%8C%89%E9%94%AE%E6%9B%B4%E6%94%B9%E5%8F%8A%E4%BF%AE%E6%94%B9%E9%97%AE%E5%80%99%E8%AF%AD">按键更改及修改问候语</a></li>
 </ul>
-</blockquote>
 </li>
 </ul>
-</blockquote>
+</li>
+<li><a href="#%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86">基础知识</a><ul>
+<li><a href="#Termux%E5%88%86%E5%8C%BA">Termux分区</a></li>
+<li><a href="#%E5%91%BD%E4%BB%A4">命令</a><ul>
+<li><a href="#Linux%E5%91%BD%E4%BB%A4">Linux命令</a></li>
+<li><a href="#apt%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4">apt常用命令</a></li>
+<li><a href="#pkg%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4">pkg常用命令</a></li>
+<li><a href="#curl%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4">curl常用命令</a></li>
+</ul>
 </li>
 </ul>
-</blockquote>
 </li>
-<li><a href="#%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE">桌面环境配置</a></li>
+</ul>
+</li>
+<li><a href="#%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE">桌面环境配置</a><ul>
 <li><a href="#%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85">脚本安装</a></li>
 <li><a href="#%E8%87%AA%E8%A1%8C%E5%AE%89%E8%A3%85">自行安装</a></li>
+</ul>
+</li>
 <li><a href="#%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE">编译环境配置</a></li>
 </ul>
+<h1 id="终端环境配置"><a href="#终端环境配置" class="headerlink" title="终端环境配置"></a>终端环境配置</h1><h2 id="前置准备工作"><a href="#前置准备工作" class="headerlink" title="前置准备工作"></a>前置准备工作</h2><blockquote>
+<p><a class="link"   target="_blank" rel="noopener" href="https://f-droid.org/repo/com.termux_1020.apk"  download>Termux下载 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<blockquote>
+<p>Trmux是一个在Android当中的一个开源的Linux终端软件，这个软件即便没有Root权限也可以进行许多Linux操作。  <br><br>此外Termux还有第三方修改过的版本，例如ZeroTermux和UTermux。<br><br>在此只推荐ZeroTermux，并不是很推荐原版Termux以及UTermux。<del>因为我没用过UTermux,而且原版的太难用了。</del><br><br>ZeroTermux截至2024年2月14日，推荐最新版本，也就是0.118.38的版本。<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov65Xg.png"
+                      alt="ZeroTermux0.118.38"
+                ><br></p>
+<blockquote>
+<ul>
+<li>后续更新了0.118.39,但是我懒得更新图片了.<br><a class="link"   target="_blank" rel="noopener" href="https://od.ixcmstudio.cn/repository/main/ZeroTermux/ZeroTermux-0.118.39.apk"  download>ZeroTermux0.118.39下载 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> <br><br><a class="link"   target="_blank" rel="noopener" href="https://od.ixcmstudio.cn/utermux/UTermux%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/" >UTermux 下载地址 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>  <br><br>除去Termux本体以外，还有许多Termux的 <strong>“插件”</strong> ，当然这些 <strong>“插件”</strong> 并不是必须的，同时在ZeroTermux当中也提供了非常方便的下载方式。  <br></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://github.com/termux/termux-api" >Termux API <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://www.sqlsec.com/2018/05/termuxapi.html" >Termux API使用教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://f-droid.org/zh_Hans/packages/com.termux.boot/" >Termux Boot <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://github.com/termux/termux-styling" >Termux Styling <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://github.com/termux/termux-tasker" >Termux Tasker <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://github.com/termux/termux-x11" >Termux X11 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://f-droid.org/zh_Hans/packages/com.termux.window/" >Termux Float <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://f-droid.org/zh_Hans/packages/com.termux.widget/" >Termux Widget <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> <br></li>
+</ul>
 </blockquote>
-<h1 id="终端环境配置"><a href="#终端环境配置" class="headerlink" title="终端环境配置"></a>终端环境配置</h1><h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h2><h3 id="Termux分区"><a href="#Termux分区" class="headerlink" title="Termux分区"></a>Termux分区</h3><p>由于Termux的特殊性，所以和直接在真机上装的Linux中的分区是有些细微的小差别。<br></p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="variable">$HOME</span></span><br><span class="line">/data/data/com.termux/files/home</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$PREFIX</span></span><br><span class="line">/data/data/com.termux/files/usr</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$TMPPREFIX</span></span><br><span class="line">/data/data/com.termux/files/usr/tmp/zsh</span><br></pre></td></tr></table></figure></div>
-<h3 id="Root权限"><a href="#Root权限" class="headerlink" title="Root权限"></a>Root权限</h3><p><a class="link"   target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/Android" >Android <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 最初是基于 <a class="link"   target="_blank" rel="noopener" href="https://zh.wikipedia.org/zh-hans/Linux%E5%86%85%E6%A0%B8" >Linux内核 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 的一个系统，与 <a class="link"   target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/Linux" >Linux <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 相同的是Android系统里也拥有<a class="link"   target="_blank" rel="noopener" href="https://baike.baidu.com/item/root/73226" >Root权限 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> ，只不过通常被厂家锁死，都是出厂没有Root权限的，一切都需要用户自己获取。简单些的手机可以通过打开开发者选项的oem选项后进行解 <a class="link"   target="_blank" rel="noopener" href="https://www.bilibili.com/read/cv307758/" >BL锁 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 的操作，并不是打开后就拥有Root权限，在解开BL锁以后还需要刷入Magisk或者KSU获取Root权限，而困难些的手机需要强解BL锁，9008解锁等，不同的芯片解锁方式也稍有不同，解锁后的可玩性也不相同。<br><br>如果你不知道自己是否拥有Root权限，那么查看以下网址以及安装以下应用来确定。<br></p>
+</blockquote>
+</blockquote>
+<h3 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h3><h4 id="Root权限"><a href="#Root权限" class="headerlink" title="Root权限"></a>Root权限</h4><p><a class="link"   target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/Android" >Android <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 最初是基于 <a class="link"   target="_blank" rel="noopener" href="https://zh.wikipedia.org/zh-hans/Linux%E5%86%85%E6%A0%B8" >Linux内核 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 的一个系统，与 <a class="link"   target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/Linux" >Linux <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 相同的是Android系统里也拥有<a class="link"   target="_blank" rel="noopener" href="https://baike.baidu.com/item/root/73226" >Root权限 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> ，只不过通常被厂家锁死，都是出厂没有Root权限的，一切都需要用户自己获取。简单些的手机可以通过打开开发者选项的oem选项后进行解 <a class="link"   target="_blank" rel="noopener" href="https://www.bilibili.com/read/cv307758/" >BL锁 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 的操作，并不是打开后就拥有Root权限，在解开BL锁以后还需要刷入Magisk或者KSU获取Root权限，而困难些的手机需要强解BL锁，9008解锁等，不同的芯片解锁方式也稍有不同，解锁后的可玩性也不相同。<br><br>如果你不知道自己是否拥有Root权限，那么查看以下网址以及安装以下应用来确定。<br></p>
 <blockquote>
 <ul>
 <li><a class="link"   target="_blank" rel="noopener" href="https://t.me/magiskalpha/529" >MoMo4.4.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></li>
 </ul>
 </blockquote>
-<h4 id="有Root"><a href="#有Root" class="headerlink" title="有Root"></a>有Root</h4><p>如果你的手机拥有Root权限,那么可以直接安装tsu来进入Root用户,输入下面的命令即可安装.<br></p>
+<h5 id="有Root权限"><a href="#有Root权限" class="headerlink" title="有Root权限"></a>有Root权限</h5><p>如果你的手机拥有Root权限,那么可以直接安装tsu来进入Root用户,输入下面的命令即可安装.<br></p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pkg install tsu</span><br></pre></td></tr></table></figure></div>
+
 <p>当我们安装完成后会显示这样<br><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://ooo.0x0.ooo/2024/02/15/OvXO4l.jpg"
                       alt="tsu1"
                 ><br><br>随后输入 <strong>tsu</strong> 就会进入到Root，输入 <strong>exit</strong> 退出Root，如果是第一次使用ZeroTermux，并且是第一次使用tsu，就会提示是否授权Root权限,这时候给予Root权限就可以了。<br></p>
-<h4 id="无Root"><a href="#无Root" class="headerlink" title="无Root"></a>无Root</h4><p>无root模拟root权限可以使用proot.<br><br>先在终端输入下面这个命令安装proot.<br></p>
+<h5 id="无Root权限"><a href="#无Root权限" class="headerlink" title="无Root权限"></a>无Root权限</h5><p>无root模拟root权限可以使用proot.<br><br>先在终端输入下面这个命令安装proot.<br></p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pkg install proot -y</span><br></pre></td></tr></table></figure></div>
+
 <p>然后输入下面命令进入proot.<br></p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">termux-chroot</span><br></pre></td></tr></table></figure></div>
+
 <p>proot只是模拟,并不是真的root了,也别想拿这个root修改些Android系统文件<br><br>输入<strong>exit</strong>返回普通用户.<br></p>
-<h2 id="前置准备工作"><a href="#前置准备工作" class="headerlink" title="前置准备工作"></a>前置准备工作</h2><blockquote>
-<ul>
-<li>Termux下载  <br><blockquote>
-<p>Trmux是一个在Android当中的一个开源的Linux终端软件，这个软件即便没有Root权限也可以进行许多Linux操作。  <br></p>
+<h3 id="换源"><a href="#换源" class="headerlink" title="换源"></a>换源</h3><p>换源是什么？<br></p>
 <blockquote>
-<ul>
-<li><a class="link"   target="_blank" rel="noopener" href="https://f-droid.org/zh_Hans/packages/com.termux/" >Termux F-Droid 下载地址 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US" >Termux Google Play Store 下载地址 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>  <br><br>此外Termux还有第三方修改过的版本，例如ZeroTermux和UTermux。  <br><br>在此只推荐ZeroTermux，并不是很推荐原版Termux以及UTermux。<del>因为我没用过UTermux,原版的太难用了。</del>  <br><br>ZeroTermux截至2024年2月14日，推荐最新版本，也就是0.118.38的版本。<br>s<br><img  
+<p><strong>镜像源</strong> 大致可以理解为一个市场，而 <strong>镜像源</strong> 所在的位置不同，下载的速度也不同，由于我们是在中国，所以优先推荐清华源和北京源 <br></p>
+</blockquote>
+<h4 id="简单换源"><a href="#简单换源" class="headerlink" title="简单换源"></a>简单换源</h4><ol>
+<li>先打开ZeroTermux。<br><br>随后按一下音量加，就会进入到下面这个界面。<br><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov65Xg.png"
-                      alt="ZeroTermux0.118.38"
-                ></li>
-<li><a class="link"   target="_blank" rel="noopener" href="https://od.ixcmstudio.cn/repository/main/ZeroTermux/" >ZeroTermux 下载地址 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   target="_blank" rel="noopener" href="https://od.ixcmstudio.cn/utermux/UTermux%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/" >UTermux 下载地址 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>  <br><br>除去Termux本体以外，还有许多Termux的 <strong>“插件”</strong> ，当然这些 <strong>“插件”</strong> 并不是必须的，同时在ZeroTermux当中也提供了非常方便的下载方式。  <br></li>
-<li><a class="link"   target="_blank" rel="noopener" href="https://f-droid.org/zh_Hans/packages/com.termux.api/" >Termux API <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   target="_blank" rel="noopener" href="https://www.sqlsec.com/2018/05/termuxapi.html" >Termux API使用教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   target="_blank" rel="noopener" href="https://f-droid.org/zh_Hans/packages/com.termux.boot/" >Termux Boot <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   target="_blank" rel="noopener" href="https://f-droid.org/zh_Hans/packages/com.termux.styling/" >Termux Styling <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   target="_blank" rel="noopener" href="https://f-droid.org/zh_Hans/packages/com.termux.tasker/" >Termux Tasker <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a href="">Termux X11</a></li>
-<li><a class="link"   target="_blank" rel="noopener" href="https://f-droid.org/zh_Hans/packages/com.termux.window/" >Termux Float <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   target="_blank" rel="noopener" href="https://f-droid.org/zh_Hans/packages/com.termux.widget/" >Termux Widget <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> <br></li>
-</ul>
-</blockquote>
-</blockquote>
-</li>
-</ul>
-</blockquote>
-<h3 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h3><h4 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h4><p>命令是Linux当中不可缺少的部分.</p>
-<h5 id="Linux命令"><a href="#Linux命令" class="headerlink" title="Linux命令"></a>Linux命令</h5><h5 id="apt常用命令"><a href="#apt常用命令" class="headerlink" title="apt常用命令"></a>apt常用命令</h5><blockquote>
+                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov6TzB.jpg"
+                     
+                >  </li>
+<li>随后点击切换源，然后随你心意去点击清华源或者北京源这两个源。<br></li>
+<li>接下来就是确认安装的环节<br><br>一般在Linux下安装一些环境，软件等都是需要确认的，例如你使用的是Deepin系统那么就会要求你验证账户的密码.<br><br>遇到以下的截图里的情况时，并不是网络问题也不是手机问题，而是需要确认<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov8OUj.jpg"
+                     
+                ><br><br>如何确认呢，只需要输入Y并回车就可以了。<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov8ayp.jpg"
+                     
+                ><br><br>可以看到已经有进度条了。<br><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov8osU.jpg"
+                     
+                ><br><br>至此，简单换源这个步骤已经完成。<br></li>
+</ol>
+<h4 id="其他换源"><a href="#其他换源" class="headerlink" title="其他换源"></a>其他换源</h4><p> 如果上面的换源操作失败了,可以尝试一下<a class="link"   target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/help/termux/" >清华给出的教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.<br></p>
+<h3 id="Termux美化"><a href="#Termux美化" class="headerlink" title="Termux美化"></a>Termux美化</h3><p>首先请输入下面这行命令来获取手机的存储权限<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">termux-steup-storage</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="终端美化"><a href="#终端美化" class="headerlink" title="终端美化"></a>终端美化</h4><p>默认的终端非常难看，所以可以尝试以下美化终端。<br><br>请输入下面这行命令<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)&quot;  </span><br></pre></td></tr></table></figure></div>
+
+<p>如果出现 <strong>“port 443: Connection refused”</strong> 这样的情况，请使用代理。<br><br>或者使用国光提供的地址<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https://html.sqlsec.com/termux-install.sh)&quot;  </span><br></pre></td></tr></table></figure></div>
+
+<p>当然你可以更改主题，只需要在home路径下vim .zshrc，并把开头的ZSH_THEME&#x3D;”xxx”里的xxx更改为你想要改变的主题文件名就可以了。<br><br>主题位置在 <strong>“&#x2F;home&#x2F;.oh-my-zsh&#x2F;themes”</strong> 里<br><br>如果你想更改字体，请输入<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~/.termux/colors.sh</span><br></pre></td></tr></table></figure></div>
+
+<p>如果你想更改色彩样式，请输入<br></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~/.termux/fonts.sh</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="按键更改及修改问候语"><a href="#按键更改及修改问候语" class="headerlink" title="按键更改及修改问候语"></a>按键更改及修改问候语</h4><p>请参考国光的教程<a class="link"   target="_blank" rel="noopener" href="https://www.sqlsec.com/2018/05/termux.html#%E5%AE%9A%E5%88%B6%E5%B8%B8%E7%94%A8%E6%8C%89%E9%94%AE" >定制常用按键 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></p>
+<h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h2><h3 id="Termux分区"><a href="#Termux分区" class="headerlink" title="Termux分区"></a>Termux分区</h3><p>由于Termux的特殊性，所以和直接在真机上装的Linux中的分区是有些细微的小差别。<br></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="variable">$HOME</span></span><br><span class="line">/data/data/com.termux/files/home</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$PREFIX</span></span><br><span class="line">/data/data/com.termux/files/usr</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$TMPPREFIX</span></span><br><span class="line">/data/data/com.termux/files/usr/tmp/zsh</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h3><p>命令是Linux当中不可缺少的部分.</p>
+<h4 id="Linux命令"><a href="#Linux命令" class="headerlink" title="Linux命令"></a>Linux命令</h4><h4 id="apt常用命令"><a href="#apt常用命令" class="headerlink" title="apt常用命令"></a>apt常用命令</h4><blockquote>
 <ul>
 <li>apt update  (更新源)</li>
 <li>apt search “keyword”  (查找软件包)</li>
@@ -947,7 +987,7 @@
 <li>apt purge “package_name”  (移除软件包及配置文件)</li>
 </ul>
 </blockquote>
-<h5 id="pkg常用命令"><a href="#pkg常用命令" class="headerlink" title="pkg常用命令"></a>pkg常用命令</h5><blockquote>
+<h4 id="pkg常用命令"><a href="#pkg常用命令" class="headerlink" title="pkg常用命令"></a>pkg常用命令</h4><blockquote>
 <ul>
 <li>pkg search “query”  (搜索包)</li>
 <li>pkg install “package_name”  (安装包)</li>
@@ -961,74 +1001,18 @@
 <li>pkg files “package_name”  (显示某一个包的相关文件夹路径)</li>
 </ul>
 </blockquote>
-<h5 id="curl常用命令"><a href="#curl常用命令" class="headerlink" title="curl常用命令"></a>curl常用命令</h5><p>请参考阮一峰的这篇文章.<br></p>
+<h4 id="curl常用命令"><a href="#curl常用命令" class="headerlink" title="curl常用命令"></a>curl常用命令</h4><p>请参考阮一峰的这篇文章.<br></p>
 <ul>
 <li><a class="link"   target="_blank" rel="noopener" href="https://www.ruanyifeng.com/blog/2019/09/curl-reference.html" >curl用法指南 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
 </ul>
-<h3 id="换源"><a href="#换源" class="headerlink" title="换源"></a>换源</h3><p>换源是什么？<br></p>
-<blockquote>
-<p><strong>镜像源</strong> 大致可以理解为一个市场，而 <strong>镜像源</strong> 所在的位置不同，下载的速度也不同，由于我们是在中国，所以优先推荐清华源和北京源 <br></p>
-</blockquote>
-<h4 id="简单换源"><a href="#简单换源" class="headerlink" title="简单换源"></a>简单换源</h4><ol>
-<li>先打开ZeroTermux。<br><br> 随后按一下音量加，就会进入到下面这个界面。<br><br> <img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov6TzB.jpg"
-                      alt="Step1"
-                >  </li>
-<li>随后点击切换源，点击后会出现下面这个界面<br><br> <img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov6UJs.jpg"
-                      alt="Step2"
-                >  </li>
-<li>然后随你心意去点击清华源或者北京源这两个源。<br><br> 当出现下面这个界面时，就代表着你已经开始换源了<br><br> <img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov6wjx.jpg"
-                      alt="Step3"
-                ></li>
-<li>接下来就是确认安装的环节<br><br> 一般在Linux下安装一些环境，软件等都是需要确认的，例如你使用的是Deepin系统那么就会要求你验证账户的密码.<br><br> 遇到以下的截图里的情况时，并不是网络问题也不是手机问题，而是需要确认<br><br> <img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov8OUj.jpg"
-                      alt="Step4"
-                ><br> <img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov8ayp.jpg"
-                      alt="Step5"
-                ><br> 如何确认呢，只需要输入Y并回车就可以了。<br><br> 如果换源成功，那么就会是这样的。<br><br> <img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ooo.0x0.ooo/2024/02/14/Ov8osU.jpg"
-                      alt="Step6"
-                ><br> 至此，简单换源这个步骤已经完成。<br></li>
-</ol>
-<h4 id="其他换源"><a href="#其他换源" class="headerlink" title="其他换源"></a>其他换源</h4><p> 如果上面的换源操作失败了,可以尝试一下<a class="link"   target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/help/termux/" >清华给出的教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.<br></p>
-<h3 id="Termux美化"><a href="#Termux美化" class="headerlink" title="Termux美化"></a>Termux美化</h3><p>首先请输入下面这行命令来获取手机的存储权限<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">termux-steup-storage</span><br></pre></td></tr></table></figure></div>
-<h4 id="终端美化"><a href="#终端美化" class="headerlink" title="终端美化"></a>终端美化</h4><p>默认的终端非常难看，所以可以尝试以下美化终端。<br><br>请输入下面这行命令<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)&quot;  </span><br></pre></td></tr></table></figure></div>
-<p>如果出现 <strong>“port 443: Connection refused”</strong> 这样的情况，请使用代理。<br><br>或者使用国光提供的地址<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https://html.sqlsec.com/termux-install.sh)&quot;  </span><br></pre></td></tr></table></figure></div>
-
-<p>当然你可以更改主题，只需要在home路径下vim .zshrc，并把开头的ZSH_THEME&#x3D;”xxx”里的xxx更改为你想要改变的主题文件名就可以了。<br><br>主题位置在 <strong>“&#x2F;home&#x2F;.oh-my-zsh&#x2F;themes”</strong> 里<br><br>如果你想更改字体，请输入<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~/.termux/colors.sh</span><br></pre></td></tr></table></figure></div>
-<p>如果你想更改色彩样式，请输入<br></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~/.termux/fonts.sh</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="按键更改及修改问候语"><a href="#按键更改及修改问候语" class="headerlink" title="按键更改及修改问候语"></a>按键更改及修改问候语</h4><p>请参考国光的教程<a class="link"   target="_blank" rel="noopener" href="https://www.sqlsec.com/2018/05/termux.html#%E5%AE%9A%E5%88%B6%E5%B8%B8%E7%94%A8%E6%8C%89%E9%94%AE" >定制常用按键 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br></p>
 <h1 id="桌面环境配置"><a href="#桌面环境配置" class="headerlink" title="桌面环境配置"></a>桌面环境配置</h1><p>有的时候我们不单单需要终端环境，某些时候也需要桌面环境，例如当我们要看视频的时候,或者装逼的时候.<strong>桌面环境不是必须的,选择安装</strong><br></p>
 <h2 id="脚本安装"><a href="#脚本安装" class="headerlink" title="脚本安装"></a>脚本安装</h2><h2 id="自行安装"><a href="#自行安装" class="headerlink" title="自行安装"></a>自行安装</h2><h1 id="编译环境配置"><a href="#编译环境配置" class="headerlink" title="编译环境配置"></a>编译环境配置</h1><blockquote>
 <ul>
-<li>在安装完成基础的环境配置之后，可以参考下面的文章进行更进一步的进阶操作。<br><blockquote>
-<ul>
-<li><a class="link"   target="_blank" rel="noopener" href="https://blog.guanyi.lol/2024/04/19/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20C++%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" >Linux 编译环境配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a href="/HTML/love/love.html">Linux编译环境配置</a></li>
+<li>在安装完成基础的环境配置之后，可以参考下面的文章进行更进一步的进阶操作。<br></li>
 </ul>
+<blockquote>
+<p><a href="/学习/编程/环境配置/Linux/Linux 编译环境配置/" target="_blank">Linux编译环境配置</a></p>
 </blockquote>
-</li>
-</ul>
 </blockquote>
 
         </div>
@@ -1044,7 +1028,7 @@
         
             <li>
                 <strong>更新于
-                    :</strong> 2024-08-04 04:50:36
+                    :</strong> 2024-08-05 03:26:31
             </li>
         
         <li>
@@ -1092,13 +1076,13 @@
                     <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
                         <a class="prev"
                         rel="prev"
-                        href="/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Git%20on%20Andoird/"
+                        href="/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Linux/Linux%20%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"
                         >
                             <span class="left arrow-icon flex justify-center items-center">
                                 <i class="fa-solid fa-chevron-left"></i>
                             </span>
                             <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">Git on Android</span>
+                                <span class="post-nav-title-item">Linux 编译环境配置</span>
                                 <span class="post-nav-item">上一篇</span>
                             </span>
                         </a>
@@ -1108,10 +1092,10 @@
                     <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
                         <a class="next"
                         rel="next"
-                        href="/%E5%A8%B1%E4%B9%90/%E4%BC%91%E9%97%B2%E5%A8%B1%E4%B9%90/%E6%B8%B8%E6%88%8F/Minecraft/Java%E7%89%88Minecraft%E8%81%94%E6%9C%BA%E6%95%99%E7%A8%8B/"
+                        href="/%E5%AD%A6%E4%B9%A0/%E7%BC%96%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Android/Git%20on%20Andoird/"
                         >
                             <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">Java版Minecraft联机教程</span>
+                                <span class="post-nav-title-item">Git on Android</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
                             <span class="right arrow-icon flex justify-center items-center">
@@ -1187,7 +1171,7 @@
     <div class="post-toc">
         <div class="toc-title">此页目录</div>
         <div class="page-title">Linux on Android 的环境配置</div>
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95"><span class="nav-text">目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE"><span class="nav-text">终端环境配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86"><span class="nav-text">基础知识</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Termux%E5%88%86%E5%8C%BA"><span class="nav-text">Termux分区</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Root%E6%9D%83%E9%99%90"><span class="nav-text">Root权限</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E7%BD%AE%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-text">前置准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE"><span class="nav-text">基础配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8D%A2%E6%BA%90"><span class="nav-text">换源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Termux%E7%BE%8E%E5%8C%96"><span class="nav-text">Termux美化</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE"><span class="nav-text">桌面环境配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85"><span class="nav-text">脚本安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E8%A1%8C%E5%AE%89%E8%A3%85"><span class="nav-text">自行安装</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE"><span class="nav-text">编译环境配置</span></a></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95"><span class="nav-text">目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE"><span class="nav-text">终端环境配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E7%BD%AE%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-text">前置准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE"><span class="nav-text">基础配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8D%A2%E6%BA%90"><span class="nav-text">换源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Termux%E7%BE%8E%E5%8C%96"><span class="nav-text">Termux美化</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86"><span class="nav-text">基础知识</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Termux%E5%88%86%E5%8C%BA"><span class="nav-text">Termux分区</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%91%BD%E4%BB%A4"><span class="nav-text">命令</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE"><span class="nav-text">桌面环境配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85"><span class="nav-text">脚本安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E8%A1%8C%E5%AE%89%E8%A3%85"><span class="nav-text">自行安装</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE"><span class="nav-text">编译环境配置</span></a></li></ol>
 
     </div>
 </div>
@@ -1222,11 +1206,11 @@
                 
                 <p class="post-count space-x-0.5">
                     <span>
-                        共 21 篇文章
+                        共 22 篇文章
                     </span>
                     
                         <span>
-                            共 32.6k 字
+                            共 33.2k 字
                         </span>
                     
                 </p>
